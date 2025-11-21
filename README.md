@@ -20,3 +20,10 @@ BusyBox v1.33.2 (2023-11-06 12:29:45 UTC) built-in shell (ash)
 
 #Tunnel back home
 <img width="1622" height="662" alt="image" src="https://github.com/user-attachments/assets/1c4311ae-ff8d-4e39-8707-dfa0f73372eb" />
+
+
+#dechinese
+modify packages list to http then:
+opkg install opkg install libustream-mbedtls ca-bundle ca-certificates
+
+then back to https
