@@ -29,10 +29,13 @@ MLD 5+6GHZ working:
 
 ![MLD 5+6GB WIFI 7](https://github.com/user-attachments/assets/276dead0-fbbe-4824-b00d-084c6a5882db)
 
-PCB:
-
-![PCB](https://github.com/user-attachments/assets/d3fd11f5-92f6-4e60-a13e-9f54717eb7e9)
-
 FAN:
-![FAN](https://github.com/user-attachments/assets/8cba53e7-41d2-4045-a785-bf4a80374f89)
 
+![FAN](https://github.com/user-attachments/assets/d3fd11f5-92f6-4e60-a13e-9f54717eb7e9)
+
+PCB:
+![PCB](https://github.com/user-attachments/assets/8cba53e7-41d2-4045-a785-bf4a80374f89)
+
+CPU load:
+there is constant 2.00 kernel load (probably some kernel calls)
+![LOAD]([https://github.com/user-attachments/assets/8cba53e7-41d2-4045-a785-bf4a80374f89](https://github.com/user-attachments/assets/9783358a-e96e-491a-97ba-c6fee083b99d))
