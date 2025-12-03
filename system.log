@@ -1,0 +1,549 @@
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.668973] 7990@NOTICE.FW,rax0,UniCmdBssInfoRate() 362: ucMloCPFixedRateIdx=8
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.668979] 7990@NOTICE.FW,rax0,UniCmdBssInfoMld() 1432: if_addr(f8:5e:3c:aa:ab:2f),mld_group_idx=1,T=26,L=16,GrpMldId=0,MldIdx=18,RemaIdx=0,MldAddr=da:5e:3c:aa:ab:2c
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.669959] WiFi@NOTICE.MLO,bss_mngr_con_mld_get_tsf_offset() 2367: 	bss[01,1]=31105267, bss[02,2]=31110268, tsf_offset(-2500)(0xfffffffffffff63c), unit:2us
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.670135] WiFi@NOTICE.MLO,bss_mngr_con_mld_get_tsf_offset() 2367: 	bss[02,2]=31110443, bss[01,1]=31105446, tsf_offset(2498)(0x9c2), unit:2us
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.670321] WiFi@NOTICE.MLO,bss_mngr_con_mld_get_tsf_offset() 2367: 	bss[01,1]=31105627, bss[02,2]=31110627, tsf_offset(-2500)(0xfffffffffffff63c), unit:2us
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.670499] WiFi@NOTICE.MLO,bss_mngr_con_mld_get_tsf_offset() 2367: 	bss[02,2]=31110809, bss[01,1]=31105812, tsf_offset(2498)(0x9c2), unit:2us
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.670685] WiFi@NOTICE.MLO,bss_mngr_con_mld_get_tsf_offset() 2367: 	bss[01,1]=31105993, bss[02,2]=31110994, tsf_offset(-2500)(0xfffffffffffff63c), unit:2us
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.670866] WiFi@NOTICE.MLO,bss_mngr_con_mld_get_tsf_offset() 2367: 	bss[02,2]=31111175, bss[01,1]=31106178, tsf_offset(2498)(0x9c2), unit:2us
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.671459] 7990@ERROR.PROTO,rax0,afc_beacon_init_handler() 3672: : CurrState: 1, bAfcBeaconInit= 0
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.671489] WiFi@ERROR.HW,UniCmdTxPowerSKUCtrl() 23516: BandIdx 2, tx_pwr_sku_en: 0
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.671525] 7990@ERROR.AP,rax0,ap_6g_build_discovery_frame() 943: pkt_buf = NULL!
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.672029] WiFi@ERROR.BF,UniCmdTxBfBackoffCtrl() 23744: BandIdx 2, fgTxBFBackoffEn: 0
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.672503] WiFi@ERROR.HW,UniCmdTxPowerPercentCtrl() 23592: BandIdx 2, fgTxPowerPercentEn: 1
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.673273] WiFi@ERROR.HW,UniCmdTxPowerDropCtrl() 23668: BandIdx 2, cPowerDropLevel: 2
+Wed Dec  3 14:59:48 2025 kern.debug kernel: [   47.673835] u1CCKTxStream = 4
+Wed Dec  3 14:59:48 2025 kern.debug kernel: [   47.673836] set wrong parameters
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.693945] WiFi@WARN.FW,UniCmdResultRsp() 69: BUG::UniCmdResult.u4Status = 0xc0000001 cid: = 0x37
+Wed Dec  3 14:59:48 2025 kern.debug kernel: [   47.695739] UniEventEDCCAThresholdProc: fginit = 1, EDCCA Threshold=184, 190, 193, 200
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.695924] 7990@WARN.AP,rax0,TxPowerLimitTypeInit() 23986: LPI en:0, PSDLimit:0, band_idx:2
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.695928] WiFi@ERROR.HW,UniCmdTxPwrShowInfo() 23961: u1BandIdx 2, ucTxPowerInfoCatg = 2
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.696287] 7990@WARN.CFG,rax0,set_pp_on_off_ctrl() 190: band(2),enable(1) success!
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.696310] mtk_ppe_dev_register_hook : ineterface rax0 register (3)
+Wed Dec  3 14:59:48 2025 daemon.notice netifd: bridge 'br-wan' link is up
+Wed Dec  3 14:59:48 2025 daemon.notice netifd: Interface 'wan' has link connectivity
+Wed Dec  3 14:59:48 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Wed Dec  3 14:59:48 2025 daemon.notice netifd: Network device 'eth1' link is up
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.697219] br-wan: port 1(eth1) entered blocking state
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.697226] br-wan: port 1(eth1) entered forwarding state
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.697317] IPv6: ADDRCONF(NETDEV_CHANGE): br-wan: link becomes ready
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.701124] br-lan: port 10(rax0) entered blocking state
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.701134] br-lan: port 10(rax0) entered disabled state
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.701350] device rax0 entered promiscuous mode
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.701395] br-lan: port 10(rax0) entered blocking state
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.701399] br-lan: port 10(rax0) entered forwarding state
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.702177] 7990@NOTICE.CFG80211,rax0,nl80211_send_acs_complete_event() 5109:
+Wed Dec  3 14:59:48 2025 daemon.notice procd: /etc/init.d/network: OK
+Wed Dec  3 14:59:48 2025 daemon.info hostapd: ra0: STA 50:ec:50:ee:47:d3 IEEE 802.11: associated
+Wed Dec  3 14:59:48 2025 daemon.info hostapd: ra0: STA 60:b6:06:2e:ee:25 IEEE 802.11: associated
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq[9196]: Connected to system UBus
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq[9196]: started, version 2.85 cachesize 150
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq[9196]: DNS service limited to local subnets
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq[9196]: compile time options: IPv6 GNU-getopt no-DBus UBus no-i18n no-IDN DHCP no-DHCPv6 no-Lua TFTP no-conntrack no-ipset no-auth no-cryptohash no-DNSSEC no-ID loop-detect inotify dumpfile
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq[9196]: UBus support enabled: connected to system bus
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq-dhcp[9196]: DHCP, IP range 192.168.1.100 -- 192.168.1.249, lease time 12h
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq[9196]: using only locally-known addresses for domain test
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq[9196]: using only locally-known addresses for domain onion
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq[9196]: using only locally-known addresses for domain localhost
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq[9196]: using only locally-known addresses for domain local
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq[9196]: using only locally-known addresses for domain invalid
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq[9196]: using only locally-known addresses for domain bind
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq[9196]: using only locally-known addresses for domain lan
+Wed Dec  3 14:59:48 2025 daemon.warn dnsmasq[9196]: no servers found in /tmp/resolv.conf.d/resolv.conf.auto, will retry
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq[9196]: read /etc/hosts - 4 addresses
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq[9196]: read /tmp/hosts/dhcp.cfg01411c - 3 addresses
+Wed Dec  3 14:59:48 2025 daemon.info hostapd: rax0: RADIUS Authentication server 127.0.0.1:1812
+Wed Dec  3 14:59:48 2025 kern.debug kernel: [   47.704137] CFG80211DRV_RtsThresholdAdd =====>threshold 1048575
+Wed Dec  3 14:59:48 2025 kern.debug kernel: [   47.704144] CFG80211DRV_RtsThresholdAdd =====>threshold 1048575
+Wed Dec  3 14:59:48 2025 kern.debug kernel: [   47.704163] CFG80211DRV_FragThresholdAdd =====>operate: frag_thld=2346
+Wed Dec  3 14:59:48 2025 kern.debug kernel: [   47.704164] CFG80211DRV_FragThresholdAdd =====>operate: frag_thld=2346
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.705338] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x2/0x0 (2/0), Cipher=0x0, BssIndex=0x0, Operation=1
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.705346] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.705967] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x2/0x0 (2/0), Cipher=0x0, BssIndex=0x0, Operation=1
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.705974] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 14:59:48 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:48 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:48 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:48 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:48 2025 user.debug : search_dev_and_profile_l1: MT7990.1.2=/etc/wireless/mediatek/mt7990.b1.dat
+Wed Dec  3 14:59:48 2025 user.debug : search_dev_and_profile_l1: MT7990.1.1=/etc/wireless/mediatek/mt7990.b0.dat
+Wed Dec  3 14:59:48 2025 user.debug : search_dev_and_profile_l1: MT7990.1.3=/etc/wireless/mediatek/mt7990.b2.dat
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.706693] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x3/0x0 (3/0), Cipher=0x0, BssIndex=0x0, Operation=1
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.706701] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.706789] 7990@NOTICE.CFG,rax0,mtk_cfg80211_ft_ie() 12615: ifname: rax0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.706794] 7990@NOTICE.CFG,rax0,parse_hostapd_ftie() 12564: OwnMac: f85e3caaab2f
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.706798] 7990@ERROR.CFG,rax0,parse_hostapd_ftie() 12596: 11R disabled in driver
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.706865] WiFi@NOTICE.RSV,CFG80211_OpsStartAp() 2741: 80211> ==>
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.706920] WiFi@NOTICE.RSV,CFG80211DRV_OpsBeaconAdd() 1484: 80211> ==>
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.706925] WiFi@NOTICE.RSV,CFG80211DRV_OpsBeaconAdd() 1494: 80211> ==> apidx=0, tr_tb_idx=1027
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.706929] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x3/0x0 (3/0), Cipher=0x0, BssIndex=0x0, Operation=1
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.706932] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.707114] 7990@NOTICE.SEC,rax0,CFG80211DRV_UpdateApSettingFromBeacon() 462: hostapd config pwe_method:0 and saepk is :0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.707119] 7990@NOTICE.AP,rax0,CFG80211DRV_UpdateApSettingFromBeacon() 488: beacon capability info field: 1011
+Wed Dec  3 14:59:48 2025 kern.debug kernel: [   47.707121] RRM : len 5 eid 70 octet 114
+Wed Dec  3 14:59:48 2025 kern.debug kernel: [   47.707122] bit_nr bit_lci: 1 0
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.707151] 7990@ERROR.AP,rax0,CFG80211DRV_UpdateApSettingFromBeacon() 884: MDIE is NULL
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.707162] 7990@NOTICE.AP,rax0,cfg80211_ap_parse_rsn_ie() 3240: WPA2 case
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.707170] 7990@NOTICE.AP,rax0,CFG80211_ParseBeaconIE() 1499: =>wpa(1 0 0), AuthMode=WPA3PSK, Cipher(AES AES), MFPC=0, MFPR=0, igtk_cipher=0x0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.707175] 7990@NOTICE.AP,rax0,CFG80211DRV_UpdateApSettingFromBeacon() 1103: security (akm, pcipher, gcipher, igtk):  0x2000, 0x20, 0x20, 0x200
+Wed Dec  3 14:59:48 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:48 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:48 2025 user.debug : search_dev_and_profile_l1: MT7990.1.2=/etc/wireless/mediatek/mt7990.b1.dat
+Wed Dec  3 14:59:48 2025 user.debug : search_dev_and_profile_l1: MT7990.1.1=/etc/wireless/mediatek/mt7990.b0.dat
+Wed Dec  3 14:59:48 2025 user.debug : search_dev_and_profile_l1: MT7990.1.3=/etc/wireless/mediatek/mt7990.b2.dat
+Wed Dec  3 14:59:48 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:48 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:48 2025 user.debug : search_dev_and_profile_l1: MT7990.1.2=/etc/wireless/mediatek/mt7990.b1.dat
+Wed Dec  3 14:59:48 2025 user.debug : search_dev_and_profile_l1: MT7990.1.1=/etc/wireless/mediatek/mt7990.b0.dat
+Wed Dec  3 14:59:48 2025 user.debug : search_dev_and_profile_l1: MT7990.1.3=/etc/wireless/mediatek/mt7990.b2.dat
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.715977] 7990@WARN.AP,rai0,BeaconTransmitRequired() 136: Bcn Tx is blocked!
+Wed Dec  3 14:59:48 2025 daemon.info dnsmasq-dhcp[9196]: read /etc/ethers - 0 addresses
+Wed Dec  3 14:59:48 2025 daemon.notice netifd: wan (9391): udhcpc: started, v1.33.2
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.907198] WiFi@NOTICE.AP,bssinfo_feature_decision() 643: wdev(0) is legacy bss, func_idx=0, ROLE=0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.907214] 7990@NOTICE.FW,rax0,UniCmdBssInfoRate() 360: Bssid:(f8:5e:3c:aa:ab:2f),BcRate=32768,McRate=32768,ucPreamMode=1,BcFRateIdx=8,McFRateIdx=8
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.907218] 7990@NOTICE.FW,rax0,UniCmdBssInfoRate() 362: ucMloCPFixedRateIdx=8
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.907231] 7990@NOTICE.FW,rax0,UniCmdBssInfoRate() 360: Bssid:(f8:5e:3c:aa:ab:2f),BcRate=32768,McRate=32768,ucPreamMode=1,BcFRateIdx=8,McFRateIdx=8
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.907234] 7990@NOTICE.FW,rax0,UniCmdBssInfoRate() 362: ucMloCPFixedRateIdx=8
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.907241] 7990@NOTICE.FW,rax0,UniCmdBssInfoMld() 1432: if_addr(f8:5e:3c:aa:ab:2f),mld_group_idx=1,T=26,L=16,GrpMldId=0,MldIdx=18,RemaIdx=0,MldAddr=da:5e:3c:aa:ab:2c
+Wed Dec  3 14:59:48 2025 daemon.notice netifd: wan (9391): udhcpc: sending discover
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.908043] WiFi@ERROR.MLO,bss_mngr_dev_reg() 1482: wdev(0)
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.908049] WiFi@ERROR.MLO,bss_mngr_fill_bss_info() 1387: dev_type UNDEFINED
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.909125] WiFi@NOTICE.MLO,bss_mngr_fill_bss_info() 1447: phymode=2480, reg_time=4042775296, hw_tsf=31349425
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.909132] WiFi@ERROR.MLO,bss_mngr_con_dev_reg() 3110: ===> netdev(16) (rax0)
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.909134] WiFi@WARN.MLO,bss_mngr_con_dev_reg() 3116: 	entry exist!!
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.909141] WiFi@ERROR.MLO,bss_mngr_con_ie_buf_alloc() 1484: allocated (MLD:000000003b4ff825)
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.909150] WiFi@ERROR.MLO,bss_mngr_con_sync_entry() 2948: [2]
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.909154] WiFi@NOTICE.MLO,bss_mngr_con_mld_group_add_link() 2386: ===> wdev(rax0) requests to join mld_grp(1)
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.909157] WiFi@ERROR.MLO,bss_mngr_con_mld_group_add_link() 2402: 	entry(rax0) has already affiliated with mld_grp(1)
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.909192] 7990@WARN.AP,rai0,BeaconTransmitRequired() 136: Bcn Tx is blocked!
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.909200] WiFi@ERROR.MLO,bss_mngr_con_dev_reg() 3187: <=== entry = 000000007baa75a2(bss_idx_tx = 2) (dev_cnt = 3)
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.909214] WiFi@NOTICE.MLO,bss_mngr_con_sync_ml_probe_rsp_per_sta_profile() 5382: rax0(active) sync probe rsp STA-Pf, mlo:1, cnt:2
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.909527] 7990@NOTICE.CFG,rax0,mtk_cfg80211_set_hide_ssid() 135: mwctl:set bss(0) HideSSID=0
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.909828] 7990@WARN.AP,rax0,BeaconTransmitRequired() 136: Bcn Tx is blocked!
+Wed Dec  3 14:59:48 2025 daemon.info hostapd: rax0: IEEE 802.11 driver had channel switch: freq=6175, ht=1, vht_ch=0x0, he_ch=0x0, eht_ch=0x0, offset=-1, width=10 (320 MHz), cf1=6105, cf2=0
+Wed Dec  3 14:59:48 2025 user.debug : add apclix0 into br-lan
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.910836] 7990@WARN.AP,rax0,BeaconTransmitRequired() 136: Bcn Tx is blocked!
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.911122] 7990@WARN.AP,rax0,BeaconTransmitRequired() 136: Bcn Tx is blocked!
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.912113] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 157: PeerAddr(ff:ff:ff:ff:ff:ff) Wcid=0x403/0x0 (1027/0), Cipher=0x20, BssIndex=0x0, Operation=0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.912121] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 162: KeyIdx=0x1, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.912546] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 157: PeerAddr(ff:ff:ff:ff:ff:ff) Wcid=0x403/0x0 (1027/0), Cipher=0x220, BssIndex=0x0, Operation=0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.912554] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 162: KeyIdx=0x1, igtk_key_idx=0x4, bigtk_key_idx=0x0
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.912568] 7990@WARN.AP,rax0,BeaconTransmitRequired() 136: Bcn Tx is blocked!
+Wed Dec  3 14:59:48 2025 daemon.info hostapd: ra0: STA 60:b6:06:2e:ee:25 RADIUS: starting accounting session F23949A0EAC81C3E
+Wed Dec  3 14:59:48 2025 daemon.info hostapd: ra0: STA 60:b6:06:2e:ee:25 WPA: pairwise key handshake completed (RSN)
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.915026] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(60:b6:06:2e:ee:25) Wcid=0x3/0x0 (3/0), Cipher=0x20, BssIndex=0x0, Operation=0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.915035] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 14:59:48 2025 daemon.info hostapd: ra0: STA 50:ec:50:ee:47:d3 RADIUS: starting accounting session E18D6F3CBDE7185E
+Wed Dec  3 14:59:48 2025 daemon.info hostapd: ra0: STA 50:ec:50:ee:47:d3 WPA: pairwise key handshake completed (RSN)
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.918374] br-lan: port 11(apclix0) entered blocking state
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.918381] br-lan: port 11(apclix0) entered disabled state
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.918563] device apclix0 entered promiscuous mode
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.919358] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(50:ec:50:ee:47:d3) Wcid=0x2/0x0 (2/0), Cipher=0x20, BssIndex=0x0, Operation=0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.919365] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.927251] WiFi@ERROR.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2532: UNSUPPORT mgmt frame type mask: 0x800 for intf apclix0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.927275] WiFi@NOTICE.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2528: ACTION frame was registered for intf apclix0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.927604] 7990@NOTICE.INIT,apclix0,RTMP_COM_IoctlHandle() 1592: -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_INIT
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.927611] 7990@NOTICE.INIT,apclix0,RTMP_COM_IoctlHandle() 1565:  -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_UP
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.927621] WiFi@NOTICE.PROTO,wlan_config_set_ht_bw() 64: ht_bw=1
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.927624] WiFi@NOTICE.PROTO,wlan_operate_set_support_ch_width_set() 266: ch_width_set=1
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.927627] WiFi@NOTICE.PROTO,wlan_config_set_vht_bw() 63: vht_bw=2
+Wed Dec  3 14:59:48 2025 kern.debug kernel: [   47.927630] wlan_config_set_eht_bw: cfg bw = 4
+Wed Dec  3 14:59:48 2025 kern.debug kernel: [   47.927633] wlan_config_set_eht_tx_nss: cfg tx_nss = 4
+Wed Dec  3 14:59:48 2025 kern.debug kernel: [   47.927634] wlan_config_set_eht_rx_nss: cfg rx_nss = 4
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.927645] WiFi@WARN.CFG,wifi_sys_open() 1006: wdev idx = 1
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.927787] 7990@WARN.FW,apclix0,wdev_attr_update() 511: wdevId1 = fe:5e:3c:aa:ab:2f
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.927876] 7990@WARN.INIT,apclix0,hwifi_add_interface() 582: (caller:HcAcquireRadioForWdev+0x28/0x88 [mt_wifi]), wdev(1,apclix0).
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.927911] mt7990 0000:01:00.0: connac_if_config_bss(): fw_idx 3, omac_idx 1, wmm_idx 3, band_idx 2
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.927990] 7990@WARN.HIF,apclix0,hwifi_update_wdev() 505: (caller:mtk_mac_chip_reset+0xb24/0x1200 [mt_wifi]), wdev(1).
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.927997] 7990@NOTICE.CFG80211,apclix0,BuildChannelList() 690: BandIdx = 2, PhyMode = 2480
+Wed Dec  3 14:59:48 2025 kern.err kernel: [   47.928003] 7990@ERROR.CFG80211,apclix0,Set_Zwdfs_Proc() 3892: zero-wait DFS Dedicated is not enabled
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.928023] 7990@NOTICE.CFG80211,apclix0,radio_operate_init() 75: coex(1), bNeedFallBack(0).
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.928102] 7990@NOTICE.CFG80211,apclix0,operate_loader_phy() 492: (caller:wlan_operate_init+0xc0/0x1d8 [mt_wifi]), PhyMode=2480.
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.928106] 7990@NOTICE.CFG80211,apclix0,operate_loader_phy() 501: oper_cfg: prim_ch(45), ht_bw(1), extcha(3), vht_bw(2), eht_bw(4), cen_ch_2(0).
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.928120] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 45
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.928770] 7990@WARN.PROTO,apclix0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.929716] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=45, cen_ch=47, eht_cen_ch=31, DBDCIdx=2, Band=2, BW=7, scan=0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.929724] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=0
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.929894] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=45, control_ch2=0, central_chl=47, eht_cen_ch=31, BW=7.
+Wed Dec  3 14:59:48 2025 kern.notice kernel: [   47.929899] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=0, Channel_Band=2, TXStream=4, RXStream=5.
+Wed Dec  3 14:59:48 2025 daemon.info hostapd: rax0: IEEE 802.11 driver had channel switch: freq=6175, ht=1, vht_ch=0x0, he_ch=0x0, eht_ch=0x0, offset=-1, width=10 (320 MHz), cf1=6105, cf2=0
+Wed Dec  3 14:59:48 2025 kern.debug kernel: [   47.930791] UniEventEDCCAThresholdProc: fginit = 1, EDCCA Threshold=184, 190, 193, 200
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.931162] WiFi@WARN.PROTO,dump_ht_cap() 36: Caller: wlan_operate_init+0xc8/0x1d8 [mt_wifi]
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.931207] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(G): mld_sta_idx=65535, wcid=1028, hw_sta=000000006efad35e
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.931218] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(G): mld_sta_idx=65535, wcid=1029, hw_sta=00000000a796dcf8
+Wed Dec  3 14:59:48 2025 kern.warn kernel: [   47.932324] WiFi@WARN.PROTO,dump_ht_cap() 36: Caller: dump_ht_cap+0x10/0x20 [mt_wifi]
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.932354] mtk_ppe_dev_register_hook : ineterface apclix0 register (4)
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.932514] br-lan: port 11(apclix0) entered blocking state
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.932518] br-lan: port 11(apclix0) entered forwarding state
+Wed Dec  3 14:59:48 2025 kern.info kernel: [   47.932637] br-lan: port 11(apclix0) entered disabled state
+Wed Dec  3 14:59:49 2025 daemon.notice procd: /etc/init.d/network: OK
+Wed Dec  3 14:59:49 2025 kern.notice kernel: [   47.979396] 7990@NOTICE.INIT,apclix0,RTMP_COM_IoctlHandle() 1580:  -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_DOWN
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   47.979547] WiFi@WARN.CLIENT,DoActionBeforeDownIntf() 923: caller:sta_inf_close+0x40/0x178 [mt_wifi], wdev(0)
+Wed Dec  3 14:59:49 2025 kern.notice kernel: [   47.979562] 7990@NOTICE.MLME,apclix0,sta_auth_send_deauth_frame() 1066: DEAUTH - Send DE-AUTH request, reason=3
+Wed Dec  3 14:59:49 2025 kern.notice kernel: [   47.979587] 7990@NOTICE.CFG,apclix0,sta_ifdown_fsm_reset() 740: sta idx [0].
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   47.979877] WiFi@WARN.CFG,wifi_sys_close() 1065: wdev idx = 1
+Wed Dec  3 14:59:49 2025 kern.info kernel: [   47.980360] mt7990 0000:01:00.0: mtk_hwctrl_sta_free(G): mld_sta_idx=65535, wcid=1029, hw_sta=00000000a796dcf8
+Wed Dec  3 14:59:49 2025 kern.info kernel: [   47.980383] mt7990 0000:01:00.0: mtk_hwctrl_sta_free(G): mld_sta_idx=65535, wcid=1028, hw_sta=000000006efad35e
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 kern.notice kernel: [   48.022305] 7990@NOTICE.INIT,apclix0,RTMP_COM_IoctlHandle() 1603: -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_DEINIT
+Wed Dec  3 14:59:49 2025 kern.info kernel: [   48.022315] extif_put_dev(apclix0)
+Wed Dec  3 14:59:49 2025 kern.info kernel: [   48.022317] mtk_ppe_dev_unregister_hook : ineterface apclix0 set null (4)
+Wed Dec  3 14:59:49 2025 kern.info kernel: [   48.022682] br-lan: port 11(apclix0) entered disabled state
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.debug : search_dev_and_profile_l1: MT7990.1.2=/etc/wireless/mediatek/mt7990.b1.dat
+Wed Dec  3 14:59:49 2025 user.debug : search_dev_and_profile_l1: MT7990.1.1=/etc/wireless/mediatek/mt7990.b0.dat
+Wed Dec  3 14:59:49 2025 user.debug : search_dev_and_profile_l1: MT7990.1.3=/etc/wireless/mediatek/mt7990.b2.dat
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.debug : search_dev_and_profile_l1: MT7990.1.2=/etc/wireless/mediatek/mt7990.b1.dat
+Wed Dec  3 14:59:49 2025 user.debug : search_dev_and_profile_l1: MT7990.1.1=/etc/wireless/mediatek/mt7990.b0.dat
+Wed Dec  3 14:59:49 2025 user.debug : search_dev_and_profile_l1: MT7990.1.3=/etc/wireless/mediatek/mt7990.b2.dat
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 kern.notice kernel: [   48.036776] 7990@NOTICE.AP,rai0,UpdateBeaconHandler() 1677: BCN_UPDATE_ENABLE_TX, OmacIdx = 0 (rai0)
+Wed Dec  3 14:59:49 2025 kern.notice kernel: [   48.036786] 7990@NOTICE.AP,rai0,UpdateBeaconHandler() 1682: 	Band1 BcnInitedRnd = 79
+Wed Dec  3 14:59:49 2025 user.debug : search_dev_and_profile_l1: MT7990.1.2=/etc/wireless/mediatek/mt7990.b1.dat
+Wed Dec  3 14:59:49 2025 user.debug : search_dev_and_profile_l1: MT7990.1.1=/etc/wireless/mediatek/mt7990.b0.dat
+Wed Dec  3 14:59:49 2025 user.debug : search_dev_and_profile_l1: MT7990.1.3=/etc/wireless/mediatek/mt7990.b2.dat
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 kern.notice kernel: [   48.049641] 7990@NOTICE.AP,rax0,UpdateBeaconHandler() 1677: BCN_UPDATE_ENABLE_TX, OmacIdx = 0 (rax0)
+Wed Dec  3 14:59:49 2025 kern.notice kernel: [   48.049651] 7990@NOTICE.AP,rax0,UpdateBeaconHandler() 1682: 	Band2 BcnInitedRnd = 65
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.debug : search_dev_and_profile_l1: MT7990.1.2=/etc/wireless/mediatek/mt7990.b1.dat
+Wed Dec  3 14:59:49 2025 user.debug : search_dev_and_profile_l1: MT7990.1.1=/etc/wireless/mediatek/mt7990.b0.dat
+Wed Dec  3 14:59:49 2025 user.debug : search_dev_and_profile_l1: MT7990.1.3=/etc/wireless/mediatek/mt7990.b2.dat
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.debug : mwctl ra0 set mgmt_rx 0
+Wed Dec  3 14:59:49 2025 user.debug : mwctl rai0 set mgmt_rx 0
+Wed Dec  3 14:59:49 2025 user.debug : mwctl rax0 set mgmt_rx 0
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   48.078830] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   48.078945] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   48.079143] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   48.100609] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   48.100805] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   48.101048] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   48.120797] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   48.120999] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   48.121330] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   48.160572] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   48.160697] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   48.160924] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   48.177213] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   48.177330] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+Wed Dec  3 14:59:49 2025 kern.warn kernel: [   48.177586] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+Wed Dec  3 14:59:49 2025 daemon.notice netifd: wan (9391): udhcpc: sending select for 10.200.10.96
+Wed Dec  3 14:59:49 2025 daemon.notice netifd: wan (9391): udhcpc: lease of 10.200.10.96 obtained, lease time 1800
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 daemon.notice netifd: Interface 'wan' is now up
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.notice firewall: Reloading firewall due to ifup of wan (br-wan)
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:49 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:50 2025 kern.warn kernel: [   48.986210] 7990@WARN.AP,rax0,BcnCheck() 4166: start after 4000 ms (rax0)
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.092346] 7990@NOTICE.MLME,rai0,CFG80211_AuthHandle() 460: [cfg80211] received auth from ae:45:ef:e0:f7:98 (alg=3, seq=1, status=126)...
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.092694] 7990@NOTICE.CFG,rai0,mtk_cfg80211_mlo_ie() 12819: ifname: rai0
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.093516] 7990@NOTICE.MLME,rai0,CFG80211_AuthRespHandler() 220: [cfg80211] send auth resp to ae:45:ef:e0:f7:98 (alg=3, transaction=1, status=126)...
+Wed Dec  3 14:59:50 2025 kern.info kernel: [   49.093587] mt7990 0000:01:00.0: mtk_wsys_register_mld_sta_entry(): mld_sta_idx=0, band=1, cnt=1, wcid=4, hw_sta=000000000e1c70fb
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.106291] WiFi@NOTICE.MLO,bss_mngr_event_add_sta() 363: pEntry(0000000096e354d7): wcid(4) mac=ae:45:ef:e0:f7:98, mld(sta_idx=0,addr=ac:45:ef:e0:f7:95) acquired!!
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.106302] WiFi@NOTICE.MLO,bss_mngr_con_mld_conn_req() 4960: idx(0),mld(ac:45:ef:e0:f7:95),link(ae:45:ef:e0:f7:98)
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.108204] 7990@NOTICE.MLME,rai0,CFG80211_AuthHandle() 460: [cfg80211] received auth from ae:45:ef:e0:f7:98 (alg=3, seq=2, status=0)...
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.108365] 7990@NOTICE.SEC,rai0,mtk_cfg80211_set_pmkid() 3538: ifname: rai0
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.108371] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2353: update sta pmkid in cache: 1 (1-add, 0-remove)
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.108375] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2370: added PMKID in pEntryAddress: ac:45:ef:e0:f7:95
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.108502] WiFi@NOTICE.SEC,RTMPSearchPMKIDCache() 1433: (caller:RTMPAddPMKIDCache+0x4c/0x278 [mt_wifi]) pmkid not found, peer_mac ac:45:ef:e0:f7:95 own_mac da:5e:3c:aa:ab:2c
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.108584] 7990@NOTICE.SEC,rax0,mtk_cfg80211_set_pmkid() 3538: ifname: rax0
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.108587] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2353: update sta pmkid in cache: 1 (1-add, 0-remove)
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.108591] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2370: added PMKID in pEntryAddress: ac:45:ef:e0:f7:95
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.108692] 7990@NOTICE.MLME,rai0,CFG80211_AuthRespHandler() 220: [cfg80211] send auth resp to ae:45:ef:e0:f7:98 (alg=3, transaction=2, status=0)...
+Wed Dec  3 14:59:50 2025 kern.err kernel: [   49.110239] 7990@ERROR.MLME,rai0,PeerAssocReqCmmSanity() 1146: DSCPPolicyEnable = 1
+Wed Dec  3 14:59:50 2025 kern.err kernel: [   49.110244] 7990@ERROR.MLME,rai0,PeerAssocReqCmmSanity() 1594: IE_WLAN_EXTENSION: no handler for extension_id:107
+Wed Dec  3 14:59:50 2025 kern.err kernel: [   49.110248] 7990@ERROR.MLME,rai0,PeerAssocReqCmmSanity() 1594: IE_WLAN_EXTENSION: no handler for extension_id:108
+Wed Dec  3 14:59:50 2025 kern.err kernel: [   49.110251] 7990@ERROR.MLME,rai0,PeerAssocReqCmmSanity() 1594: IE_WLAN_EXTENSION: no handler for extension_id:137
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.110255] 7990@NOTICE.MLME,rai0,ap_cmm_peer_assoc_req_action() 1860: received assoc req from ae:45:ef:e0:f7:98  ...
+Wed Dec  3 14:59:50 2025 kern.debug kernel: [   49.110257] [ap_cmm_peer_assoc_req_action - 1898] assoc case set to zero
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.110273] WiFi@NOTICE.MLO,bss_mngr_event_add_sta() 398: pEntry(0000000096e354d7): wcid(4) mac=ae:45:ef:e0:f7:98, mld(sta_idx=0,addr=ac:45:ef:e0:f7:95) allocated!!
+Wed Dec  3 14:59:50 2025 kern.info kernel: [   49.110317] mt7990 0000:01:00.0: mtk_wsys_register_mld_sta_entry(): mld_sta_idx=0, band=2, cnt=2, wcid=5, hw_sta=000000007559d3aa
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.130285] WiFi@NOTICE.MLO,bss_mngr_event_add_sta() 363: pEntry(00000000b259490b): wcid(5) mac=ae:45:ef:e0:f7:99, mld(sta_idx=0,addr=ac:45:ef:e0:f7:95) acquired!!
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.130292] WiFi@NOTICE.MLO,bss_mngr_con_mld_conn_req() 4960: idx(0),mld(ac:45:ef:e0:f7:95),link(ae:45:ef:e0:f7:98)
+Wed Dec  3 14:59:50 2025 kern.err kernel: [   49.130596] 7990@ERROR.MLME,rax0,PeerAssocReqCmmSanity() 1146: DSCPPolicyEnable = 1
+Wed Dec  3 14:59:50 2025 kern.err kernel: [   49.130602] 7990@ERROR.MLME,rax0,PeerAssocReqCmmSanity() 1594: IE_WLAN_EXTENSION: no handler for extension_id:108
+Wed Dec  3 14:59:50 2025 kern.err kernel: [   49.130606] 7990@ERROR.MLME,rax0,PeerAssocReqCmmSanity() 1594: IE_WLAN_EXTENSION: no handler for extension_id:137
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.130610] 7990@NOTICE.MLME,rax0,ap_cmm_peer_assoc_req_action() 1860: received assoc req from ae:45:ef:e0:f7:99 (NS) ...
+Wed Dec  3 14:59:50 2025 kern.debug kernel: [   49.130612] [ap_cmm_peer_assoc_req_action - 1898] assoc case set to zero
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.130728] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x4/0x0 (4/0), Cipher=0x0, BssIndex=0x0, Operation=1
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.130732] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.130824] 7990@NOTICE.MLME,rai0,ap_cmm_peer_assoc_req_action() 3452: send assoc resp to ae:45:ef:e0:f7:98 (status=0)...
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.130847] WiFi@NOTICE.MLO,bss_mngr_con_mld_conn_act() 5005: bmgr_sta[0] (ac:45:ef:e0:f7:95) setup bss(1=1)
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.130851] WiFi@NOTICE.MLO,bss_mngr_event_conn_act() 463: update link1 (ae:45:ef:e0:f7:98) starec
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.131372] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x5/0x0 (5/0), Cipher=0x0, BssIndex=0x0, Operation=1
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.131376] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.131972] 7990@NOTICE.FW,rai0,UniCmdStaRecMldSetup() 4245: T=32,L=28,primary_mld_id=4,second_mld_id=5,
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.131976] 7990@NOTICE.FW,rai0,UniCmdStaRecMldSetup() 4250: setup_link_wcid=4,link_num=2,peer_mld_addr=ac:45:ef:e0:f7:95
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.133310] WiFi@NOTICE.FW,StaRecAutoRateParamSet() 514: wcid(4), PhyMode(177), RateMode(14), 256QAM(2), AmpduF(7), MaxPhyCfg: MODE(6) Flag(0) STBC(1) GI(1) BW(3) ldpc(1) MCS(13) Nss(2)
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.133890] WiFi@NOTICE.MLO,bss_mngr_event_conn_act() 463: update link2 (ae:45:ef:e0:f7:99) starec
+Wed Dec  3 14:59:50 2025 daemon.info hostapd: rai0: STA ae:45:ef:e0:f7:98 IEEE 802.11: associated
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.134875] 7990@NOTICE.FW,rax0,UniCmdStaRecMldSetup() 4245: T=32,L=28,primary_mld_id=4,second_mld_id=5,
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.134880] 7990@NOTICE.FW,rax0,UniCmdStaRecMldSetup() 4250: setup_link_wcid=4,link_num=2,peer_mld_addr=ac:45:ef:e0:f7:95
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.137223] WiFi@NOTICE.FW,StaRecAutoRateParamSet() 514: wcid(5), PhyMode(176), RateMode(2), 256QAM(2), AmpduF(7), MaxPhyCfg: MODE(6) Flag(0) STBC(0) GI(0) BW(7) ldpc(1) MCS(13) Nss(2)
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.138629] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x4/0x0 (4/0), Cipher=0x0, BssIndex=0x0, Operation=1
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.138633] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.138796] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x4/0x0 (4/0), Cipher=0x0, BssIndex=0x0, Operation=1
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.138800] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.213046] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(ae:45:ef:e0:f7:98) Wcid=0x4/0x0 (4/0), Cipher=0x20, BssIndex=0x0, Operation=0
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.213050] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.218072] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 157: PeerAddr(ae:45:ef:e0:f7:99) Wcid=0x5/0x0 (5/0), Cipher=0x20, BssIndex=0x0, Operation=0
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.218076] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 14:59:50 2025 daemon.info hostapd: rai0: STA ae:45:ef:e0:f7:98 RADIUS: starting accounting session 8C3BE5146F8A7D09
+Wed Dec  3 14:59:50 2025 daemon.info hostapd: rai0: STA ae:45:ef:e0:f7:98 WPA: pairwise key handshake completed (RSN)
+Wed Dec  3 14:59:50 2025 kern.notice kernel: [   49.303416] WiFi@NOTICE.PROTO,check_mlo_ba_chip_boundary() 11033: total_phy_rate: 8646
+Wed Dec  3 14:59:51 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:51 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:51 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:51 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:51 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:51 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:51 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:51 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:51 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:51 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:51 2025 user.warn : skip line without '=' Default
+Wed Dec  3 14:59:51 2025 user.warn : skip line without '='
+Wed Dec  3 14:59:51 2025 kern.warn kernel: [   50.178248] 7990@WARN.AP,rai0,BcnCheck() 4166: start after 2900 ms (rai0)
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.180988] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_static_info() 9662: ifname: apclix0, iftype: 2
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.180998] 7990@ERROR.CFG,rax0,mtk_cfg80211_get_static_info() 9673: failed - [ERROR] Interface is down .
+Wed Dec  3 14:59:51 2025 kern.debug kernel: [   50.181044] update_map_dev_info() invalid parameters, buf:0000000018339c7b, buflen:32, sizeof(*devinfo):31
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181081] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_static_info() 9662: ifname: rax0, iftype: 3
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181086] 7990@NOTICE.CFG,rax0,mtk_cfg80211_reply_wapp_support_ver() 8315: get MTK_NL80211_VENDOR_ATTR_GET_STATIC_INFO_WAPP_SUPPORT_VER
+Wed Dec  3 14:59:51 2025 kern.debug kernel: [   50.181118] update_map_dev_info() invalid parameters, buf:0000000067933956, buflen:32, sizeof(*devinfo):31
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.181152] 7990@ERROR.PROTO,rax0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: rax0 bandIdx = 2 ,DevOwnRole 0x0
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.181197] 7990@ERROR.PROTO,rax0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: rax0 bandIdx = 2 ,DevOwnRole 0x20
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181226] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_cap() 12456: ifname: rax0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181231] 7990@NOTICE.AP,rax0,mtk_cfg80211_reply_misc_cap() 8697: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MISC_CAP
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181282] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_cap() 12456: ifname: rax0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181288] 7990@NOTICE.AP,rax0,mtk_cfg80211_reply_ht_cap() 8730: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_HT_CAP
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181327] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_cap() 12456: ifname: rax0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181333] 7990@NOTICE.AP,rax0,mtk_cfg80211_reply_vht_cap() 8809: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_VHT_CAP
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181379] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_cap() 12456: ifname: rax0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181386] 7990@NOTICE.AP,rax0,mtk_cfg80211_reply_eht_cap() 8914: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_EHT_CAP
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181427] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_cap() 12456: ifname: rax0
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.181434] 7990@ERROR.AP,rax0,mtk_cfg80211_reply_mlo_cap() 9021: mld_type = 2 mld_grp 1
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.181437] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 0 StatPunc Support 1, MloEnable 1
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.181441] 7990@ERROR.AP,rax0,mtk_cfg80211_reply_mlo_cap() 9025: non-mld type mld_type = 2, mld_grp 1 or sta 1
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.181444] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 1 StatPunc Support 1, MloEnable 0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181447] 7990@NOTICE.AP,rax0,mtk_cfg80211_reply_mlo_cap() 9068: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MLO_CAP
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181544] 7990@NOTICE.CFG80211,rax0,mtk_cfg80211_reply_wapp_chan_list() 7653: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_CHAN_LIST
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181611] 7990@NOTICE.CFG80211,rax0,mtk_cfg80211_reply_wapp_nop_chan_list() 7710: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_NOP_CHANNEL_LIST
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181668] 7990@NOTICE.CFG,rax0,mtk_cfg80211_reply_wapp_op_class() 7744: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_OP_CLASS
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181849] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_statistic() 10285: ifname: rax0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181853] 7990@NOTICE.CFG,rax0,mtk_cfg80211_reply_wapp_ap_metrics() 8273: get MTK_NL80211_VENDOR_ATTR_GET_AP_METRICS
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181908] 7990@NOTICE.CFG,rax0,mtk_cfg80211_reply_wapp_max_num_of_sta() 7627: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_MAX_NUM_OF_STA
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181947] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_statistic() 10285: ifname: rax0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.181951] 7990@NOTICE.CFG,rax0,mtk_cfg80211_reply_wapp_tx_pwr() 8177: get MTK_NL80211_VENDOR_ATTR_GET_TX_PWR
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182132] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_static_info() 9662: ifname: apclii0, iftype: 2
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.182136] 7990@ERROR.CFG,rai0,mtk_cfg80211_get_static_info() 9673: failed - [ERROR] Interface is down .
+Wed Dec  3 14:59:51 2025 kern.debug kernel: [   50.182158] update_map_dev_info() invalid parameters, buf:0000000018339c7b, buflen:32, sizeof(*devinfo):31
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182188] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_static_info() 9662: ifname: rai0, iftype: 3
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182192] 7990@NOTICE.CFG,rai0,mtk_cfg80211_reply_wapp_support_ver() 8315: get MTK_NL80211_VENDOR_ATTR_GET_STATIC_INFO_WAPP_SUPPORT_VER
+Wed Dec  3 14:59:51 2025 kern.debug kernel: [   50.182314] update_map_dev_info() invalid parameters, buf:0000000067933956, buflen:32, sizeof(*devinfo):31
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.182346] 7990@ERROR.PROTO,rai0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: rai0 bandIdx = 1 ,DevOwnRole 0x0
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.182372] 7990@ERROR.PROTO,rai0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: rai0 bandIdx = 1 ,DevOwnRole 0x20
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182399] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_cap() 12456: ifname: rai0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182403] 7990@NOTICE.AP,rai0,mtk_cfg80211_reply_misc_cap() 8697: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MISC_CAP
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182464] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_cap() 12456: ifname: rai0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182471] 7990@NOTICE.AP,rai0,mtk_cfg80211_reply_eht_cap() 8914: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_EHT_CAP
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182513] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_cap() 12456: ifname: rai0
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.182519] 7990@ERROR.AP,rai0,mtk_cfg80211_reply_mlo_cap() 9021: mld_type = 2 mld_grp 1
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.182523] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 0 StatPunc Support 1, MloEnable 1
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.182527] 7990@ERROR.AP,rai0,mtk_cfg80211_reply_mlo_cap() 9025: non-mld type mld_type = 2, mld_grp 1 or sta 1
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.182529] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 1 StatPunc Support 1, MloEnable 0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182532] 7990@NOTICE.AP,rai0,mtk_cfg80211_reply_mlo_cap() 9068: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MLO_CAP
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182621] 7990@NOTICE.CFG80211,rai0,mtk_cfg80211_reply_wapp_chan_list() 7653: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_CHAN_LIST
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182676] 7990@NOTICE.CFG80211,rai0,mtk_cfg80211_reply_wapp_nop_chan_list() 7710: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_NOP_CHANNEL_LIST
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182727] 7990@NOTICE.CFG,rai0,mtk_cfg80211_reply_wapp_op_class() 7744: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_OP_CLASS
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182854] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_statistic() 10285: ifname: rai0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182857] 7990@NOTICE.CFG,rai0,mtk_cfg80211_reply_wapp_ap_metrics() 8273: get MTK_NL80211_VENDOR_ATTR_GET_AP_METRICS
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182896] 7990@NOTICE.CFG,rai0,mtk_cfg80211_reply_wapp_max_num_of_sta() 7627: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_MAX_NUM_OF_STA
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182933] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_statistic() 10285: ifname: rai0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.182937] 7990@NOTICE.CFG,rai0,mtk_cfg80211_reply_wapp_tx_pwr() 8177: get MTK_NL80211_VENDOR_ATTR_GET_TX_PWR
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183084] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_static_info() 9662: ifname: apcli0, iftype: 2
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.183088] 7990@ERROR.CFG,ra0,mtk_cfg80211_get_static_info() 9673: failed - [ERROR] Interface is down .
+Wed Dec  3 14:59:51 2025 kern.debug kernel: [   50.183105] update_map_dev_info() invalid parameters, buf:0000000018339c7b, buflen:32, sizeof(*devinfo):31
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183131] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_static_info() 9662: ifname: ra0, iftype: 3
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183135] 7990@NOTICE.CFG,ra0,mtk_cfg80211_reply_wapp_support_ver() 8315: get MTK_NL80211_VENDOR_ATTR_GET_STATIC_INFO_WAPP_SUPPORT_VER
+Wed Dec  3 14:59:51 2025 kern.debug kernel: [   50.183158] update_map_dev_info() invalid parameters, buf:0000000067933956, buflen:32, sizeof(*devinfo):31
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.183183] 7990@ERROR.PROTO,ra0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: ra0 bandIdx = 0 ,DevOwnRole 0x0
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.183227] 7990@ERROR.PROTO,ra0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: ra0 bandIdx = 0 ,DevOwnRole 0x20
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183255] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_cap() 12456: ifname: ra0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183258] 7990@NOTICE.AP,ra0,mtk_cfg80211_reply_misc_cap() 8697: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MISC_CAP
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183302] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_cap() 12456: ifname: ra0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183308] 7990@NOTICE.AP,ra0,mtk_cfg80211_reply_vht_cap() 8809: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_VHT_CAP
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183351] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_cap() 12456: ifname: ra0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183356] 7990@NOTICE.AP,ra0,mtk_cfg80211_reply_eht_cap() 8914: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_EHT_CAP
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183395] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_cap() 12456: ifname: ra0
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.183400] 7990@ERROR.AP,ra0,mtk_cfg80211_reply_mlo_cap() 9021: mld_type = 1 mld_grp 17
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.183403] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 0 StatPunc Support 1, MloEnable 1
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.183407] 7990@ERROR.AP,ra0,mtk_cfg80211_reply_mlo_cap() 9025: non-mld type mld_type = 1, mld_grp 17 or sta 1
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.183409] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 1 StatPunc Support 1, MloEnable 0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183412] 7990@NOTICE.AP,ra0,mtk_cfg80211_reply_mlo_cap() 9068: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MLO_CAP
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183497] 7990@NOTICE.CFG80211,ra0,mtk_cfg80211_reply_wapp_chan_list() 7653: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_CHAN_LIST
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183546] 7990@NOTICE.CFG80211,ra0,mtk_cfg80211_reply_wapp_nop_chan_list() 7710: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_NOP_CHANNEL_LIST
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183594] 7990@NOTICE.CFG,ra0,mtk_cfg80211_reply_wapp_op_class() 7744: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_OP_CLASS
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183696] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_statistic() 10285: ifname: ra0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183700] 7990@NOTICE.CFG,ra0,mtk_cfg80211_reply_wapp_ap_metrics() 8273: get MTK_NL80211_VENDOR_ATTR_GET_AP_METRICS
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183739] 7990@NOTICE.CFG,ra0,mtk_cfg80211_reply_wapp_max_num_of_sta() 7627: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_MAX_NUM_OF_STA
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183775] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_statistic() 10285: ifname: ra0
+Wed Dec  3 14:59:51 2025 kern.notice kernel: [   50.183779] 7990@NOTICE.CFG,ra0,mtk_cfg80211_reply_wapp_tx_pwr() 8177: get MTK_NL80211_VENDOR_ATTR_GET_TX_PWR
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.184192] 7990@ERROR.CFG,apclix0,mtk_cfg80211_get_runtime_info() 9544: failed - [ERROR] Interface is down .
+Wed Dec  3 14:59:51 2025 kern.warn kernel: [   50.184224] 7990@WARN.MLO,rax0,mtk_cfg80211_reply_mlo_mld_info() 8084: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_OP_CLASS
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.184269] 7990@ERROR.CFG,apclii0,mtk_cfg80211_get_runtime_info() 9544: failed - [ERROR] Interface is down .
+Wed Dec  3 14:59:51 2025 kern.warn kernel: [   50.184296] 7990@WARN.MLO,rai0,mtk_cfg80211_reply_mlo_mld_info() 8084: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_OP_CLASS
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.184335] 7990@ERROR.CFG,apcli0,mtk_cfg80211_get_runtime_info() 9544: failed - [ERROR] Interface is down .
+Wed Dec  3 14:59:51 2025 kern.warn kernel: [   50.184362] 7990@WARN.MLO,ra0,mtk_cfg80211_reply_mlo_mld_info() 8084: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_OP_CLASS
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.212850] 7990@ERROR.CFG,rax0,wapp_event_handle() 4124: [SUPPORT_MODE_QUERY_REQ] wapp req id=40
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.212861] 7990@ERROR.CFG,rax0,wapp_handle_sr_support_mode_query_req() 3003: [wapp_handle_sr_support_mode_query_req] req ifindex = 16
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.212888] 7990@ERROR.CFG,rax0,wapp_handle_sr_support_mode_query_req() 3007: [wapp_handle_sr_support_mode_query_req] status = 0
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.212955] 7990@ERROR.CFG,rai0,wapp_event_handle() 4124: [SUPPORT_MODE_QUERY_REQ] wapp req id=40
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.212959] 7990@ERROR.CFG,rai0,wapp_handle_sr_support_mode_query_req() 3003: [wapp_handle_sr_support_mode_query_req] req ifindex = 15
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.212967] 7990@ERROR.CFG,rai0,wapp_handle_sr_support_mode_query_req() 3007: [wapp_handle_sr_support_mode_query_req] status = 0
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.213003] 7990@ERROR.CFG,ra0,wapp_event_handle() 4124: [SUPPORT_MODE_QUERY_REQ] wapp req id=40
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.213008] 7990@ERROR.CFG,ra0,wapp_handle_sr_support_mode_query_req() 3003: [wapp_handle_sr_support_mode_query_req] req ifindex = 14
+Wed Dec  3 14:59:51 2025 kern.err kernel: [   50.213016] 7990@ERROR.CFG,ra0,wapp_handle_sr_support_mode_query_req() 3007: [wapp_handle_sr_support_mode_query_req] status = 0
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq-dhcp[9196]: DHCPDISCOVER(br-lan) 78:11:dc:aa:30:2a
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq-dhcp[9196]: DHCPOFFER(br-lan) 192.168.1.177 78:11:dc:aa:30:2a
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq[9196]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq[9196]: using only locally-known addresses for domain test
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq[9196]: using only locally-known addresses for domain onion
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq[9196]: using only locally-known addresses for domain localhost
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq[9196]: using only locally-known addresses for domain local
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq[9196]: using only locally-known addresses for domain invalid
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq[9196]: using only locally-known addresses for domain bind
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq[9196]: using only locally-known addresses for domain lan
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq[9196]: using nameserver 94.142.233.120#53
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq[9196]: using nameserver 94.142.233.140#53
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq[9196]: read /etc/hosts - 4 addresses
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq[9196]: read /tmp/hosts/odhcpd - 1 addresses
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq[9196]: read /tmp/hosts/dhcp.cfg01411c - 3 addresses
+Wed Dec  3 14:59:52 2025 daemon.info dnsmasq-dhcp[9196]: read /etc/ethers - 0 addresses
+Wed Dec  3 14:59:52 2025 kern.warn kernel: [   51.590212] 7990@WARN.AP,rax0,BcnCheck() 4166: start after 1500 ms (rax0)
+Wed Dec  3 14:59:53 2025 kern.warn kernel: [   52.782223] 7990@WARN.AP,apclii0,BcnCheck() 4166: start after 400 ms (rai0)
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq-dhcp[9196]: DHCPDISCOVER(br-lan) 60:b6:06:2e:ee:25
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq-dhcp[9196]: DHCPOFFER(br-lan) 192.168.1.225 60:b6:06:2e:ee:25
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq[9196]: read /etc/hosts - 4 addresses
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq[9196]: read /tmp/hosts/odhcpd - 1 addresses
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq[9196]: read /tmp/hosts/dhcp.cfg01411c - 3 addresses
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq-dhcp[9196]: read /etc/ethers - 0 addresses
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq-dhcp[9196]: DHCPREQUEST(br-lan) 192.168.1.114 ac:45:ef:e0:f7:95
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq-dhcp[9196]: DHCPACK(br-lan) 192.168.1.114 ac:45:ef:e0:f7:95 DESKTOP-N2SB5VF
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq-dhcp[9196]: DHCPREQUEST(br-lan) 192.168.1.114 ac:45:ef:e0:f7:95
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq-dhcp[9196]: DHCPACK(br-lan) 192.168.1.114 ac:45:ef:e0:f7:95 DESKTOP-N2SB5VF
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq-dhcp[9196]: DHCPREQUEST(br-lan) 192.168.1.177 78:11:dc:aa:30:2a
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq-dhcp[9196]: DHCPACK(br-lan) 192.168.1.177 78:11:dc:aa:30:2a zhimi-airpurifier-mc1_miio77623411
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq-dhcp[9196]: DHCPDISCOVER(br-lan) 60:b6:06:2e:ee:25
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq-dhcp[9196]: DHCPOFFER(br-lan) 192.168.1.225 60:b6:06:2e:ee:25
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq-dhcp[9196]: DHCPREQUEST(br-lan) 192.168.1.177 78:11:dc:aa:30:2a
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq-dhcp[9196]: DHCPACK(br-lan) 192.168.1.177 78:11:dc:aa:30:2a zhimi-airpurifier-mc1_miio77623411
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq-dhcp[9196]: DHCPREQUEST(br-lan) 192.168.1.225 60:b6:06:2e:ee:25
+Wed Dec  3 15:00:19 2025 daemon.info dnsmasq-dhcp[9196]: DHCPACK(br-lan) 192.168.1.225 60:b6:06:2e:ee:25 PlayFi-Family-Room2EEE25
+Wed Dec  3 15:00:25 2025 cron.err crond[6059]: USER root pid 11121 cmd /usr/sbin/fan_ctl.sh
+Wed Dec  3 15:00:27 2025 authpriv.info dropbear[11153]: Child connection from 192.168.1.114:31466
+Wed Dec  3 15:00:28 2025 authpriv.notice dropbear[11153]: Password auth succeeded for 'root' from 192.168.1.114:31466
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.886692] 7990@NOTICE.MLME,apclii0,CFG80211_AuthHandle() 460: [cfg80211] received auth from 0a:0e:78:fc:9b:12 (alg=3, seq=1, status=126)...
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.887677] 7990@NOTICE.MLME,apclii0,CFG80211_AuthRespHandler() 220: [cfg80211] send auth resp to 0a:0e:78:fc:9b:12 (alg=3, transaction=1, status=126)...
+Wed Dec  3 15:00:31 2025 kern.info kernel: [   64.887728] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(N): mld_sta_idx=65535, wcid=6, hw_sta=0000000035a7cccd
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.897131] 7990@NOTICE.MLME,rai0,CFG80211_AuthHandle() 460: [cfg80211] received auth from 0a:0e:78:fc:9b:12 (alg=3, seq=2, status=0)...
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.897301] 7990@NOTICE.SEC,rai0,mtk_cfg80211_set_pmkid() 3538: ifname: rai0
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.897307] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2353: update sta pmkid in cache: 1 (1-add, 0-remove)
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.897310] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2370: added PMKID in pEntryAddress: 0a:0e:78:fc:9b:12
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.897441] WiFi@NOTICE.SEC,RTMPSearchPMKIDCache() 1433: (caller:RTMPAddPMKIDCache+0x4c/0x278 [mt_wifi]) pmkid not found, peer_mac 0a:0e:78:fc:9b:12 own_mac f8:5e:3c:aa:ab:2c
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.897496] 7990@NOTICE.SEC,rax0,mtk_cfg80211_set_pmkid() 3538: ifname: rax0
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.897500] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2353: update sta pmkid in cache: 1 (1-add, 0-remove)
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.897503] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2370: added PMKID in pEntryAddress: 0a:0e:78:fc:9b:12
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.897602] 7990@NOTICE.MLME,rai0,CFG80211_AuthRespHandler() 220: [cfg80211] send auth resp to 0a:0e:78:fc:9b:12 (alg=3, transaction=2, status=0)...
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.907545] 7990@NOTICE.MLME,rai0,ap_cmm_peer_assoc_req_action() 1860: received assoc req from 0a:0e:78:fc:9b:12  ...
+Wed Dec  3 15:00:31 2025 kern.debug kernel: [   64.907548] [ap_cmm_peer_assoc_req_action - 1898] assoc case set to zero
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.907766] 7990@NOTICE.MLME,rai0,ap_cmm_peer_assoc_req_action() 3452: send assoc resp to 0a:0e:78:fc:9b:12 (status=0)...
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.907873] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x6/0x0 (6/0), Cipher=0x0, BssIndex=0x0, Operation=1
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.907877] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 15:00:31 2025 daemon.info hostapd: rai0: STA 0a:0e:78:fc:9b:12 IEEE 802.11: associated
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.909085] WiFi@NOTICE.FW,StaRecAutoRateParamSet() 514: wcid(6), PhyMode(177), RateMode(14), 256QAM(2), AmpduF(7), MaxPhyCfg: MODE(5) Flag(0) STBC(1) GI(1) BW(2) ldpc(1) MCS(11) Nss(2)
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.911340] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x6/0x0 (6/0), Cipher=0x0, BssIndex=0x0, Operation=1
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.911345] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.911674] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x6/0x0 (6/0), Cipher=0x0, BssIndex=0x0, Operation=1
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   64.911678] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 15:00:31 2025 daemon.info hostapd: rai0: STA 0a:0e:78:fc:9b:12 RADIUS: starting accounting session 34E978BEE57ADD11
+Wed Dec  3 15:00:31 2025 daemon.info hostapd: rai0: STA 0a:0e:78:fc:9b:12 WPA: pairwise key handshake completed (RSN)
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   65.029154] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(0a:0e:78:fc:9b:12) Wcid=0x6/0x0 (6/0), Cipher=0x20, BssIndex=0x0, Operation=0
+Wed Dec  3 15:00:31 2025 kern.notice kernel: [   65.029161] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+Wed Dec  3 15:00:32 2025 kern.err kernel: [   66.068257] 7990@ERROR.PROTO,rai0,Peer_Vendor_Spec_Action() 998: frame len check error
+Wed Dec  3 15:00:33 2025 daemon.info dnsmasq-dhcp[9196]: DHCPREQUEST(br-lan) 192.168.1.113 0a:0e:78:fc:9b:12
+Wed Dec  3 15:00:33 2025 daemon.info dnsmasq-dhcp[9196]: DHCPACK(br-lan) 192.168.1.113 0a:0e:78:fc:9b:12 Galaxy-S22
+Wed Dec  3 15:00:33 2025 daemon.info dnsmasq-dhcp[9196]: DHCPREQUEST(br-lan) 192.168.1.113 0a:0e:78:fc:9b:12
+Wed Dec  3 15:00:33 2025 daemon.info dnsmasq-dhcp[9196]: DHCPACK(br-lan) 192.168.1.113 0a:0e:78:fc:9b:12 Galaxy-S22
+Wed Dec  3 15:01:00 2025 cron.err crond[6059]: USER root pid 11832 cmd /usr/sbin/fan_ctl.sh
+Wed Dec  3 15:01:04 2025 kern.notice kernel: [   97.814942] 7990@NOTICE.CFG80211,ra0,sta_num_over_thr_chk() 4320: Ignore ACS checking, more than 5 clients connected.
+Wed Dec  3 15:01:04 2025 kern.notice kernel: [   97.814957] 7990@NOTICE.CFG80211,ra0,AutoChannelSelCheck() 4391: Under the threshold, ignore ACS scan.
+Wed Dec  3 15:01:10 2025 kern.notice kernel: [  104.655039] 7990@NOTICE.CFG80211,rax0,sta_num_over_thr_chk() 4320: Ignore ACS checking, more than 5 clients connected.
+Wed Dec  3 15:01:10 2025 kern.notice kernel: [  104.655054] 7990@NOTICE.CFG80211,rax0,AutoChannelSelCheck() 4391: Under the threshold, ignore ACS scan.

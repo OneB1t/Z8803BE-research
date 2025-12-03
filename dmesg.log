@@ -1,0 +1,1224 @@
+[   38.344607] mtk_soc_eth 15100000.ethernet eth1: configuring for phy/xgmii link mode
+[   38.345223] 7990@ERROR.PROTO,rax0,mtk_cfg80211_bss_set_handler() 11429: pAd not start up. return!!
+[   38.345287] nf_unregister_hooks()
+[   38.345415] br-wan: port 1(eth1) entered blocking state
+[   38.345419] br-wan: port 1(eth1) entered disabled state
+[   38.345566] device eth1 entered promiscuous mode
+[   38.345908] 7990@NOTICE.CFG,ra0,mtk_cfg80211_ft_ie() 12615: ifname: ra0
+[   38.345914] 7990@NOTICE.CFG,ra0,parse_hostapd_ftie() 12564: OwnMac: f85e3caaab2b
+[   38.345918] 7990@ERROR.CFG,ra0,parse_hostapd_ftie() 12596: 11R disabled in driver
+[   38.345995] WiFi@NOTICE.RSV,CFG80211_OpsStartAp() 2741: 80211> ==>
+[   38.346027] WiFi@NOTICE.RSV,CFG80211DRV_OpsBeaconAdd() 1484: 80211> ==>
+[   38.346034] WiFi@NOTICE.RSV,CFG80211DRV_OpsBeaconAdd() 1494: 80211> ==> apidx=0, tr_tb_idx=1025
+[   38.346499] 7990@NOTICE.SEC,ra0,CFG80211DRV_UpdateApSettingFromBeacon() 462: hostapd config pwe_method:1 and saepk is :0
+[   38.346506] 7990@NOTICE.AP,ra0,CFG80211DRV_UpdateApSettingFromBeacon() 488: beacon capability info field: 1431
+[   38.346509] RRM : len 5 eid 70 octet 114
+[   38.346511] bit_nr bit_lci: 1 0
+[   38.346539] 7990@ERROR.AP,ra0,CFG80211DRV_UpdateApSettingFromBeacon() 884: MDIE is NULL
+[   38.346546] 7990@NOTICE.AP,ra0,cfg80211_ap_parse_rsn_ie() 3240: WPA2 case
+[   38.346555] 7990@NOTICE.AP,ra0,CFG80211_ParseBeaconIE() 1499: =>wpa(1 0 0), AuthMode=WPA2PSK, Cipher(AES AES), MFPC=0, MFPR=0, igtk_cipher=0x0
+[   38.346561] 7990@NOTICE.AP,ra0,CFG80211DRV_UpdateApSettingFromBeacon() 1103: security (akm, pcipher, gcipher, igtk):  0x80, 0x20, 0x20, 0x200
+[   38.346682] br-wan: port 1(eth1) entered blocking state
+[   38.346685] br-wan: port 1(eth1) entered forwarding state
+[   38.356495] br-lan: port 7(apcli0) entered blocking state
+[   38.356502] br-lan: port 7(apcli0) entered disabled state
+[   38.356692] device apcli0 entered promiscuous mode
+[   38.493165] Per-port-per-queue mode is going to be enabled!
+[   38.493171] PPPQ use qid 0~11 (scheduler 0).
+[   38.546588] WiFi@NOTICE.AP,bssinfo_feature_decision() 643: wdev(0) is legacy bss, func_idx=0, ROLE=0
+[   38.546606] 7990@NOTICE.FW,apcli0,UniCmdBssInfoRate() 360: Bssid:(f8:5e:3c:aa:ab:2b),BcRate=32768,McRate=32768,ucPreamMode=1,BcFRateIdx=8,McFRateIdx=8
+[   38.546609] 7990@NOTICE.FW,apcli0,UniCmdBssInfoRate() 362: ucMloCPFixedRateIdx=8
+[   38.546623] 7990@NOTICE.FW,apcli0,UniCmdBssInfoRate() 360: Bssid:(f8:5e:3c:aa:ab:2b),BcRate=32768,McRate=32768,ucPreamMode=1,BcFRateIdx=8,McFRateIdx=8
+[   38.546626] 7990@NOTICE.FW,apcli0,UniCmdBssInfoRate() 362: ucMloCPFixedRateIdx=8
+[   38.546634] 7990@NOTICE.FW,apcli0,UniCmdBssInfoMld() 1432: if_addr(f8:5e:3c:aa:ab:2b),mld_group_idx=17,T=26,L=16,GrpMldId=16,MldIdx=16,RemaIdx=255,MldAddr=f8:5e:3c:aa:ab:2b
+[   38.547070] WiFi@ERROR.MLO,bss_mngr_dev_reg() 1482: wdev(0)
+[   38.547078] WiFi@ERROR.MLO,bss_mngr_fill_bss_info() 1387: dev_type UNDEFINED
+[   38.547306] WiFi@NOTICE.MLO,bss_mngr_fill_bss_info() 1447: phymode=590, reg_time=4033415296, hw_tsf=21977693
+[   38.547313] WiFi@ERROR.MLO,bss_mngr_con_dev_reg() 3110: ===> netdev(14) (ra0)
+[   38.547317] WiFi@WARN.MLO,bss_mngr_con_dev_reg() 3116: 	entry exist!!
+[   38.547325] WiFi@ERROR.MLO,bss_mngr_con_ie_buf_alloc() 1484: allocated (MLD:00000000ff66fceb)
+[   38.547333] WiFi@ERROR.MLO,bss_mngr_con_sync_entry() 2948: [0]
+[   38.547337] WiFi@NOTICE.MLO,bss_mngr_con_mld_group_add_link() 2386: ===> wdev(ra0) requests to join mld_grp(17)
+[   38.547341] WiFi@ERROR.MLO,bss_mngr_con_mld_group_add_link() 2402: 	entry(ra0) has already affiliated with mld_grp(17)
+[   38.547374] WiFi@ERROR.MLO,bss_mngr_con_dev_reg() 3187: <=== entry = 00000000bd5de97f(bss_idx_tx = 0) (dev_cnt = 1)
+[   38.547390] WiFi@NOTICE.MLO,bss_mngr_con_sync_ml_probe_rsp_per_sta_profile() 5382: ra0(active) sync probe rsp STA-Pf, mlo:1, cnt:1
+[   38.548252] WiFi@ERROR.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2532: UNSUPPORT mgmt frame type mask: 0x800 for intf apcli0
+[   38.548279] WiFi@NOTICE.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2528: ACTION frame was registered for intf apcli0
+[   38.548616] 7990@NOTICE.INIT,apcli0,RTMP_COM_IoctlHandle() 1592: -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_INIT
+[   38.548623] 7990@NOTICE.INIT,apcli0,RTMP_COM_IoctlHandle() 1565:  -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_UP
+[   38.548633] WiFi@NOTICE.PROTO,wlan_config_set_ht_bw() 64: ht_bw=1
+[   38.548636] WiFi@NOTICE.PROTO,wlan_operate_set_support_ch_width_set() 266: ch_width_set=1
+[   38.548639] WiFi@NOTICE.PROTO,wlan_config_set_vht_bw() 63: vht_bw=0
+[   38.548642] wlan_config_set_eht_bw: cfg bw = 1
+[   38.548644] wlan_config_set_eht_tx_nss: cfg tx_nss = 4
+[   38.548645] wlan_config_set_eht_rx_nss: cfg rx_nss = 4
+[   38.548655] WiFi@WARN.CFG,wifi_sys_open() 1006: wdev idx = 1
+[   38.548796] 7990@WARN.FW,apcli0,wdev_attr_update() 511: wdevId1 = fe:5e:3c:aa:ab:2b
+[   38.548889] 7990@WARN.INIT,apcli0,hwifi_add_interface() 582: (caller:HcAcquireRadioForWdev+0x28/0x88 [mt_wifi]), wdev(1,apcli0).
+[   38.548925] mt7990 0000:01:00.0: connac_if_config_bss(): fw_idx 1, omac_idx 1, wmm_idx 3, band_idx 0
+[   38.549005] 7990@WARN.HIF,apcli0,hwifi_update_wdev() 505: (caller:mtk_mac_chip_reset+0xb24/0x1200 [mt_wifi]), wdev(1).
+[   38.549011] 7990@NOTICE.CFG80211,apcli0,BuildChannelList() 690: BandIdx = 0, PhyMode = 590
+[   38.549030] 7990@NOTICE.CFG80211,apcli0,radio_operate_init() 75: coex(1), bNeedFallBack(0).
+[   38.549110] 7990@NOTICE.CFG80211,apcli0,operate_loader_phy() 492: (caller:wlan_operate_init+0xc0/0x1d8 [mt_wifi]), PhyMode=590.
+[   38.549114] 7990@NOTICE.CFG80211,apcli0,operate_loader_phy() 501: oper_cfg: prim_ch(8), ht_bw(1), extcha(3), vht_bw(0), eht_bw(1), cen_ch_2(0).
+[   38.549243] WiFi@WARN.PROTO,dump_ht_cap() 36: Caller: wlan_operate_init+0xc8/0x1d8 [mt_wifi]
+[   38.549266] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(G): mld_sta_idx=65535, wcid=1026, hw_sta=00000000afe18b58
+[   38.549276] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(G): mld_sta_idx=65535, wcid=1027, hw_sta=000000006afbc590
+[   38.565964] WiFi@NOTICE.PROTO,wlan_config_set_ht_bw() 64: ht_bw=1
+[   38.565971] WiFi@NOTICE.PROTO,wlan_operate_set_support_ch_width_set() 266: ch_width_set=1
+[   38.566112] WiFi@NOTICE.CFG80211,wlan_operate_set_ht_bw() 297: (caller:RTMPSetHT+0x200/0x3c0 [mt_wifi]), PhyMode=590.
+[   38.566312] WiFi@WARN.PROTO,dump_ht_cap() 36: Caller: dump_ht_cap+0x10/0x20 [mt_wifi]
+[   38.566339] mtk_ppe_dev_register_hook : ineterface apcli0 register (2)
+[   38.566486] br-lan: port 7(apcli0) entered blocking state
+[   38.566491] br-lan: port 7(apcli0) entered forwarding state
+[   38.566605] br-lan: port 7(apcli0) entered disabled state
+[   38.568423] 7990@NOTICE.CFG,ra0,mtk_cfg80211_set_hide_ssid() 135: mwctl:set bss(0) HideSSID=0
+[   38.568907] WiFi@NOTICE.MLME,ap_mlme_broadcast_deauth_req_action() 256: send broadcast de-auth req, reason=2
+[   38.568946] 7990@NOTICE.SEC,ra0,PMF_PerformTxFrameAction() 1730: [PMF] : GROUP_ROBUST_FRAME
+[   38.577725] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(ff:ff:ff:ff:ff:ff) Wcid=0x401/0x0 (1025/0), Cipher=0x20, BssIndex=0x0, Operation=0
+[   38.577734] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x1, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   38.578252] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(ff:ff:ff:ff:ff:ff) Wcid=0x401/0x0 (1025/0), Cipher=0x220, BssIndex=0x0, Operation=0
+[   38.578259] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x1, igtk_key_idx=0x4, bigtk_key_idx=0x0
+[   38.697557] 7990@NOTICE.INIT,ra0,RTMP_COM_IoctlHandle() 1580:  -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_DOWN
+[   38.697705] WiFi@WARN.CLIENT,DoActionBeforeDownIntf() 923: caller:sta_inf_close+0x40/0x178 [mt_wifi], wdev(0)
+[   38.697719] 7990@NOTICE.MLME,ra0,sta_auth_send_deauth_frame() 1066: DEAUTH - Send DE-AUTH request, reason=3
+[   38.697743] 7990@NOTICE.CFG,ra0,sta_ifdown_fsm_reset() 740: sta idx [0].
+[   38.698039] WiFi@WARN.CFG,wifi_sys_close() 1065: wdev idx = 1
+[   38.698474] mt7990 0000:01:00.0: mtk_hwctrl_sta_free(G): mld_sta_idx=65535, wcid=1027, hw_sta=000000006afbc590
+[   38.698496] mt7990 0000:01:00.0: mtk_hwctrl_sta_free(G): mld_sta_idx=65535, wcid=1026, hw_sta=00000000afe18b58
+[   38.738301] 7990@NOTICE.INIT,ra0,RTMP_COM_IoctlHandle() 1603: -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_DEINIT
+[   38.738311] extif_put_dev(apcli0)
+[   38.738313] mtk_ppe_dev_unregister_hook : ineterface apcli0 set null (2)
+[   38.738601] br-lan: port 7(apcli0) entered disabled state
+[   38.755299] WiFi@NOTICE.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2528: ACTION frame was registered for intf rai0
+[   38.755411] WiFi@ERROR.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2532: UNSUPPORT mgmt frame type mask: 0x800 for intf rai0
+[   38.755425] WiFi@ERROR.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2532: UNSUPPORT mgmt frame type mask: 0x5 for intf rai0
+[   38.755457] WiFi@NOTICE.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2523: PROBE frame was registered for intf rai0
+[   38.755530] 7990@NOTICE.INIT,rai0,RTMP_COM_IoctlHandle() 1592: -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_INIT
+[   38.755536] get_dev_l2profile: Band1: profile path=/etc/wireless/mediatek/mt7990.b1.dat
+[   38.755590] RtmpMgmtTaskInit(956): task_name is RtmpCmdQTask_01
+[   38.755642] WscThreadInit(11511): task_name is RtmpWscTask_01
+[   38.755681] bcn_bpcc_TaskInit(3835): task_name is BPCCCmdQTask_01
+[   38.755712] ser_init(313): task_name is ser_task_01
+[   38.755785] 7990@WARN.RX,rai0,UserCfgInit() 973: [DPP]: Gas DL List Init!
+[   38.756184] get_dev_l2profile: Band1: profile path=/etc/wireless/mediatek/mt7990.b1.dat
+[   38.757718] 7990@ERROR.CFG,rai0,RTMPWirelessModeCfg() 354: Init: BSS0 PhyMode=1201
+[   38.757847] 7990@WARN.CFG80211,rai0,auto_ch_select_set_cfg() 4092: AutoChannelAtBootup=0, AutoChannelAlg = 0
+[   38.757946] [42m: PartialScanACS=1 [m
+[   38.758046] [42m: ScanningDwell=150 [m
+[   38.758146] [42m: RestoreDwell=200 [m
+[   38.758280] [42m: ScanningChNum=1 [m
+[   38.758381] [42m: ChUtilThr=50 [m
+[   38.758481] [42m: StaNumThr=5 [m
+[   38.764701] configure(rai0)bVLAN_Tag=1
+[   38.767356] 7990@ERROR.CFG,rai0,RTMPSetProfileParameters() 6414: DfsZeroWaitBandidx=1
+[   38.768521] 7990@NOTICE.CFG,rai0,RTMPSetProfileParameters() 6610: ACSCheckTime[1]=60 seconds
+[   38.770928] WiFi@NOTICE.CFG,RTMPSetProfileParameters() 6829: IEEE80211H=1
+[   38.774453] 7990@ERROR.SEC,rai0,Set_PMFMFPC_Proc() 2178: [PMF] :: apidx=0, Desired MFPC=1
+[   38.777001] WiFi@ERROR.SEC,Set_ApCliPMFMFPC_Proc() 2547: [PMF]: MFPC=0, MFPR=0, SHA256=0
+[   38.777098] WiFi@ERROR.SEC,Set_ApCliPMFMFPR_Proc() 2611: [PMF]: MFPC=0, MFPR=0, SHA256=0
+[   38.777260] 7990@ERROR.CFG,rai0,rtmp_read_ap_client_from_file() 1092: APCLI[0] ApCliMuMimoDlEnable = 0
+[   38.777284] 7990@ERROR.CFG,rai0,rtmp_read_ap_client_from_file() 1111: APCLI[0] ApCliMuMimoUlEnable = 0
+[   38.778747] WiFi@NOTICE.PROTO,wlan_config_set_ht_bw() 64: ht_bw=1
+[   38.778751] WiFi@NOTICE.PROTO,wlan_operate_set_support_ch_width_set() 266: ch_width_set=1
+[   38.778793] wlan_config_set_eht_tx_nss: cfg tx_nss = 4
+[   38.778833] wlan_config_set_eht_rx_nss: cfg rx_nss = 4
+[   38.780353] WiFi@NOTICE.PROTO,wlan_config_set_vht_bw() 63: vht_bw=2
+[   38.805123] BSS0 mld_grp_idx=1
+[   38.805322] BSS0 TidMapping=0xff
+[   38.805415] Line.1148 - AP Band1(MBSS0) ==> wlan_config_set_nsep_priority_access: cfg nsep_priority_access_enable = 1
+[   38.805510] Line.1169 - AP Band1(MBSS0) ==> wlan_config_set_eht_om_ctrl: cfg eht_om_ctrl_enable = 1
+[   38.805604] Line.1190 - AP Band1(MBSS0) ==> wlan_config_set_eht_txop_sharing_trigger: cfg txop_sharing_trigger_enable = 0
+[   38.805801] Line.1254 - AP Band1(MBSS0) ==> wlan_config_set_eht_scs_traffic: cfg restricted_twt_support = 1
+[   38.806306] Line.1364 - AP Band1(MBSS0) ==> wlan_config_set_emlsr_mr: cfg emlsr_mr = 1
+[   38.806402] Line.1385 - AP Band1(MBSS0) ==> wlan_config_set_trans_to: cfg trans_to = 0
+[   38.806498] Line.1406 - AP Band1(MBSS0) ==> wlan_config_set_eml_omn_en: cfg EML OMN enable = 0
+[   38.806590] Line.1432 - AP Band1(MBSS0) ==> wlan_config_set_eht_bw: cfg bw = 3
+[   38.807079] Line.1545 - AP Band1(MBSS0) ==> wlan_config_set_t2lm_nego_support: cfg t2lm_nego_support = 1
+[   38.807174] Line.1566 - Apcli Band1(BSS0) ==> wlan_config_set_t2lm_nego_support: cfg t2lm_nego_support = 1
+[   38.808641] I/F STA (ra0) ==> ApcliMloDisable = 1
+[   38.809478] bss_color_profile_enable: value = 255
+[   38.811322] 7990@NOTICE.CFG80211,rai0,RTMPSetProfileParameters() 8098: [DFS-SLAVE][RTMPSetProfileParameters] fDfsSlaveEn:0
+[   38.811849] twt_ctrl_init()
+[   38.811865] 7990@NOTICE.RSV,rai0,hwifi_start() 372: 
+[   38.811880] mt7990 0000:01:00.0: connac_if_start()
+[   38.811887] WiFi@NOTICE.CFG,UniCmdFwDup11vMbssBcn() 8160: WM DUP BCN = 0
+[   38.812189] WiFi@NOTICE.FW,MtUniCmdFwMbssBcnDup() 9274: (Ret = 0, bWMDup=0)
+[   38.813583] 7990@NOTICE.INIT,rai0,hwifi_start() 425: MAC Init Done!
+[   38.813597] efuse_probe: efuse = 0
+[   38.815341] 7990@NOTICE.HW,rai0,mt7990_get_band_select_from_eeprom() 1175: band_idx:1, band_sel:2
+[   38.815358] [1;33mmt7990 sku: 0 ADIE_76_77_77[m
+[   38.832041] [1;33mmt7990 sku: 0 ADIE_76_77_77[m
+[   38.849095] 7990@NOTICE.HW,rai0,NICReadEEPROMParameters() 524: mac efuse ready done, ignore efuse set to fw.
+[   38.849101] NICReadEEPROMParameters: MacAddrAdj=0x0
+[   38.849108] 7990@ERROR.HW,rai0,antenna_default_reset() 1093: value = 0x24, TxPath = 4, RxPath = 4
+[   38.849112] wlan_config_set_eht_tx_nss: cfg tx_nss = 4
+[   38.849114] wlan_config_set_eht_rx_nss: cfg rx_nss = 4
+[   38.849122] 7990@NOTICE.INIT,rai0,hwifi_start() 442: EEPROM Init Done!
+[   38.849426] 7990@NOTICE.AP,rai0,cfg80211_StateMachineInit() 3184: 
+[   38.849429] ch_switch_monitor_state_machine_init:: enter
+[   38.849431] ch_switch_monitor_cfg_reset:: enter
+[   38.849451] MlmeInit(1882): task_name is RtmpMlmeTask_01
+[   38.850336] WiFi@NOTICE.CFG80211,UNI_Set_SCSEnable_Proc() 4933: : BandIdx=1, SCSEnable=1
+[   38.850647] WiFi@NOTICE.CFG80211,UNI_Set_SCSEnable_Proc() 4942: (Ret = 0_
+[   38.850649] SCS_init(): SCS Default Enable, Ret=0
+[   38.851214] 7990@ERROR.HW,rai0,set_ack_timeout_mode_byband() 12897: CTS/ACK Timeout Range should between [0xFFFF:0]!!
+[   38.851217] 7990@ERROR.HW,rai0,set_datcfg_ack_cts_timeout() 12991: DAT config band(1) cck_timeout Fail!
+[   38.851220] 7990@ERROR.HW,rai0,set_ack_timeout_mode_byband() 12897: CTS/ACK Timeout Range should between [0xFFFF:0]!!
+[   38.851223] 7990@ERROR.HW,rai0,set_datcfg_ack_cts_timeout() 13002: DAT config band(1) ofdm_timeout Fail!
+[   38.851225] 7990@ERROR.HW,rai0,set_ack_timeout_mode_byband() 12897: CTS/ACK Timeout Range should between [0xFFFF:0]!!
+[   38.851228] 7990@ERROR.HW,rai0,set_datcfg_ack_cts_timeout() 13013: DAT config band(1) ofdma_timeout Fail!
+[   38.851454] WiFi@NOTICE.PROTO,wlan_config_set_ht_bw() 64: ht_bw=1
+[   38.851457] WiFi@NOTICE.PROTO,wlan_operate_set_support_ch_width_set() 266: ch_width_set=1
+[   38.851460] WiFi@NOTICE.PROTO,wlan_config_set_vht_bw() 63: vht_bw=2
+[   38.851463] wlan_config_set_eht_bw: cfg bw = 3
+[   38.851464] wlan_config_set_eht_tx_nss: cfg tx_nss = 4
+[   38.851465] wlan_config_set_eht_rx_nss: cfg rx_nss = 4
+[   38.851902] WiFi@NOTICE.RSV,CFG80211_SupBandInit() 740: 80211> RFICType= 7, NumOfChan= 101, ReInit = 1
+[   38.851906] WiFi@NOTICE.RSV,CFG80211_SupBandInit() 742: 80211> Number of rate = 12
+[   38.851927] mt_serv_get_chip_info: 4293
+[   38.851932] [mt_serv_init_test][515]: band_num = 3, band_idx = 1
+[   38.864207] 7990@NOTICE.INIT,rai0,RTMP_COM_IoctlHandle() 1565:  -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_UP
+[   38.864215] WiFi@WARN.CFG,wifi_sys_open() 1006: wdev idx = 0
+[   38.864352] WiFi@NOTICE.HW,MtAsicSetMbssWdevIfAddrGen2() 365: band_idx=1, mbss_idx=0, if_addr =f8:5e:3c:aa:ab:2c
+[   38.864356] 7990@WARN.FW,rai0,wdev_attr_update() 497: (): wdevId0 = f8:5e:3c:aa:ab:2c
+[   38.864444] 7990@WARN.INIT,rai0,hwifi_add_interface() 582: (caller:HcAcquireRadioForWdev+0x28/0x88 [mt_wifi]), wdev(0,rai0).
+[   38.864481] mt7990 0000:01:00.0: connac_if_config_bss(): fw_idx 1, omac_idx 0, wmm_idx 0, band_idx 1
+[   38.864558] 7990@WARN.HIF,rai0,hwifi_update_wdev() 505: (caller:mtk_mac_chip_reset+0xb24/0x1200 [mt_wifi]), wdev(0).
+[   38.864564] 7990@NOTICE.CFG80211,rai0,BuildChannelList() 690: BandIdx = 1, PhyMode = 1201
+[   38.864568] 7990@WARN.CFG80211,rai0,channel_related_info_backup() 529: ChListNum = 0, no need to backup, update from cfg.
+[   38.864584] WiFi@NOTICE.RSV,CFG80211OS_UpdateRegRuleByRegionIdx() 1714: pChDesc2G=0000000000000000, pChDesc5G=00000000948f9c1b, pChDesc6G=0000000000000000
+[   38.864587] WiFi@NOTICE.RSV,cfg80211_clear_band_info() 1686: band_idx=0
+[   38.864590] WiFi@NOTICE.RSV,cfg80211_clear_band_info() 1686: band_idx=3
+[   38.864597] 7990@NOTICE.CFG80211,rai0,BuildChannelList() 727: BandIdx = 1, PhyMode = 1201, ChListNum = 8:
+[   38.864632] 7990@WARN.CFG80211,rai0,RadarStateCheck() 456: [1;33m CHAN_NORMAL_MODE [m 
+[   38.864652] 7990@NOTICE.CFG80211,rai0,radio_operate_init() 75: coex(1), bNeedFallBack(0).
+[   38.864731] 7990@NOTICE.CFG80211,rai0,operate_loader_phy() 492: (caller:wlan_operate_init+0xc0/0x1d8 [mt_wifi]), PhyMode=1201.
+[   38.864735] 7990@NOTICE.CFG80211,rai0,operate_loader_phy() 501: oper_cfg: prim_ch(44), ht_bw(1), extcha(3), vht_bw(2), eht_bw(3), cen_ch_2(0).
+[   38.864820] 7990@ERROR.AP,rai0,UpdateBeaconHandler() 1623: wdev(0) bss not ready (state:0, caller:UpdateBeaconHandler_BPCC+0x3e4/0x1398 [mt_wifi])!!
+[   38.864896] 7990@ERROR.AP,rai0,UpdateBeaconHandler() 1623: wdev(0) bss not ready (state:0, caller:UpdateBeaconHandler_BPCC+0x3e4/0x1398 [mt_wifi])!!
+[   38.864901] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 44
+[   38.870183] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=44, cen_ch=50, eht_cen_ch=0, DBDCIdx=1, Band=1, BW=3, scan=0
+[   38.870188] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=4, ap_bw=0, ap_central_channel=0, reason=0
+[   39.530215] 7990@WARN.AP,apcli0,BcnCheck() 4166: start after 3700 ms (ra0)
+[   39.888107] 7990@NOTICE.MLME,apcli0,ap_peer_auth_req_at_idle_action() 621: received auth req from 78:11:dc:aa:30:2a (alg=0, seq=1, status=0)...
+[   39.888147] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(N): mld_sta_idx=65535, wcid=1, hw_sta=00000000f4d26f38
+[   39.888211] 7990@NOTICE.MLME,apcli0,ap_peer_auth_simple_rsp_gen_and_send() 534: send auth resp to 78:11:dc:aa:30:2a (alg=0, seq=2, status=0)...
+[   39.890032] 7990@NOTICE.MLME,apcli0,ap_cmm_peer_assoc_req_action() 1860: received assoc req from 78:11:dc:aa:30:2a  ...
+[   39.890035] [ap_cmm_peer_assoc_req_action - 1898] assoc case set to zero
+[   39.890060] WiFi@NOTICE.SEC,PMF_RsnCapableValidation() 948: [PMF] set pSecConfigEntry->PmfCfg.igtk_cipher to self_igtk_cipher
+[   39.890266] 7990@NOTICE.MLME,apcli0,ap_cmm_peer_assoc_req_action() 3452: send assoc resp to 78:11:dc:aa:30:2a (status=0)...
+[   40.200692] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=44, control_ch2=0, central_chl=50, eht_cen_ch=0, BW=3.
+[   40.200697] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=f, BandIdx=1, scan=0, Channel_Band=1, TXStream=4, RXStream=4.
+[   40.203062] UniEventEDCCAThresholdProc: fginit = 1, EDCCA Threshold=187, 190, 193, 200
+[   40.203625] 7990@NOTICE.CFG80211,rai0,operate_loader_phy() 606: Channel updating done. prim_ch(44), bw(3), ch_chg_cnt(1)!
+[   40.203753] WiFi@WARN.PROTO,dump_ht_cap() 36: Caller: wlan_operate_init+0xc8/0x1d8 [mt_wifi]
+[   40.203793] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(G): mld_sta_idx=65535, wcid=1026, hw_sta=000000000df93b13
+[   40.204960] 7990@NOTICE.FW,apcli0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x1/0x0 (1/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   40.204964] 7990@NOTICE.FW,apcli0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   40.207044] WiFi@NOTICE.FW,StaRecAutoRateParamSet() 514: wcid(1), PhyMode(78), RateMode(7), 256QAM(2), AmpduF(3), MaxPhyCfg: MODE(2) Flag(0) STBC(0) GI(0) BW(0) ldpc(1) MCS(7) Nss(0)
+[   40.207379] 7990@WARN.HW,rai0,AsicRadioOnOffCtrl() 1845: DbdcIdx=1 RadioOn
+[   40.207840] 7990@WARN.CFG80211,rai0,ApAutoChannelAtBootUp() 310: ----------------->
+[   40.209273] 7990@NOTICE.CFG80211,rai0,nl80211_send_acs_complete_event() 5109: 
+[   40.209392] WiFi@NOTICE.CFG80211,wlan_operate_set_prim_ch() 766: (caller:ApAutoChannelAtBootUp+0x13c/0x540 [mt_wifi]), wdev_idx:0.
+[   40.209478] 7990@NOTICE.CFG80211,rai0,operate_loader_phy() 492: (caller:wlan_operate_set_prim_ch+0x5c/0x110 [mt_wifi]), PhyMode=1201.
+[   40.209483] 7990@NOTICE.CFG80211,rai0,operate_loader_phy() 501: oper_cfg: prim_ch(44), ht_bw(1), extcha(3), vht_bw(2), eht_bw(3), cen_ch_2(0).
+[   40.209518] WiFi@ERROR.HW,UniCmdTxPwrShowInfo() 23961: u1BandIdx 1, ucTxPowerInfoCatg = 2
+[   40.209696] 7990@NOTICE.CFG80211,rai0,zero_wait_dfs_switch_ch() 1226: (caller:ApAutoChannelAtBootUp+0x430/0x540 [mt_wifi]), outband ch 0, ch_stat 0
+[   40.209774] 7990@WARN.RSV,rai0,APStartUpForMbss() 1037: ===>(caller:ap_inf_open+0x20c/0x668 [mt_wifi]), mbss_idx:0, CfgMode:0
+[   40.209783] nss_cap->max_nss = 4, nss_cap->max_path =(tx:4 /rx:4)!!
+[   40.209797] 7990@NOTICE.CFG80211,rai0,BuildChannelList() 690: BandIdx = 1, PhyMode = 1201
+[   40.209888] WiFi@WARN.PROTO,dump_ht_cap() 36: Caller: dump_ht_cap+0x10/0x20 [mt_wifi]
+[   40.209894] 7990@WARN.CFG80211,rai0,APOverlappingBSSScan() 4889: not support 2G PhyMode, return!
+[   40.209910] 7990@NOTICE.MLO,rai0,eht_ap_mld_create() 6914: ===> Create AP MLD, grp(1), addr(da:5e:3c:aa:ab:2c)
+[   40.209915] WiFi@NOTICE.MLO,bss_mngr_con_mld_group_create() 1970: ===> mld_grp(1), mld_addr(da:5e:3c:aa:ab:2c)
+[   40.209995] 7990@NOTICE.MLO,rai0,hwifi_add_mld() 819: (caller:HcAcquireMldRsc+0x2c/0x90 [mt_wifi]) type(2), idx(1), addr(da:5e:3c:aa:ab:2c).
+[   40.210026] WiFi@NOTICE.MLO,bss_mngr_con_mld_group_create() 2083: 	Create mld_grp(1->1) w/ type(2) addr(da:5e:3c:aa:ab:2c) success
+[   40.210030] 7990@NOTICE.MLO,rai0,eht_ap_mld_create() 6939: 	Create AP MLD Success, grp(1)(ML:1), type(2), addr(da:5e:3c:aa:ab:2c)
+[   40.210106] WiFi@WARN.RSV,ap_link_up() 9285: (caller:wdev_do_linkup+0x48/0x78 [mt_wifi]), wdev(0)
+[   40.210110] 7990@WARN.CFG,rai0,wifi_sys_linkup() 1465: wdev idx = 0
+[   40.210215] WiFi@NOTICE.AP,bssinfo_feature_decision() 643: wdev(0) is legacy bss, func_idx=0, ROLE=0
+[   40.210221] WiFi@ERROR.MLO,bss_mngr_dev_reg() 1482: wdev(0)
+[   40.210227] WiFi@ERROR.MLO,bss_mngr_fill_bss_info() 1387: dev_type UNDEFINED
+[   40.210396] WiFi@NOTICE.MLO,bss_mngr_fill_bss_info() 1447: phymode=1201, reg_time=4035079296, hw_tsf=23640783
+[   40.210401] WiFi@ERROR.MLO,bss_mngr_con_dev_reg() 3110: ===> netdev(15) (rai0)
+[   40.210404] WiFi@WARN.MLO,bss_idx_aquire() 67: : found non-occupied bssidx:1
+[   40.210406] WiFi@ERROR.MLO,bss_idx_aquire() 75: : bssidx [1]
+[   40.210431] WiFi@ERROR.MLO,bss_mngr_con_sync_entry() 2948: [1]
+[   40.210435] WiFi@NOTICE.MLO,bss_mngr_con_mld_group_add_link() 2386: ===> wdev(rai0) requests to join mld_grp(1)
+[   40.210513] 7990@NOTICE.MLO,rai0,hwifi_mld_add_link() 859: (caller:HcAcquireMldLinkRsc+0x2c/0x90 [mt_wifi]) if(rai0), idx(1).
+[   40.210522] mt7990 0000:01:00.0: connac_if_mld_add_link(): grp 1, mat 17, mldmat 0, remap 0
+[   40.210526] WiFi@WARN.MLO,tid_map_sanity() 1743: [1] unmapped_tid(0x0)
+[   40.210531] WiFi@NOTICE.MLO,bss_mngr_event_bss_attr_update() 51: ===> rai0
+[   40.210535] wlan_config_set_t2lm_nego_support: cfg t2lm_nego_support = 1
+[   40.210538] wlan_config_set_emlsr_mr: cfg emlsr_mr = 1
+[   40.210541] wlan_config_set_trans_to: cfg trans_to = 0
+[   40.210543] wlan_config_set_eml_omn_en: cfg EML OMN enable = 0
+[   40.210546] WiFi@NOTICE.MLO,bss_mngr_con_mld_group_add_link() 2494: 	bss_idx(1,rai0) join mld_grp(1) success
+[   40.210633] 7990@ERROR.AP,rai0,UpdateBeaconHandler() 1623: wdev(0) bss not ready (state:2, caller:bss_mngr_event_bcn_update+0x40/0xa0 [mt_wifi])!!
+[   40.210646] WiFi@ERROR.MLO,bss_mngr_con_dev_reg() 3187: <=== entry = 000000001f88243a(bss_idx_tx = 1) (dev_cnt = 2)
+[   40.210651] WiFi@NOTICE.MLO,bss_mngr_con_sync_ml_probe_rsp_per_sta_profile() 5382: rai0(active) sync probe rsp STA-Pf, mlo:1, cnt:1
+[   40.210698] WiFi@NOTICE.MLO,wifi_sys_bss_query_mld() 2022: (in):lk_cnt=1,lk_id=1,mld_gp_idx=1,mld_addr=da:5e:3c:aa:ab:2c
+[   40.210701] WiFi@NOTICE.MLO,wifi_sys_bss_query_mld() 2037: (out):mld_gp_idx=1,mld_addr=da:5e:3c:aa:ab:2c
+[   40.210706] WiFi@NOTICE.CFG,mtk_cfg80211_send_bss_ml_event() 14479: ml_event ===> event(0) grp(1) link(1) addr(da:5e:3c:aa:ab:2c)
+[   40.210893] 7990@NOTICE.FW,rai0,UniCmdBssInfoRate() 360: Bssid:(f8:5e:3c:aa:ab:2c),BcRate=32768,McRate=32768,ucPreamMode=1,BcFRateIdx=8,McFRateIdx=8
+[   40.210896] 7990@NOTICE.FW,rai0,UniCmdBssInfoRate() 362: ucMloCPFixedRateIdx=8
+[   40.210905] 7990@NOTICE.FW,rai0,UniCmdBssInfoRate() 360: Bssid:(f8:5e:3c:aa:ab:2c),BcRate=32768,McRate=32768,ucPreamMode=1,BcFRateIdx=8,McFRateIdx=8
+[   40.210907] 7990@NOTICE.FW,rai0,UniCmdBssInfoRate() 362: ucMloCPFixedRateIdx=8
+[   40.210913] 7990@NOTICE.FW,rai0,UniCmdBssInfoMld() 1432: if_addr(f8:5e:3c:aa:ab:2c),mld_group_idx=1,T=26,L=16,GrpMldId=0,MldIdx=17,RemaIdx=0,MldAddr=da:5e:3c:aa:ab:2c
+[   40.212318] WiFi@ERROR.HW,UniCmdTxPowerSKUCtrl() 23516: BandIdx 1, tx_pwr_sku_en: 0
+[   40.212885] WiFi@ERROR.BF,UniCmdTxBfBackoffCtrl() 23744: BandIdx 1, fgTxBFBackoffEn: 0
+[   40.214102] WiFi@ERROR.HW,UniCmdTxPowerPercentCtrl() 23592: BandIdx 1, fgTxPowerPercentEn: 1
+[   40.214703] WiFi@ERROR.HW,UniCmdTxPowerDropCtrl() 23668: BandIdx 1, cPowerDropLevel: 2
+[   40.215245] u1CCKTxStream = 4 
+[   40.215246] set wrong parameters
+[   40.233525] WiFi@WARN.FW,UniCmdResultRsp() 69: BUG::UniCmdResult.u4Status = 0xc0000001 cid: = 0x37
+[   40.235174] UniEventEDCCAThresholdProc: fginit = 1, EDCCA Threshold=187, 190, 193, 200
+[   40.235358] WiFi@ERROR.HW,UniCmdTxPwrShowInfo() 23961: u1BandIdx 1, ucTxPowerInfoCatg = 2
+[   40.235722] 7990@WARN.CFG,rai0,set_pp_on_off_ctrl() 190: band(1),enable(1) success!
+[   40.235742] mtk_ppe_dev_register_hook : ineterface rai0 register (2)
+[   40.586249] mtk_soc_eth 15100000.ethernet eth2: Link is Up - 10Gbps/Full - flow control off
+[   40.587578] br-wan: port 1(eth1) entered disabled state
+[   40.587770] br-lan: port 1(eth2) entered blocking state
+[   40.587776] br-lan: port 1(eth2) entered forwarding state
+[   40.591259] br-lan: port 8(rai0) entered blocking state
+[   40.591266] br-lan: port 8(rai0) entered disabled state
+[   40.591457] device rai0 entered promiscuous mode
+[   40.591514] br-lan: port 8(rai0) entered blocking state
+[   40.591518] br-lan: port 8(rai0) entered forwarding state
+[   40.592259] CFG80211DRV_RtsThresholdAdd =====>threshold 1048575
+[   40.592263] CFG80211DRV_RtsThresholdAdd =====>threshold 1048575
+[   40.592278] CFG80211DRV_FragThresholdAdd =====>operate: frag_thld=2346
+[   40.592279] CFG80211DRV_FragThresholdAdd =====>operate: frag_thld=2346
+[   40.593766] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_static_info() 9662: ifname: rax0, iftype: 3
+[   40.593774] 7990@ERROR.CFG,rax0,mtk_cfg80211_get_static_info() 9673: failed - [ERROR] Interface is down .
+[   40.593853] 7990@ERROR.PROTO,rax0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: rax0 bandIdx = 2 ,DevOwnRole 0x0
+[   40.593882] 7990@ERROR.PROTO,rax0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: rax0 bandIdx = 2 ,DevOwnRole 0x20
+[   40.593912] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_cap() 12456: ifname: rax0
+[   40.593915] 7990@ERROR.CFG,rax0,mtk_cfg80211_get_cap() 12475: failed - [ERROR] Interface is down .
+[   40.593947] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_cap() 12456: ifname: rax0
+[   40.593950] 7990@ERROR.CFG,rax0,mtk_cfg80211_get_cap() 12475: failed - [ERROR] Interface is down .
+[   40.593981] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_cap() 12456: ifname: rax0
+[   40.593983] 7990@ERROR.CFG,rax0,mtk_cfg80211_get_cap() 12475: failed - [ERROR] Interface is down .
+[   40.594011] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_cap() 12456: ifname: rax0
+[   40.594014] 7990@ERROR.CFG,rax0,mtk_cfg80211_get_cap() 12475: failed - [ERROR] Interface is down .
+[   40.594092] 7990@ERROR.CFG,rax0,mtk_cfg80211_get_runtime_info() 9544: failed - [ERROR] Interface is down .
+[   40.594124] 7990@ERROR.CFG,rax0,mtk_cfg80211_get_runtime_info() 9544: failed - [ERROR] Interface is down .
+[   40.594166] 7990@ERROR.CFG,rax0,mtk_cfg80211_get_runtime_info() 9544: failed - [ERROR] Interface is down .
+[   40.594308] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_statistic() 10285: ifname: rax0
+[   40.594313] 7990@ERROR.CFG,rax0,mtk_cfg80211_get_statistic() 10304: failed - [ERROR] Interface is down .
+[   40.594348] 7990@ERROR.CFG,rax0,mtk_cfg80211_get_runtime_info() 9544: failed - [ERROR] Interface is down .
+[   40.594379] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_statistic() 10285: ifname: rax0
+[   40.594382] 7990@ERROR.CFG,rax0,mtk_cfg80211_get_statistic() 10304: failed - [ERROR] Interface is down .
+[   40.594465] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_static_info() 9662: ifname: apclii0, iftype: 2
+[   40.594469] 7990@ERROR.CFG,rai0,mtk_cfg80211_get_static_info() 9673: failed - [ERROR] Interface is down .
+[   40.594497] update_map_dev_info() invalid parameters, buf:000000004d981359, buflen:32, sizeof(*devinfo):31
+[   40.594498] 7990@NOTICE.CFG,rai0,mtk_cfg80211_ft_ie() 12615: ifname: rai0
+[   40.594503] 7990@NOTICE.CFG,rai0,parse_hostapd_ftie() 12564: OwnMac: f85e3caaab2c
+[   40.594508] 7990@ERROR.CFG,rai0,parse_hostapd_ftie() 12596: 11R disabled in driver
+[   40.594533] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_static_info() 9662: ifname: rai0, iftype: 3
+[   40.594538] 7990@NOTICE.CFG,rai0,mtk_cfg80211_reply_wapp_support_ver() 8315: get MTK_NL80211_VENDOR_ATTR_GET_STATIC_INFO_WAPP_SUPPORT_VER
+[   40.594573] update_map_dev_info() invalid parameters, buf:000000006c12558a, buflen:32, sizeof(*devinfo):31
+[   40.594618] WiFi@NOTICE.RSV,CFG80211_OpsStartAp() 2741: 80211> ==>
+[   40.594660] WiFi@NOTICE.RSV,CFG80211DRV_OpsBeaconAdd() 1484: 80211> ==>
+[   40.594665] WiFi@NOTICE.RSV,CFG80211DRV_OpsBeaconAdd() 1494: 80211> ==> apidx=0, tr_tb_idx=1026
+[   40.594786] 7990@NOTICE.SEC,rai0,CFG80211DRV_UpdateApSettingFromBeacon() 462: hostapd config pwe_method:0 and saepk is :0
+[   40.594791] 7990@NOTICE.AP,rai0,CFG80211DRV_UpdateApSettingFromBeacon() 488: beacon capability info field: 1011
+[   40.594793] RRM : len 5 eid 70 octet 114
+[   40.594794] bit_nr bit_lci: 1 0
+[   40.594820] 7990@ERROR.AP,rai0,CFG80211DRV_UpdateApSettingFromBeacon() 884: MDIE is NULL
+[   40.594831] 7990@NOTICE.AP,rai0,cfg80211_ap_parse_rsn_ie() 3240: WPA2 case
+[   40.594840] 7990@NOTICE.AP,rai0,CFG80211_ParseBeaconIE() 1499: =>wpa(1 0 0), AuthMode=WPA3PSK, Cipher(AES AES), MFPC=0, MFPR=0, igtk_cipher=0x0
+[   40.594847] 7990@NOTICE.AP,rai0,CFG80211DRV_UpdateApSettingFromBeacon() 1103: security (akm, pcipher, gcipher, igtk):  0x2000, 0x20, 0x20, 0x200
+[   40.794871] WiFi@NOTICE.AP,bssinfo_feature_decision() 643: wdev(0) is legacy bss, func_idx=0, ROLE=0
+[   40.794888] 7990@NOTICE.FW,rai0,UniCmdBssInfoRate() 360: Bssid:(f8:5e:3c:aa:ab:2c),BcRate=32768,McRate=32768,ucPreamMode=1,BcFRateIdx=8,McFRateIdx=8
+[   40.794891] 7990@NOTICE.FW,rai0,UniCmdBssInfoRate() 362: ucMloCPFixedRateIdx=8
+[   40.794904] 7990@NOTICE.FW,rai0,UniCmdBssInfoRate() 360: Bssid:(f8:5e:3c:aa:ab:2c),BcRate=32768,McRate=32768,ucPreamMode=1,BcFRateIdx=8,McFRateIdx=8
+[   40.794907] 7990@NOTICE.FW,rai0,UniCmdBssInfoRate() 362: ucMloCPFixedRateIdx=8
+[   40.794913] 7990@NOTICE.FW,rai0,UniCmdBssInfoMld() 1432: if_addr(f8:5e:3c:aa:ab:2c),mld_group_idx=1,T=26,L=16,GrpMldId=0,MldIdx=17,RemaIdx=0,MldAddr=da:5e:3c:aa:ab:2c
+[   40.795354] WiFi@ERROR.MLO,bss_mngr_dev_reg() 1482: wdev(0)
+[   40.795359] WiFi@ERROR.MLO,bss_mngr_fill_bss_info() 1387: dev_type UNDEFINED
+[   40.796275] WiFi@NOTICE.MLO,bss_mngr_fill_bss_info() 1447: phymode=1201, reg_time=4035663296, hw_tsf=24231623
+[   40.796283] WiFi@ERROR.MLO,bss_mngr_con_dev_reg() 3110: ===> netdev(15) (rai0)
+[   40.796286] WiFi@WARN.MLO,bss_mngr_con_dev_reg() 3116: 	entry exist!!
+[   40.796292] WiFi@ERROR.MLO,bss_mngr_con_ie_buf_alloc() 1484: allocated (MLD:00000000d8919580)
+[   40.796302] WiFi@ERROR.MLO,bss_mngr_con_sync_entry() 2948: [1]
+[   40.796306] WiFi@NOTICE.MLO,bss_mngr_con_mld_group_add_link() 2386: ===> wdev(rai0) requests to join mld_grp(1)
+[   40.796310] WiFi@ERROR.MLO,bss_mngr_con_mld_group_add_link() 2402: 	entry(rai0) has already affiliated with mld_grp(1)
+[   40.796341] WiFi@ERROR.MLO,bss_mngr_con_dev_reg() 3187: <=== entry = 000000001f88243a(bss_idx_tx = 1) (dev_cnt = 2)
+[   40.796358] WiFi@NOTICE.MLO,bss_mngr_con_sync_ml_probe_rsp_per_sta_profile() 5382: rai0(active) sync probe rsp STA-Pf, mlo:1, cnt:1
+[   40.796441] 7990@ERROR.PROTO,rai0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: rai0 bandIdx = 1 ,DevOwnRole 0x0
+[   40.796605] 7990@ERROR.PROTO,rai0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: rai0 bandIdx = 1 ,DevOwnRole 0x20
+[   40.796674] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_cap() 12456: ifname: rai0
+[   40.796679] 7990@NOTICE.AP,rai0,mtk_cfg80211_reply_misc_cap() 8697: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MISC_CAP
+[   40.800995] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_cap() 12456: ifname: rai0
+[   40.801010] 7990@NOTICE.AP,rai0,mtk_cfg80211_reply_eht_cap() 8914: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_EHT_CAP
+[   40.801158] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_cap() 12456: ifname: rai0
+[   40.801165] 7990@ERROR.AP,rai0,mtk_cfg80211_reply_mlo_cap() 9021: mld_type = 2 mld_grp 1
+[   40.801169] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 0 StatPunc Support 1, MloEnable 1
+[   40.801175] 7990@ERROR.AP,rai0,mtk_cfg80211_reply_mlo_cap() 9025: non-mld type mld_type = 2, mld_grp 1 or sta 1
+[   40.801178] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 1 StatPunc Support 1, MloEnable 0
+[   40.801181] 7990@NOTICE.AP,rai0,mtk_cfg80211_reply_mlo_cap() 9068: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MLO_CAP
+[   40.801301] 7990@NOTICE.CFG80211,rai0,mtk_cfg80211_reply_wapp_chan_list() 7653: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_CHAN_LIST
+[   40.801368] 7990@NOTICE.CFG80211,rai0,mtk_cfg80211_reply_wapp_nop_chan_list() 7710: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_NOP_CHANNEL_LIST
+[   40.801424] 7990@NOTICE.CFG,rai0,mtk_cfg80211_reply_wapp_op_class() 7744: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_OP_CLASS
+[   40.801564] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_statistic() 10285: ifname: rai0
+[   40.801567] 7990@NOTICE.CFG,rai0,mtk_cfg80211_reply_wapp_ap_metrics() 8273: get MTK_NL80211_VENDOR_ATTR_GET_AP_METRICS
+[   40.801633] 7990@NOTICE.CFG,rai0,mtk_cfg80211_reply_wapp_max_num_of_sta() 7627: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_MAX_NUM_OF_STA
+[   40.801770] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_statistic() 10285: ifname: rai0
+[   40.801773] 7990@NOTICE.CFG,rai0,mtk_cfg80211_reply_wapp_tx_pwr() 8177: get MTK_NL80211_VENDOR_ATTR_GET_TX_PWR
+[   40.802072] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_static_info() 9662: ifname: apcli0, iftype: 2
+[   40.802075] 7990@ERROR.CFG,ra0,mtk_cfg80211_get_static_info() 9673: failed - [ERROR] Interface is down .
+[   40.802098] device eth1 left promiscuous mode
+[   40.802103] update_map_dev_info() invalid parameters, buf:00000000acd19443, buflen:32, sizeof(*devinfo):31
+[   40.802139] br-wan: port 1(eth1) entered disabled state
+[   40.820940] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_static_info() 9662: ifname: ra0, iftype: 3
+[   40.820949] 7990@NOTICE.CFG,ra0,mtk_cfg80211_reply_wapp_support_ver() 8315: get MTK_NL80211_VENDOR_ATTR_GET_STATIC_INFO_WAPP_SUPPORT_VER
+[   40.821073] update_map_dev_info() invalid parameters, buf:0000000029ff9047, buflen:32, sizeof(*devinfo):31
+[   40.821175] 7990@ERROR.PROTO,ra0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: ra0 bandIdx = 0 ,DevOwnRole 0x0
+[   40.821209] 7990@ERROR.PROTO,ra0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: ra0 bandIdx = 0 ,DevOwnRole 0x20
+[   40.821243] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_cap() 12456: ifname: ra0
+[   40.821248] 7990@NOTICE.AP,ra0,mtk_cfg80211_reply_misc_cap() 8697: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MISC_CAP
+[   40.934610] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_cap() 12456: ifname: ra0
+[   40.934625] 7990@NOTICE.AP,ra0,mtk_cfg80211_reply_vht_cap() 8809: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_VHT_CAP
+[   40.934679] 7990@NOTICE.CFG,rai0,mtk_cfg80211_set_hide_ssid() 135: mwctl:set bss(0) HideSSID=0
+[   40.934753] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_cap() 12456: ifname: ra0
+[   40.934763] 7990@NOTICE.AP,ra0,mtk_cfg80211_reply_eht_cap() 8914: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_EHT_CAP
+[   40.934833] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_cap() 12456: ifname: ra0
+[   40.934845] 7990@ERROR.AP,ra0,mtk_cfg80211_reply_mlo_cap() 9021: mld_type = 1 mld_grp 17
+[   40.934848] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 0 StatPunc Support 1, MloEnable 1
+[   40.934858] 7990@ERROR.AP,ra0,mtk_cfg80211_reply_mlo_cap() 9025: non-mld type mld_type = 1, mld_grp 17 or sta 1
+[   40.934861] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 1 StatPunc Support 1, MloEnable 0
+[   40.934865] 7990@NOTICE.AP,ra0,mtk_cfg80211_reply_mlo_cap() 9068: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MLO_CAP
+[   40.934983] 7990@NOTICE.CFG80211,ra0,mtk_cfg80211_reply_wapp_chan_list() 7653: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_CHAN_LIST
+[   40.935055] 7990@NOTICE.CFG80211,ra0,mtk_cfg80211_reply_wapp_nop_chan_list() 7710: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_NOP_CHANNEL_LIST
+[   40.935061] WiFi@NOTICE.MLME,ap_mlme_broadcast_deauth_req_action() 256: send broadcast de-auth req, reason=2
+[   40.935110] 7990@NOTICE.SEC,rai0,PMF_PerformTxFrameAction() 1730: [PMF] : GROUP_ROBUST_FRAME
+[   40.935122] 7990@NOTICE.CFG,ra0,mtk_cfg80211_reply_wapp_op_class() 7744: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_OP_CLASS
+[   40.935254] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_statistic() 10285: ifname: ra0
+[   40.935258] 7990@NOTICE.CFG,ra0,mtk_cfg80211_reply_wapp_ap_metrics() 8273: get MTK_NL80211_VENDOR_ATTR_GET_AP_METRICS
+[   40.935306] 7990@NOTICE.CFG,ra0,mtk_cfg80211_reply_wapp_max_num_of_sta() 7627: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_MAX_NUM_OF_STA
+[   40.935346] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_statistic() 10285: ifname: ra0
+[   40.935350] 7990@NOTICE.CFG,ra0,mtk_cfg80211_reply_wapp_tx_pwr() 8177: get MTK_NL80211_VENDOR_ATTR_GET_TX_PWR
+[   40.935958] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(ff:ff:ff:ff:ff:ff) Wcid=0x402/0x0 (1026/0), Cipher=0x20, BssIndex=0x0, Operation=0
+[   40.935964] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x1, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   40.936253] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(ff:ff:ff:ff:ff:ff) Wcid=0x402/0x0 (1026/0), Cipher=0x220, BssIndex=0x0, Operation=0
+[   40.936257] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x1, igtk_key_idx=0x4, bigtk_key_idx=0x0
+[   40.937236] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x1/0x0 (1/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   40.937244] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   40.937506] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x1/0x0 (1/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   40.937510] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   40.951737] 7990@WARN.AP,rai0,BeaconTransmitRequired() 136: Bcn Tx is blocked!
+[   40.960732] 7990@ERROR.PROTO,rax0,mtk_cfg80211_bss_set_handler() 11429: pAd not start up. return!!
+[   40.964272] mtk_soc_eth 15100000.ethernet eth1: PHY [mdio-bus:0f] driver [MediaTek MT798x 2.5GbE PHY]
+[   40.964284] mtk_soc_eth 15100000.ethernet eth1: configuring for phy/xgmii link mode
+[   40.964656] br-wan: port 1(eth1) entered blocking state
+[   40.964661] br-wan: port 1(eth1) entered disabled state
+[   40.964802] device eth1 entered promiscuous mode
+[   40.973251] br-lan: port 9(apclii0) entered blocking state
+[   40.973259] br-lan: port 9(apclii0) entered disabled state
+[   40.973490] device apclii0 entered promiscuous mode
+[   40.979561] WiFi@ERROR.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2532: UNSUPPORT mgmt frame type mask: 0x800 for intf apclii0
+[   40.979588] WiFi@NOTICE.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2528: ACTION frame was registered for intf apclii0
+[   40.979917] 7990@NOTICE.INIT,rai0,RTMP_COM_IoctlHandle() 1592: -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_INIT
+[   40.979923] 7990@NOTICE.INIT,rai0,RTMP_COM_IoctlHandle() 1565:  -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_UP
+[   40.979933] WiFi@NOTICE.PROTO,wlan_config_set_ht_bw() 64: ht_bw=1
+[   40.979937] WiFi@NOTICE.PROTO,wlan_operate_set_support_ch_width_set() 266: ch_width_set=1
+[   40.979940] WiFi@NOTICE.PROTO,wlan_config_set_vht_bw() 63: vht_bw=2
+[   40.979943] wlan_config_set_eht_bw: cfg bw = 3
+[   40.979945] wlan_config_set_eht_tx_nss: cfg tx_nss = 4
+[   40.979947] wlan_config_set_eht_rx_nss: cfg rx_nss = 4
+[   40.979959] WiFi@WARN.CFG,wifi_sys_open() 1006: wdev idx = 1
+[   40.980091] 7990@WARN.FW,rai0,wdev_attr_update() 511: wdevId1 = fe:5e:3c:aa:ab:2c
+[   40.980181] 7990@WARN.INIT,rai0,hwifi_add_interface() 582: (caller:HcAcquireRadioForWdev+0x28/0x88 [mt_wifi]), wdev(1,apclii0).
+[   40.980227] mt7990 0000:01:00.0: connac_if_config_bss(): fw_idx 2, omac_idx 1, wmm_idx 3, band_idx 1
+[   40.980322] 7990@WARN.HIF,rai0,hwifi_update_wdev() 505: (caller:mtk_mac_chip_reset+0xb24/0x1200 [mt_wifi]), wdev(1).
+[   40.980330] 7990@NOTICE.CFG80211,rai0,BuildChannelList() 690: BandIdx = 1, PhyMode = 1201
+[   40.980364] 7990@NOTICE.CFG80211,rai0,radio_operate_init() 75: coex(1), bNeedFallBack(0).
+[   40.980461] 7990@NOTICE.CFG80211,rai0,operate_loader_phy() 492: (caller:wlan_operate_init+0xc0/0x1d8 [mt_wifi]), PhyMode=1201.
+[   40.980467] 7990@NOTICE.CFG80211,rai0,operate_loader_phy() 501: oper_cfg: prim_ch(44), ht_bw(1), extcha(3), vht_bw(2), eht_bw(3), cen_ch_2(0).
+[   40.980685] WiFi@WARN.PROTO,dump_ht_cap() 36: Caller: wlan_operate_init+0xc8/0x1d8 [mt_wifi]
+[   40.980728] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(G): mld_sta_idx=65535, wcid=1027, hw_sta=00000000263361de
+[   40.980739] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(G): mld_sta_idx=65535, wcid=1028, hw_sta=000000000188c2f0
+[   40.982747] WiFi@WARN.PROTO,dump_ht_cap() 36: Caller: dump_ht_cap+0x10/0x20 [mt_wifi]
+[   40.982780] mtk_ppe_dev_register_hook : ineterface apclii0 register (3)
+[   40.982941] br-lan: port 9(apclii0) entered blocking state
+[   40.982946] br-lan: port 9(apclii0) entered forwarding state
+[   40.983073] br-lan: port 9(apclii0) entered disabled state
+[   40.983766] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(78:11:dc:aa:30:2a) Wcid=0x1/0x0 (1/0), Cipher=0x20, BssIndex=0x0, Operation=0
+[   40.983774] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   41.019972] 7990@NOTICE.INIT,rai0,RTMP_COM_IoctlHandle() 1580:  -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_DOWN
+[   41.020114] WiFi@WARN.CLIENT,DoActionBeforeDownIntf() 923: caller:sta_inf_close+0x40/0x178 [mt_wifi], wdev(0)
+[   41.020128] 7990@NOTICE.MLME,rai0,sta_auth_send_deauth_frame() 1066: DEAUTH - Send DE-AUTH request, reason=3
+[   41.020147] 7990@NOTICE.CFG,rai0,sta_ifdown_fsm_reset() 740: sta idx [0].
+[   41.020432] WiFi@WARN.CFG,wifi_sys_close() 1065: wdev idx = 1
+[   41.020837] mt7990 0000:01:00.0: mtk_hwctrl_sta_free(G): mld_sta_idx=65535, wcid=1028, hw_sta=000000000188c2f0
+[   41.020862] mt7990 0000:01:00.0: mtk_hwctrl_sta_free(G): mld_sta_idx=65535, wcid=1027, hw_sta=00000000263361de
+[   41.062290] 7990@NOTICE.INIT,rai0,RTMP_COM_IoctlHandle() 1603: -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_DEINIT
+[   41.062301] extif_put_dev(apclii0)
+[   41.062304] mtk_ppe_dev_unregister_hook : ineterface apclii0 set null (3)
+[   41.062579] br-lan: port 9(apclii0) entered disabled state
+[   41.078539] WiFi@NOTICE.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2528: ACTION frame was registered for intf rax0
+[   41.078653] WiFi@ERROR.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2532: UNSUPPORT mgmt frame type mask: 0x800 for intf rax0
+[   41.078667] WiFi@ERROR.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2532: UNSUPPORT mgmt frame type mask: 0x5 for intf rax0
+[   41.078696] WiFi@NOTICE.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2523: PROBE frame was registered for intf rax0
+[   41.078774] 7990@NOTICE.INIT,rax0,RTMP_COM_IoctlHandle() 1592: -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_INIT
+[   41.078780] get_dev_l2profile: Band2: profile path=/etc/wireless/mediatek/mt7990.b2.dat
+[   41.078838] RtmpMgmtTaskInit(956): task_name is RtmpCmdQTask_02
+[   41.078895] WscThreadInit(11511): task_name is RtmpWscTask_02
+[   41.078939] bcn_bpcc_TaskInit(3835): task_name is BPCCCmdQTask_02
+[   41.078968] ser_init(313): task_name is ser_task_02
+[   41.079071] 7990@WARN.RX,rax0,UserCfgInit() 973: [DPP]: Gas DL List Init!
+[   41.079456] get_dev_l2profile: Band2: profile path=/etc/wireless/mediatek/mt7990.b2.dat
+[   41.080983] 7990@ERROR.CFG,rax0,RTMPWirelessModeCfg() 354: Init: BSS0 PhyMode=2480
+[   41.081111] 7990@WARN.CFG80211,rax0,auto_ch_select_set_cfg() 4092: AutoChannelAtBootup=1, AutoChannelAlg = 3
+[   41.081211] [42m: PartialScanACS=1 [m
+[   41.081313] [42m: ScanningDwell=150 [m
+[   41.081414] [42m: RestoreDwell=200 [m
+[   41.081515] [42m: ScanningChNum=1 [m
+[   41.081616] [42m: ChUtilThr=50 [m
+[   41.081716] [42m: StaNumThr=5 [m
+[   41.088008] configure(rax0)bVLAN_Tag=1
+[   41.090674] 7990@ERROR.CFG,rax0,RTMPSetProfileParameters() 6414: DfsZeroWaitBandidx=1
+[   41.091846] 7990@NOTICE.CFG,rax0,RTMPSetProfileParameters() 6610: ACSCheckTime[2]=60 seconds
+[   41.094250] WiFi@NOTICE.CFG,RTMPSetProfileParameters() 6829: IEEE80211H=1
+[   41.097754] 7990@ERROR.SEC,rax0,Set_PMFMFPC_Proc() 2178: [PMF] :: apidx=0, Desired MFPC=1
+[   41.100340] WiFi@ERROR.SEC,Set_ApCliPMFMFPC_Proc() 2547: [PMF]: MFPC=0, MFPR=0, SHA256=0
+[   41.100441] WiFi@ERROR.SEC,Set_ApCliPMFMFPR_Proc() 2611: [PMF]: MFPC=0, MFPR=0, SHA256=0
+[   41.100605] 7990@ERROR.CFG,rax0,rtmp_read_ap_client_from_file() 1092: APCLI[0] ApCliMuMimoDlEnable = 0
+[   41.100629] 7990@ERROR.CFG,rax0,rtmp_read_ap_client_from_file() 1111: APCLI[0] ApCliMuMimoUlEnable = 0
+[   41.102101] WiFi@NOTICE.PROTO,wlan_config_set_ht_bw() 64: ht_bw=1
+[   41.102105] WiFi@NOTICE.PROTO,wlan_operate_set_support_ch_width_set() 266: ch_width_set=1
+[   41.102147] wlan_config_set_eht_tx_nss: cfg tx_nss = 4
+[   41.102186] wlan_config_set_eht_rx_nss: cfg rx_nss = 4
+[   41.103727] WiFi@NOTICE.PROTO,wlan_config_set_vht_bw() 63: vht_bw=2
+[   41.128844] BSS0 mld_grp_idx=1
+[   41.129045] BSS0 TidMapping=0xff
+[   41.129137] Line.1148 - AP Band2(MBSS0) ==> wlan_config_set_nsep_priority_access: cfg nsep_priority_access_enable = 1
+[   41.129232] Line.1169 - AP Band2(MBSS0) ==> wlan_config_set_eht_om_ctrl: cfg eht_om_ctrl_enable = 1
+[   41.129324] Line.1190 - AP Band2(MBSS0) ==> wlan_config_set_eht_txop_sharing_trigger: cfg txop_sharing_trigger_enable = 0
+[   41.129524] Line.1254 - AP Band2(MBSS0) ==> wlan_config_set_eht_scs_traffic: cfg restricted_twt_support = 1
+[   41.130020] Line.1364 - AP Band2(MBSS0) ==> wlan_config_set_emlsr_mr: cfg emlsr_mr = 1
+[   41.130118] Line.1385 - AP Band2(MBSS0) ==> wlan_config_set_trans_to: cfg trans_to = 0
+[   41.130232] Line.1406 - AP Band2(MBSS0) ==> wlan_config_set_eml_omn_en: cfg EML OMN enable = 0
+[   41.130326] Line.1432 - AP Band2(MBSS0) ==> wlan_config_set_eht_bw: cfg bw = 4
+[   41.130825] Line.1545 - AP Band2(MBSS0) ==> wlan_config_set_t2lm_nego_support: cfg t2lm_nego_support = 1
+[   41.130923] Line.1566 - Apcli Band2(BSS0) ==> wlan_config_set_t2lm_nego_support: cfg t2lm_nego_support = 1
+[   41.132410] I/F STA (ra0) ==> ApcliMloDisable = 1
+[   41.133252] bss_color_profile_enable: value = 255
+[   41.135124] 7990@NOTICE.CFG80211,rax0,RTMPSetProfileParameters() 8098: [DFS-SLAVE][RTMPSetProfileParameters] fDfsSlaveEn:0
+[   41.135673] twt_ctrl_init()
+[   41.135693] 7990@NOTICE.RSV,rax0,hwifi_start() 372: 
+[   41.135707] mt7990 0000:01:00.0: connac_if_start()
+[   41.135714] WiFi@NOTICE.CFG,UniCmdFwDup11vMbssBcn() 8160: WM DUP BCN = 0
+[   41.136083] WiFi@NOTICE.FW,MtUniCmdFwMbssBcnDup() 9274: (Ret = 0, bWMDup=0)
+[   41.137573] 7990@NOTICE.INIT,rax0,hwifi_start() 425: MAC Init Done!
+[   41.137585] efuse_probe: efuse = 0
+[   41.139318] 7990@NOTICE.HW,rax0,mt7990_get_band_select_from_eeprom() 1175: band_idx:2, band_sel:3
+[   41.139335] [1;33mmt7990 sku: 0 ADIE_76_77_77[m
+[   41.156533] [1;33mmt7990 sku: 0 ADIE_76_77_77[m
+[   41.172764] 7990@NOTICE.HW,rax0,NICReadEEPROMParameters() 524: mac efuse ready done, ignore efuse set to fw.
+[   41.172776] 7990@NOTICE.HW,rax0,NICReadEEPROMParameters() 627: BN(0) MAC: =f8:5e:3c:aa:ab:2b
+[   41.172778] [41m !!! BN(0) and BN(1): MAC ADDR ADJACENT !!! [m
+[   41.172781] 7990@NOTICE.HW,rax0,NICReadEEPROMParameters() 627: BN(1) MAC: =f8:5e:3c:aa:ab:2c
+[   41.172783] [41m !!! BN(1) and BN(2): MAC ADDR ADJACENT !!! [m
+[   41.172786] 7990@NOTICE.HW,rax0,NICReadEEPROMParameters() 637: BN(2) MAC: =f8:5e:3c:aa:ab:2f
+[   41.172787] NICReadEEPROMParameters: MacAddrAdj=0x0
+[   41.172793] 7990@ERROR.HW,rax0,antenna_default_reset() 1093: value = 0x24, TxPath = 4, RxPath = 5
+[   41.172798] wlan_config_set_eht_tx_nss: cfg tx_nss = 4
+[   41.172799] wlan_config_set_eht_rx_nss: cfg rx_nss = 4
+[   41.172809] 7990@NOTICE.INIT,rax0,hwifi_start() 442: EEPROM Init Done!
+[   41.173327] 7990@NOTICE.AP,rax0,cfg80211_StateMachineInit() 3184: 
+[   41.173330] ch_switch_monitor_state_machine_init:: enter
+[   41.173332] ch_switch_monitor_cfg_reset:: enter
+[   41.173366] MlmeInit(1882): task_name is RtmpMlmeTask_02
+[   41.174184] WiFi@NOTICE.CFG80211,UNI_Set_SCSEnable_Proc() 4933: : BandIdx=2, SCSEnable=1
+[   41.175114] WiFi@NOTICE.CFG80211,UNI_Set_SCSEnable_Proc() 4942: (Ret = 0_
+[   41.175118] SCS_init(): SCS Default Enable, Ret=0
+[   41.175789] 7990@ERROR.HW,rax0,set_ack_timeout_mode_byband() 12897: CTS/ACK Timeout Range should between [0xFFFF:0]!!
+[   41.175794] 7990@ERROR.HW,rax0,set_datcfg_ack_cts_timeout() 12991: DAT config band(2) cck_timeout Fail!
+[   41.175797] 7990@ERROR.HW,rax0,set_ack_timeout_mode_byband() 12897: CTS/ACK Timeout Range should between [0xFFFF:0]!!
+[   41.175800] 7990@ERROR.HW,rax0,set_datcfg_ack_cts_timeout() 13002: DAT config band(2) ofdm_timeout Fail!
+[   41.175803] 7990@ERROR.HW,rax0,set_ack_timeout_mode_byband() 12897: CTS/ACK Timeout Range should between [0xFFFF:0]!!
+[   41.175806] 7990@ERROR.HW,rax0,set_datcfg_ack_cts_timeout() 13013: DAT config band(2) ofdma_timeout Fail!
+[   41.175885] WiFi@NOTICE.PROTO,wlan_config_set_ht_bw() 64: ht_bw=1
+[   41.175889] WiFi@NOTICE.PROTO,wlan_operate_set_support_ch_width_set() 266: ch_width_set=1
+[   41.175892] WiFi@NOTICE.PROTO,wlan_config_set_vht_bw() 63: vht_bw=2
+[   41.175895] wlan_config_set_eht_bw: cfg bw = 4
+[   41.175897] wlan_config_set_eht_tx_nss: cfg tx_nss = 4
+[   41.175898] wlan_config_set_eht_rx_nss: cfg rx_nss = 4
+[   41.176357] WiFi@NOTICE.RSV,CFG80211_SupBandInit() 740: 80211> RFICType= 7, NumOfChan= 101, ReInit = 1
+[   41.176362] WiFi@NOTICE.RSV,CFG80211_SupBandInit() 742: 80211> Number of rate = 12
+[   41.176383] mt_serv_get_chip_info: 4293
+[   41.176388] [mt_serv_init_test][515]: band_num = 3, band_idx = 2
+[   41.188722] 7990@NOTICE.INIT,rax0,RTMP_COM_IoctlHandle() 1565:  -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_UP
+[   41.188736] 7990@ERROR.PROTO,rax0,afc_init() 4082: : AFC Init Settings
+[   41.188741] 7990@ERROR.PROTO,rax0,afc_check_pre_cond() 3858: Country Code is CZ 
+[   41.188746] 7990@ERROR.PROTO,rax0,afc_check_pre_cond() 3867: CountryRegion is 0
+[   41.188749] 7990@ERROR.PROTO,rax0,afc_check_pre_cond() 3874: Device is not standard power
+[   41.188752] 7990@ERROR.PROTO,rax0,afc_check_pre_cond() 3879: : u1Status = 0
+[   41.188755] 7990@ERROR.PROTO,rax0,afc_update_state_to_disable() 3948: : Update state to AFC_DISABLE
+[   41.188759] WiFi@WARN.CFG,wifi_sys_open() 1006: wdev idx = 0
+[   41.188914] WiFi@NOTICE.HW,MtAsicSetMbssWdevIfAddrGen2() 365: band_idx=2, mbss_idx=0, if_addr =f8:5e:3c:aa:ab:2f
+[   41.188919] 7990@WARN.FW,rax0,wdev_attr_update() 497: (): wdevId0 = f8:5e:3c:aa:ab:2f
+[   41.189035] 7990@WARN.INIT,rax0,hwifi_add_interface() 582: (caller:HcAcquireRadioForWdev+0x28/0x88 [mt_wifi]), wdev(0,rax0).
+[   41.189076] mt7990 0000:01:00.0: connac_if_config_bss(): fw_idx 2, omac_idx 0, wmm_idx 0, band_idx 2
+[   41.189169] 7990@WARN.HIF,rax0,hwifi_update_wdev() 505: (caller:mtk_mac_chip_reset+0xb24/0x1200 [mt_wifi]), wdev(0).
+[   41.189176] 7990@NOTICE.CFG80211,rax0,BuildChannelList() 690: BandIdx = 2, PhyMode = 2480
+[   41.189180] 7990@WARN.CFG80211,rax0,channel_related_info_backup() 529: ChListNum = 0, no need to backup, update from cfg.
+[   41.189191] WiFi@NOTICE.RSV,CFG80211OS_UpdateRegRuleByRegionIdx() 1714: pChDesc2G=0000000000000000, pChDesc5G=0000000000000000, pChDesc6G=000000003bc2f80d
+[   41.189195] WiFi@NOTICE.RSV,cfg80211_clear_band_info() 1686: band_idx=0
+[   41.189198] WiFi@NOTICE.RSV,cfg80211_clear_band_info() 1686: band_idx=1
+[   41.189207] 7990@NOTICE.CFG80211,rax0,BuildChannelList() 727: BandIdx = 2, PhyMode = 2480, ChListNum = 24:
+[   41.189286] 7990@ERROR.CFG80211,rax0,DfsBuildChannelList() 4696: [DfsBuildChannelList]: wdev is 6G
+[   41.189292] 7990@ERROR.CFG80211,rax0,Set_Zwdfs_Proc() 3892: zero-wait DFS Dedicated is not enabled
+[   41.189317] 7990@NOTICE.CFG80211,rax0,radio_operate_init() 75: coex(1), bNeedFallBack(0).
+[   41.189409] 7990@NOTICE.CFG80211,rax0,operate_loader_phy() 492: (caller:wlan_operate_init+0xc0/0x1d8 [mt_wifi]), PhyMode=2480.
+[   41.189414] 7990@NOTICE.CFG80211,rax0,operate_loader_phy() 501: oper_cfg: prim_ch(0), ht_bw(1), extcha(3), vht_bw(2), eht_bw(4), cen_ch_2(0).
+[   41.189418] 7990@ERROR.CFG80211,rax0,phy_freq_adjust() 172: no prim_ch value for adjust!
+[   41.189421] 7990@ERROR.CFG80211,rax0,operate_loader_phy() 511: phy_freq_adjust failed!
+[   41.189506] WiFi@WARN.PROTO,dump_ht_cap() 36: Caller: wlan_operate_init+0xc8/0x1d8 [mt_wifi]
+[   41.189536] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(G): mld_sta_idx=65535, wcid=1027, hw_sta=0000000052a7f595
+[   41.194943] 7990@WARN.HW,rax0,AsicRadioOnOffCtrl() 1845: DbdcIdx=2 RadioOn
+[   41.195247] 7990@WARN.CFG80211,rax0,ApAutoChannelAtBootUp() 310: ----------------->
+[   41.195339] 7990@NOTICE.CFG80211,rax0,AutoChSelBuildChannelListFor56G() 3379: acs_max_prio(255), ch_max_prio(255)
+[   41.195346] 7990@WARN.CFG80211,rax0,build_acs_scan_ch_list_by_bw() 3136: ChListNum56G = 24
+[   41.195353] 7990@NOTICE.CFG80211,rax0,build_acs_scan_ch_list_by_bw() 3265: ChListNum(24).
+[   41.195356] 7990@NOTICE.CFG80211,rax0,build_acs_scan_ch_list_by_bw() 3296: ACSChListNum = 24, ACSChBW = 7
+[   41.195490] 7990@ERROR.AP,rax0,UpdateBeaconHandler() 1623: wdev(0) bss not ready (state:0, caller:MTAPAutoSelectChannel+0xb8/0x2d8 [mt_wifi])!!
+[   41.195501] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 1
+[   41.195961] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   41.196680] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=1, cen_ch=1, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   41.196685] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   41.205468] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=1, control_ch2=0, central_chl=1, eht_cen_ch=0, BW=0.
+[   41.205476] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   41.415091] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 5
+[   41.415676] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   41.416458] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=5, cen_ch=5, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   41.416463] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   41.425176] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=5, control_ch2=0, central_chl=5, eht_cen_ch=0, BW=0.
+[   41.425181] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   41.634596] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 9
+[   41.635138] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   41.635901] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=9, cen_ch=9, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   41.635906] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   41.644644] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=9, control_ch2=0, central_chl=9, eht_cen_ch=0, BW=0.
+[   41.644649] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   41.851083] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 13
+[   41.851653] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   41.852418] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=13, cen_ch=13, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   41.852424] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   41.861145] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=13, control_ch2=0, central_chl=13, eht_cen_ch=0, BW=0.
+[   41.861149] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   42.069251] 7990@NOTICE.MLME,ra0,ap_peer_auth_req_at_idle_action() 621: received auth req from 50:ec:50:ee:47:d3 (alg=0, seq=1, status=0)...
+[   42.069309] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(N): mld_sta_idx=65535, wcid=2, hw_sta=0000000088fa8223
+[   42.069395] 7990@NOTICE.MLME,ra0,ap_peer_auth_simple_rsp_gen_and_send() 534: send auth resp to 50:ec:50:ee:47:d3 (alg=0, seq=2, status=0)...
+[   42.070553] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 17
+[   42.071093] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   42.071675] 7990@NOTICE.MLME,ra0,ap_cmm_peer_assoc_req_action() 1860: received assoc req from 50:ec:50:ee:47:d3  ...
+[   42.071677] [ap_cmm_peer_assoc_req_action - 1898] assoc case set to zero
+[   42.071858] 7990@NOTICE.MLME,ra0,ap_cmm_peer_assoc_req_action() 3452: send assoc resp to 50:ec:50:ee:47:d3 (status=0)...
+[   42.072000] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=17, cen_ch=17, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   42.072009] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   42.080775] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=17, control_ch2=0, central_chl=17, eht_cen_ch=0, BW=0.
+[   42.080779] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   42.081877] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x2/0x0 (2/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   42.081885] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   42.083095] WiFi@NOTICE.FW,StaRecAutoRateParamSet() 514: wcid(2), PhyMode(78), RateMode(7), 256QAM(2), AmpduF(1), MaxPhyCfg: MODE(2) Flag(0) STBC(1) GI(1) BW(1) ldpc(1) MCS(7) Nss(0)
+[   42.130207] 7990@WARN.AP,ra0,BcnCheck() 4166: start after 1200 ms (ra0)
+[   42.290581] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 21
+[   42.291137] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   42.292010] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=21, cen_ch=21, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   42.292014] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   42.300772] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=21, control_ch2=0, central_chl=21, eht_cen_ch=0, BW=0.
+[   42.300777] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   42.506508] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 25
+[   42.507051] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   42.507820] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=25, cen_ch=25, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   42.507824] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   42.516562] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=25, control_ch2=0, central_chl=25, eht_cen_ch=0, BW=0.
+[   42.516566] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   42.722580] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 29
+[   42.723143] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   42.724632] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=29, cen_ch=29, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   42.724645] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   42.733362] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=29, control_ch2=0, central_chl=29, eht_cen_ch=0, BW=0.
+[   42.733370] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   42.942906] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 33
+[   42.943445] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   42.944213] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=33, cen_ch=33, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   42.944218] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   42.953205] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=33, control_ch2=0, central_chl=33, eht_cen_ch=0, BW=0.
+[   42.953209] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   43.162560] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 37
+[   43.163102] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   43.163870] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=37, cen_ch=37, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   43.163874] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   43.172628] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=37, control_ch2=0, central_chl=37, eht_cen_ch=0, BW=0.
+[   43.172632] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   43.378524] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 41
+[   43.379103] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   43.380597] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=41, cen_ch=41, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   43.380601] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   43.389386] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=41, control_ch2=0, central_chl=41, eht_cen_ch=0, BW=0.
+[   43.389389] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   43.594535] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 45
+[   43.595081] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   43.595870] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=45, cen_ch=45, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   43.595876] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   43.604643] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=45, control_ch2=0, central_chl=45, eht_cen_ch=0, BW=0.
+[   43.604648] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   43.605954] 7990@NOTICE.MLME,ra0,ap_peer_auth_req_at_idle_action() 621: received auth req from 60:b6:06:2e:ee:25 (alg=0, seq=1, status=0)...
+[   43.605987] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(N): mld_sta_idx=65535, wcid=3, hw_sta=00000000e6befd6e
+[   43.606077] 7990@NOTICE.MLME,ra0,ap_peer_auth_simple_rsp_gen_and_send() 534: send auth resp to 60:b6:06:2e:ee:25 (alg=0, seq=2, status=0)...
+[   43.608548] 7990@NOTICE.MLME,ra0,ap_cmm_peer_assoc_req_action() 1860: received assoc req from 60:b6:06:2e:ee:25  ...
+[   43.608551] [ap_cmm_peer_assoc_req_action - 1898] assoc case set to zero
+[   43.608744] 7990@NOTICE.MLME,ra0,ap_cmm_peer_assoc_req_action() 3452: send assoc resp to 60:b6:06:2e:ee:25 (status=0)...
+[   43.608878] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x3/0x0 (3/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   43.608882] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   43.610030] WiFi@NOTICE.FW,StaRecAutoRateParamSet() 514: wcid(3), PhyMode(78), RateMode(7), 256QAM(1), AmpduF(3), MaxPhyCfg: MODE(4) Flag(0) STBC(1) GI(1) BW(1) ldpc(1) MCS(7) Nss(1)
+[   43.810468] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 49
+[   43.811019] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   43.812416] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=49, cen_ch=49, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   43.812421] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   43.821317] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=49, control_ch2=0, central_chl=49, eht_cen_ch=0, BW=0.
+[   43.821321] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   44.026582] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 53
+[   44.027122] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   44.028654] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=53, cen_ch=53, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   44.028659] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   44.037438] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=53, control_ch2=0, central_chl=53, eht_cen_ch=0, BW=0.
+[   44.037442] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   44.054602] mtk_soc_eth 15100000.ethernet eth1: Link is Up - 1Gbps/Full - flow control off
+[   44.242482] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 57
+[   44.243027] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   44.243794] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=57, cen_ch=57, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   44.243798] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   44.252522] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=57, control_ch2=0, central_chl=57, eht_cen_ch=0, BW=0.
+[   44.252526] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   44.462515] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 61
+[   44.463070] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   44.463946] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=61, cen_ch=61, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   44.463950] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   44.472703] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=61, control_ch2=0, central_chl=61, eht_cen_ch=0, BW=0.
+[   44.472706] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   44.678493] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 65
+[   44.679045] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   44.680556] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=65, cen_ch=65, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   44.680562] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   44.689349] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=65, control_ch2=0, central_chl=65, eht_cen_ch=0, BW=0.
+[   44.689354] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   44.894607] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 69
+[   44.895142] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   44.895911] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=69, cen_ch=69, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   44.895916] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   44.904647] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=69, control_ch2=0, central_chl=69, eht_cen_ch=0, BW=0.
+[   44.904651] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   44.975075] 7990@WARN.AP,rai0,BeaconTransmitRequired() 136: Bcn Tx is blocked!
+[   45.110902] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 73
+[   45.111479] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   45.112242] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=73, cen_ch=73, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   45.112247] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   45.121007] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=73, control_ch2=0, central_chl=73, eht_cen_ch=0, BW=0.
+[   45.121011] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   45.330659] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 77
+[   45.331194] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   45.331962] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=77, cen_ch=77, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   45.331966] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   45.340735] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=77, control_ch2=0, central_chl=77, eht_cen_ch=0, BW=0.
+[   45.340738] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   45.550493] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 81
+[   45.551039] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   45.551804] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=81, cen_ch=81, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   45.551808] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   45.560526] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=81, control_ch2=0, central_chl=81, eht_cen_ch=0, BW=0.
+[   45.560530] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   45.766521] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 85
+[   45.767068] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   45.768792] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=85, cen_ch=85, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   45.768796] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   45.777545] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=85, control_ch2=0, central_chl=85, eht_cen_ch=0, BW=0.
+[   45.777549] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   45.986517] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 89
+[   45.987069] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   45.987947] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=89, cen_ch=89, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   45.987952] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   45.996720] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=89, control_ch2=0, central_chl=89, eht_cen_ch=0, BW=0.
+[   45.996724] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   46.202729] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 93
+[   46.203301] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   46.204068] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=93, cen_ch=93, eht_cen_ch=0, DBDCIdx=2, Band=2, BW=0, scan=1
+[   46.204073] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=9
+[   46.212810] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=93, control_ch2=0, central_chl=93, eht_cen_ch=0, BW=0.
+[   46.212814] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=1, Channel_Band=2, TXStream=4, RXStream=5.
+[   46.374328] 7990@ERROR.AP,rax0,UpdateBeaconHandler() 1623: wdev(0) bss not ready (state:0, caller:update_ap_qload_to_bcn+0xa4/0xd0 [mt_wifi])!!
+[   46.418657] 7990@ERROR.AP,rax0,UpdateBeaconHandler() 1623: wdev(0) bss not ready (state:0, caller:MTAPAutoSelectChannel+0x204/0x2d8 [mt_wifi])!!
+[   46.418666] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1889: ====================================================================
+[   46.418671] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel   1 : Busy Time =    322, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418675] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel   5 : Busy Time =   2367, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418678] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel   9 : Busy Time =   3035, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418682] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  13 : Busy Time =   1150, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418685] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  17 : Busy Time =    671, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418688] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  21 : Busy Time =    934, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418692] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  25 : Busy Time =   1183, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418695] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  29 : Busy Time =  13337, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418698] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  33 : Busy Time =    392, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418702] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  37 : Busy Time =    144, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418705] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  41 : Busy Time =    885, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418708] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  45 : Busy Time =     25, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418711] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  49 : Busy Time =    621, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418715] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  53 : Busy Time =     27, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418718] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  57 : Busy Time =     26, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418721] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  61 : Busy Time =  18365, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418724] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  65 : Busy Time =    385, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418728] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  69 : Busy Time =     33, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418731] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  73 : Busy Time =     26, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418734] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  77 : Busy Time =     27, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418737] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  81 : Busy Time =     50, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418741] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  85 : Busy Time =     47, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418744] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  89 : Busy Time =      9, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418747] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1897: Channel  93 : Busy Time =  29063, Skip Channel = FALSE, BwCap = TRUE, Priority = 255
+[   46.418750] 7990@WARN.CFG80211,rax0,SelectClearChannelBusyTime() 1900: ====================================================================
+[   46.418757] 7990@WARN.CFG80211,rax0,SelectClearChannelForBW320() 1714: up_ch= 125 is not found in ACS ch list
+[   46.418760] 7990@WARN.CFG80211,rax0,SelectClearChannelForBW320() 1704: low_ch= 97 is not found in ACS ch list
+[   46.418762] 7990@WARN.CFG80211,rax0,SelectClearChannelForBW320() 1704: low_ch= 129 is not found in ACS ch list
+[   46.418765] 7990@WARN.CFG80211,rax0,SelectClearChannelForBW320() 1704: low_ch= 161 is not found in ACS ch list
+[   46.418768] 7990@WARN.CFG80211,rax0,SelectClearChannelForBW320() 1704: low_ch= 0 is not found in ACS ch list
+[   46.418771] 7990@NOTICE.CFG80211,rax0,SelectClearChannelForBW320() 1827: Rule 3 Channel Busy time value : Select Primary Channel 45
+[   46.418774] 7990@NOTICE.CFG80211,rax0,SelectClearChannelForBW320() 1830: Rule 3 Channel Busy time value : Min Channel Busy = 25, priority = 255
+[   46.418777] 7990@NOTICE.CFG80211,rax0,SelectClearChannelForBW320() 1833: Rule 3 Channel Busy time value : ext_ch = EXTCHA_BELOW
+[   46.418779] 7990@NOTICE.CFG80211,rax0,SelectClearChannelForBW320() 1835: Rule 3 Channel Busy time value : BW = 320
+[   46.418787] 7990@NOTICE.CFG80211,rax0,nl80211_send_acs_complete_event() 5109: 
+[   46.418891] WiFi@NOTICE.CFG80211,wlan_operate_set_prim_ch() 766: (caller:ApAutoChannelAtBootUp+0x13c/0x540 [mt_wifi]), wdev_idx:0.
+[   46.418970] 7990@NOTICE.CFG80211,rax0,operate_loader_phy() 492: (caller:wlan_operate_set_prim_ch+0x5c/0x110 [mt_wifi]), PhyMode=2480.
+[   46.418974] 7990@NOTICE.CFG80211,rax0,operate_loader_phy() 501: oper_cfg: prim_ch(45), ht_bw(1), extcha(3), vht_bw(2), eht_bw(4), cen_ch_2(0).
+[   46.419060] 7990@ERROR.AP,rax0,UpdateBeaconHandler() 1623: wdev(0) bss not ready (state:0, caller:UpdateBeaconHandler_BPCC+0x3e4/0x1398 [mt_wifi])!!
+[   46.419136] 7990@ERROR.AP,rax0,UpdateBeaconHandler() 1623: wdev(0) bss not ready (state:0, caller:UpdateBeaconHandler_BPCC+0x3e4/0x1398 [mt_wifi])!!
+[   46.419144] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 45
+[   46.419707] 7990@WARN.PROTO,rax0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   46.421229] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=45, cen_ch=47, eht_cen_ch=31, DBDCIdx=2, Band=2, BW=7, scan=0
+[   46.421235] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=0
+[   47.659352] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=45, control_ch2=0, central_chl=47, eht_cen_ch=31, BW=7.
+[   47.659360] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=0, Channel_Band=2, TXStream=4, RXStream=5.
+[   47.664638] UniEventEDCCAThresholdProc: fginit = 1, EDCCA Threshold=184, 190, 193, 200
+[   47.665008] 7990@NOTICE.CFG80211,rax0,operate_loader_phy() 606: Channel updating done. prim_ch(45), bw(7), ch_chg_cnt(1)!
+[   47.665039] WiFi@ERROR.HW,UniCmdTxPwrShowInfo() 23961: u1BandIdx 2, ucTxPowerInfoCatg = 2
+[   47.665393] 7990@ERROR.CFG80211,rax0,DfsBuildChannelList() 4696: [DfsBuildChannelList]: wdev is 6G
+[   47.665520] 7990@NOTICE.CFG80211,rax0,zero_wait_dfs_switch_ch() 1226: (caller:ApAutoChannelAtBootUp+0x430/0x540 [mt_wifi]), outband ch 0, ch_stat 0
+[   47.665525] 7990@WARN.CFG80211,rax0,zero_wait_dfs_switch_ch() 1233: bDedicatedZeroWaitDefault == 0
+[   47.665613] 7990@WARN.RSV,rax0,APStartUpForMbss() 1037: ===>(caller:ap_inf_open+0x20c/0x668 [mt_wifi]), mbss_idx:0, CfgMode:0
+[   47.666173] nss_cap->max_nss = 4, nss_cap->max_path =(tx:4 /rx:5)!!
+[   47.666188] 7990@NOTICE.CFG80211,rax0,BuildChannelList() 690: BandIdx = 2, PhyMode = 2480
+[   47.666299] WiFi@WARN.PROTO,dump_ht_cap() 36: Caller: dump_ht_cap+0x10/0x20 [mt_wifi]
+[   47.666305] 7990@WARN.CFG80211,rax0,APOverlappingBSSScan() 4889: not support 2G PhyMode, return!
+[   47.666322] 7990@NOTICE.MLO,rax0,eht_ap_mld_create() 6914: ===> Create AP MLD, grp(1), addr(da:5e:3c:aa:ab:2f)
+[   47.666327] WiFi@NOTICE.MLO,bss_mngr_con_mld_group_create() 1970: ===> mld_grp(1), mld_addr(da:5e:3c:aa:ab:2f)
+[   47.666331] WiFi@NOTICE.MLO,bss_mngr_con_mld_group_create() 1992: 	multi-link mld_grp(1)(da:5e:3c:aa:ab:2c) already exists
+[   47.666334] 7990@NOTICE.MLO,rax0,eht_ap_mld_create() 6939: 	Create AP MLD Success, grp(1)(ML:1), type(2), addr(da:5e:3c:aa:ab:2f)
+[   47.666412] WiFi@WARN.RSV,ap_link_up() 9285: (caller:wdev_do_linkup+0x48/0x78 [mt_wifi]), wdev(0)
+[   47.666416] 7990@WARN.CFG,rax0,wifi_sys_linkup() 1465: wdev idx = 0
+[   47.666503] WiFi@NOTICE.AP,bssinfo_feature_decision() 643: wdev(0) is legacy bss, func_idx=0, ROLE=0
+[   47.666507] WiFi@ERROR.MLO,bss_mngr_dev_reg() 1482: wdev(0)
+[   47.666511] WiFi@ERROR.MLO,bss_mngr_fill_bss_info() 1387: dev_type UNDEFINED
+[   47.668305] WiFi@NOTICE.MLO,bss_mngr_fill_bss_info() 1447: phymode=2480, reg_time=4042535296, hw_tsf=31098768
+[   47.668311] WiFi@ERROR.MLO,bss_mngr_con_dev_reg() 3110: ===> netdev(16) (rax0)
+[   47.668314] WiFi@WARN.MLO,bss_idx_aquire() 67: : found non-occupied bssidx:2
+[   47.668317] WiFi@ERROR.MLO,bss_idx_aquire() 75: : bssidx [2]
+[   47.668335] WiFi@ERROR.MLO,bss_mngr_con_sync_entry() 2948: [2]
+[   47.668339] WiFi@NOTICE.MLO,bss_mngr_con_mld_group_add_link() 2386: ===> wdev(rax0) requests to join mld_grp(1)
+[   47.668419] 7990@NOTICE.MLO,rax0,hwifi_mld_add_link() 859: (caller:HcAcquireMldLinkRsc+0x2c/0x90 [mt_wifi]) if(rax0), idx(1).
+[   47.668430] mt7990 0000:01:00.0: connac_if_mld_add_link(): grp 1, mat 18, mldmat 0, remap 0
+[   47.668433] WiFi@WARN.MLO,tid_map_sanity() 1743: [2] unmapped_tid(0x0)
+[   47.668437] WiFi@NOTICE.MLO,bss_mngr_event_bss_attr_update() 51: ===> rax0
+[   47.668439] wlan_config_set_t2lm_nego_support: cfg t2lm_nego_support = 1
+[   47.668440] wlan_config_set_emlsr_mr: cfg emlsr_mr = 1
+[   47.668442] wlan_config_set_trans_to: cfg trans_to = 0
+[   47.668443] wlan_config_set_eml_omn_en: cfg EML OMN enable = 0
+[   47.668446] WiFi@NOTICE.MLO,bss_mngr_con_mld_group_add_link() 2494: 	bss_idx(2,rax0) join mld_grp(1) success
+[   47.668482] 7990@WARN.AP,rai0,BeaconTransmitRequired() 136: Bcn Tx is blocked!
+[   47.668551] 7990@ERROR.AP,rax0,UpdateBeaconHandler() 1623: wdev(0) bss not ready (state:2, caller:bss_mngr_event_bcn_update+0x40/0xa0 [mt_wifi])!!
+[   47.668564] WiFi@ERROR.MLO,bss_mngr_con_dev_reg() 3187: <=== entry = 000000007baa75a2(bss_idx_tx = 2) (dev_cnt = 3)
+[   47.668569] WiFi@NOTICE.MLO,bss_mngr_con_sync_ml_probe_rsp_per_sta_profile() 5382: rax0(active) sync probe rsp STA-Pf, mlo:1, cnt:2
+[   47.668707] WiFi@NOTICE.MLO,wifi_sys_bss_query_mld() 2022: (in):lk_cnt=2,lk_id=2,mld_gp_idx=1,mld_addr=da:5e:3c:aa:ab:2c
+[   47.668710] WiFi@NOTICE.MLO,wifi_sys_bss_query_mld() 2037: (out):mld_gp_idx=1,mld_addr=da:5e:3c:aa:ab:2c
+[   47.668715] WiFi@NOTICE.CFG,mtk_cfg80211_send_bss_ml_event() 14479: ml_event ===> event(0) grp(1) link(2) addr(da:5e:3c:aa:ab:2c)
+[   47.668957] 7990@NOTICE.FW,rax0,UniCmdBssInfoRate() 360: Bssid:(f8:5e:3c:aa:ab:2f),BcRate=32768,McRate=32768,ucPreamMode=1,BcFRateIdx=8,McFRateIdx=8
+[   47.668960] 7990@NOTICE.FW,rax0,UniCmdBssInfoRate() 362: ucMloCPFixedRateIdx=8
+[   47.668970] 7990@NOTICE.FW,rax0,UniCmdBssInfoRate() 360: Bssid:(f8:5e:3c:aa:ab:2f),BcRate=32768,McRate=32768,ucPreamMode=1,BcFRateIdx=8,McFRateIdx=8
+[   47.668973] 7990@NOTICE.FW,rax0,UniCmdBssInfoRate() 362: ucMloCPFixedRateIdx=8
+[   47.668979] 7990@NOTICE.FW,rax0,UniCmdBssInfoMld() 1432: if_addr(f8:5e:3c:aa:ab:2f),mld_group_idx=1,T=26,L=16,GrpMldId=0,MldIdx=18,RemaIdx=0,MldAddr=da:5e:3c:aa:ab:2c
+[   47.669959] WiFi@NOTICE.MLO,bss_mngr_con_mld_get_tsf_offset() 2367: 	bss[01,1]=31105267, bss[02,2]=31110268, tsf_offset(-2500)(0xfffffffffffff63c), unit:2us
+[   47.670135] WiFi@NOTICE.MLO,bss_mngr_con_mld_get_tsf_offset() 2367: 	bss[02,2]=31110443, bss[01,1]=31105446, tsf_offset(2498)(0x9c2), unit:2us
+[   47.670321] WiFi@NOTICE.MLO,bss_mngr_con_mld_get_tsf_offset() 2367: 	bss[01,1]=31105627, bss[02,2]=31110627, tsf_offset(-2500)(0xfffffffffffff63c), unit:2us
+[   47.670499] WiFi@NOTICE.MLO,bss_mngr_con_mld_get_tsf_offset() 2367: 	bss[02,2]=31110809, bss[01,1]=31105812, tsf_offset(2498)(0x9c2), unit:2us
+[   47.670685] WiFi@NOTICE.MLO,bss_mngr_con_mld_get_tsf_offset() 2367: 	bss[01,1]=31105993, bss[02,2]=31110994, tsf_offset(-2500)(0xfffffffffffff63c), unit:2us
+[   47.670866] WiFi@NOTICE.MLO,bss_mngr_con_mld_get_tsf_offset() 2367: 	bss[02,2]=31111175, bss[01,1]=31106178, tsf_offset(2498)(0x9c2), unit:2us
+[   47.671459] 7990@ERROR.PROTO,rax0,afc_beacon_init_handler() 3672: : CurrState: 1, bAfcBeaconInit= 0
+[   47.671489] WiFi@ERROR.HW,UniCmdTxPowerSKUCtrl() 23516: BandIdx 2, tx_pwr_sku_en: 0
+[   47.671525] 7990@ERROR.AP,rax0,ap_6g_build_discovery_frame() 943: pkt_buf = NULL!
+[   47.672029] WiFi@ERROR.BF,UniCmdTxBfBackoffCtrl() 23744: BandIdx 2, fgTxBFBackoffEn: 0
+[   47.672503] WiFi@ERROR.HW,UniCmdTxPowerPercentCtrl() 23592: BandIdx 2, fgTxPowerPercentEn: 1
+[   47.673273] WiFi@ERROR.HW,UniCmdTxPowerDropCtrl() 23668: BandIdx 2, cPowerDropLevel: 2
+[   47.673835] u1CCKTxStream = 4 
+[   47.673836] set wrong parameters
+[   47.693945] WiFi@WARN.FW,UniCmdResultRsp() 69: BUG::UniCmdResult.u4Status = 0xc0000001 cid: = 0x37
+[   47.695739] UniEventEDCCAThresholdProc: fginit = 1, EDCCA Threshold=184, 190, 193, 200
+[   47.695924] 7990@WARN.AP,rax0,TxPowerLimitTypeInit() 23986: LPI en:0, PSDLimit:0, band_idx:2
+[   47.695928] WiFi@ERROR.HW,UniCmdTxPwrShowInfo() 23961: u1BandIdx 2, ucTxPowerInfoCatg = 2
+[   47.696287] 7990@WARN.CFG,rax0,set_pp_on_off_ctrl() 190: band(2),enable(1) success!
+[   47.696310] mtk_ppe_dev_register_hook : ineterface rax0 register (3)
+[   47.697219] br-wan: port 1(eth1) entered blocking state
+[   47.697226] br-wan: port 1(eth1) entered forwarding state
+[   47.697317] IPv6: ADDRCONF(NETDEV_CHANGE): br-wan: link becomes ready
+[   47.701124] br-lan: port 10(rax0) entered blocking state
+[   47.701134] br-lan: port 10(rax0) entered disabled state
+[   47.701350] device rax0 entered promiscuous mode
+[   47.701395] br-lan: port 10(rax0) entered blocking state
+[   47.701399] br-lan: port 10(rax0) entered forwarding state
+[   47.702177] 7990@NOTICE.CFG80211,rax0,nl80211_send_acs_complete_event() 5109: 
+[   47.704137] CFG80211DRV_RtsThresholdAdd =====>threshold 1048575
+[   47.704144] CFG80211DRV_RtsThresholdAdd =====>threshold 1048575
+[   47.704163] CFG80211DRV_FragThresholdAdd =====>operate: frag_thld=2346
+[   47.704164] CFG80211DRV_FragThresholdAdd =====>operate: frag_thld=2346
+[   47.705338] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x2/0x0 (2/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   47.705346] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   47.705967] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x2/0x0 (2/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   47.705974] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   47.706693] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x3/0x0 (3/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   47.706701] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   47.706789] 7990@NOTICE.CFG,rax0,mtk_cfg80211_ft_ie() 12615: ifname: rax0
+[   47.706794] 7990@NOTICE.CFG,rax0,parse_hostapd_ftie() 12564: OwnMac: f85e3caaab2f
+[   47.706798] 7990@ERROR.CFG,rax0,parse_hostapd_ftie() 12596: 11R disabled in driver
+[   47.706865] WiFi@NOTICE.RSV,CFG80211_OpsStartAp() 2741: 80211> ==>
+[   47.706920] WiFi@NOTICE.RSV,CFG80211DRV_OpsBeaconAdd() 1484: 80211> ==>
+[   47.706925] WiFi@NOTICE.RSV,CFG80211DRV_OpsBeaconAdd() 1494: 80211> ==> apidx=0, tr_tb_idx=1027
+[   47.706929] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x3/0x0 (3/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   47.706932] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   47.707114] 7990@NOTICE.SEC,rax0,CFG80211DRV_UpdateApSettingFromBeacon() 462: hostapd config pwe_method:0 and saepk is :0
+[   47.707119] 7990@NOTICE.AP,rax0,CFG80211DRV_UpdateApSettingFromBeacon() 488: beacon capability info field: 1011
+[   47.707121] RRM : len 5 eid 70 octet 114
+[   47.707122] bit_nr bit_lci: 1 0
+[   47.707151] 7990@ERROR.AP,rax0,CFG80211DRV_UpdateApSettingFromBeacon() 884: MDIE is NULL
+[   47.707162] 7990@NOTICE.AP,rax0,cfg80211_ap_parse_rsn_ie() 3240: WPA2 case
+[   47.707170] 7990@NOTICE.AP,rax0,CFG80211_ParseBeaconIE() 1499: =>wpa(1 0 0), AuthMode=WPA3PSK, Cipher(AES AES), MFPC=0, MFPR=0, igtk_cipher=0x0
+[   47.707175] 7990@NOTICE.AP,rax0,CFG80211DRV_UpdateApSettingFromBeacon() 1103: security (akm, pcipher, gcipher, igtk):  0x2000, 0x20, 0x20, 0x200
+[   47.715977] 7990@WARN.AP,rai0,BeaconTransmitRequired() 136: Bcn Tx is blocked!
+[   47.907198] WiFi@NOTICE.AP,bssinfo_feature_decision() 643: wdev(0) is legacy bss, func_idx=0, ROLE=0
+[   47.907214] 7990@NOTICE.FW,rax0,UniCmdBssInfoRate() 360: Bssid:(f8:5e:3c:aa:ab:2f),BcRate=32768,McRate=32768,ucPreamMode=1,BcFRateIdx=8,McFRateIdx=8
+[   47.907218] 7990@NOTICE.FW,rax0,UniCmdBssInfoRate() 362: ucMloCPFixedRateIdx=8
+[   47.907231] 7990@NOTICE.FW,rax0,UniCmdBssInfoRate() 360: Bssid:(f8:5e:3c:aa:ab:2f),BcRate=32768,McRate=32768,ucPreamMode=1,BcFRateIdx=8,McFRateIdx=8
+[   47.907234] 7990@NOTICE.FW,rax0,UniCmdBssInfoRate() 362: ucMloCPFixedRateIdx=8
+[   47.907241] 7990@NOTICE.FW,rax0,UniCmdBssInfoMld() 1432: if_addr(f8:5e:3c:aa:ab:2f),mld_group_idx=1,T=26,L=16,GrpMldId=0,MldIdx=18,RemaIdx=0,MldAddr=da:5e:3c:aa:ab:2c
+[   47.908043] WiFi@ERROR.MLO,bss_mngr_dev_reg() 1482: wdev(0)
+[   47.908049] WiFi@ERROR.MLO,bss_mngr_fill_bss_info() 1387: dev_type UNDEFINED
+[   47.909125] WiFi@NOTICE.MLO,bss_mngr_fill_bss_info() 1447: phymode=2480, reg_time=4042775296, hw_tsf=31349425
+[   47.909132] WiFi@ERROR.MLO,bss_mngr_con_dev_reg() 3110: ===> netdev(16) (rax0)
+[   47.909134] WiFi@WARN.MLO,bss_mngr_con_dev_reg() 3116: 	entry exist!!
+[   47.909141] WiFi@ERROR.MLO,bss_mngr_con_ie_buf_alloc() 1484: allocated (MLD:000000003b4ff825)
+[   47.909150] WiFi@ERROR.MLO,bss_mngr_con_sync_entry() 2948: [2]
+[   47.909154] WiFi@NOTICE.MLO,bss_mngr_con_mld_group_add_link() 2386: ===> wdev(rax0) requests to join mld_grp(1)
+[   47.909157] WiFi@ERROR.MLO,bss_mngr_con_mld_group_add_link() 2402: 	entry(rax0) has already affiliated with mld_grp(1)
+[   47.909192] 7990@WARN.AP,rai0,BeaconTransmitRequired() 136: Bcn Tx is blocked!
+[   47.909200] WiFi@ERROR.MLO,bss_mngr_con_dev_reg() 3187: <=== entry = 000000007baa75a2(bss_idx_tx = 2) (dev_cnt = 3)
+[   47.909214] WiFi@NOTICE.MLO,bss_mngr_con_sync_ml_probe_rsp_per_sta_profile() 5382: rax0(active) sync probe rsp STA-Pf, mlo:1, cnt:2
+[   47.909527] 7990@NOTICE.CFG,rax0,mtk_cfg80211_set_hide_ssid() 135: mwctl:set bss(0) HideSSID=0
+[   47.909828] 7990@WARN.AP,rax0,BeaconTransmitRequired() 136: Bcn Tx is blocked!
+[   47.910836] 7990@WARN.AP,rax0,BeaconTransmitRequired() 136: Bcn Tx is blocked!
+[   47.911122] 7990@WARN.AP,rax0,BeaconTransmitRequired() 136: Bcn Tx is blocked!
+[   47.912113] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 157: PeerAddr(ff:ff:ff:ff:ff:ff) Wcid=0x403/0x0 (1027/0), Cipher=0x20, BssIndex=0x0, Operation=0
+[   47.912121] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 162: KeyIdx=0x1, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   47.912546] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 157: PeerAddr(ff:ff:ff:ff:ff:ff) Wcid=0x403/0x0 (1027/0), Cipher=0x220, BssIndex=0x0, Operation=0
+[   47.912554] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 162: KeyIdx=0x1, igtk_key_idx=0x4, bigtk_key_idx=0x0
+[   47.912568] 7990@WARN.AP,rax0,BeaconTransmitRequired() 136: Bcn Tx is blocked!
+[   47.915026] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(60:b6:06:2e:ee:25) Wcid=0x3/0x0 (3/0), Cipher=0x20, BssIndex=0x0, Operation=0
+[   47.915035] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   47.918374] br-lan: port 11(apclix0) entered blocking state
+[   47.918381] br-lan: port 11(apclix0) entered disabled state
+[   47.918563] device apclix0 entered promiscuous mode
+[   47.919358] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 157: PeerAddr(50:ec:50:ee:47:d3) Wcid=0x2/0x0 (2/0), Cipher=0x20, BssIndex=0x0, Operation=0
+[   47.919365] 7990@NOTICE.FW,ra0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   47.927251] WiFi@ERROR.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2532: UNSUPPORT mgmt frame type mask: 0x800 for intf apclix0
+[   47.927275] WiFi@NOTICE.RSV,CFG80211_OpsUpdate_mgmt_frame_registrations() 2528: ACTION frame was registered for intf apclix0
+[   47.927604] 7990@NOTICE.INIT,apclix0,RTMP_COM_IoctlHandle() 1592: -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_INIT
+[   47.927611] 7990@NOTICE.INIT,apclix0,RTMP_COM_IoctlHandle() 1565:  -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_UP
+[   47.927621] WiFi@NOTICE.PROTO,wlan_config_set_ht_bw() 64: ht_bw=1
+[   47.927624] WiFi@NOTICE.PROTO,wlan_operate_set_support_ch_width_set() 266: ch_width_set=1
+[   47.927627] WiFi@NOTICE.PROTO,wlan_config_set_vht_bw() 63: vht_bw=2
+[   47.927630] wlan_config_set_eht_bw: cfg bw = 4
+[   47.927633] wlan_config_set_eht_tx_nss: cfg tx_nss = 4
+[   47.927634] wlan_config_set_eht_rx_nss: cfg rx_nss = 4
+[   47.927645] WiFi@WARN.CFG,wifi_sys_open() 1006: wdev idx = 1
+[   47.927787] 7990@WARN.FW,apclix0,wdev_attr_update() 511: wdevId1 = fe:5e:3c:aa:ab:2f
+[   47.927876] 7990@WARN.INIT,apclix0,hwifi_add_interface() 582: (caller:HcAcquireRadioForWdev+0x28/0x88 [mt_wifi]), wdev(1,apclix0).
+[   47.927911] mt7990 0000:01:00.0: connac_if_config_bss(): fw_idx 3, omac_idx 1, wmm_idx 3, band_idx 2
+[   47.927990] 7990@WARN.HIF,apclix0,hwifi_update_wdev() 505: (caller:mtk_mac_chip_reset+0xb24/0x1200 [mt_wifi]), wdev(1).
+[   47.927997] 7990@NOTICE.CFG80211,apclix0,BuildChannelList() 690: BandIdx = 2, PhyMode = 2480
+[   47.928003] 7990@ERROR.CFG80211,apclix0,Set_Zwdfs_Proc() 3892: zero-wait DFS Dedicated is not enabled
+[   47.928023] 7990@NOTICE.CFG80211,apclix0,radio_operate_init() 75: coex(1), bNeedFallBack(0).
+[   47.928102] 7990@NOTICE.CFG80211,apclix0,operate_loader_phy() 492: (caller:wlan_operate_init+0xc0/0x1d8 [mt_wifi]), PhyMode=2480.
+[   47.928106] 7990@NOTICE.CFG80211,apclix0,operate_loader_phy() 501: oper_cfg: prim_ch(45), ht_bw(1), extcha(3), vht_bw(2), eht_bw(4), cen_ch_2(0).
+[   47.928120] mt7990 0000:01:00.0: connac_if_config_phy(): update channel to 45
+[   47.928770] 7990@WARN.PROTO,apclix0,afc_save_switch_channel_params() 1809: ::AFC is not Enabled(1)
+[   47.929716] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6461: ctl_chl=45, cen_ch=47, eht_cen_ch=31, DBDCIdx=2, Band=2, BW=7, scan=0
+[   47.929724] WiFi@NOTICE.CFG80211,UniCmdChannelSwitch() 6565: TXStream=4, RXStream=5, ap_bw=0, ap_central_channel=0, reason=0
+[   47.929894] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6726: control_chl=45, control_ch2=0, central_chl=47, eht_cen_ch=31, BW=7.
+[   47.929899] WiFi@NOTICE.CFG80211,UniCmdSetTxRxPath() 6730: RXPath=1f, BandIdx=2, scan=0, Channel_Band=2, TXStream=4, RXStream=5.
+[   47.930791] UniEventEDCCAThresholdProc: fginit = 1, EDCCA Threshold=184, 190, 193, 200
+[   47.931162] WiFi@WARN.PROTO,dump_ht_cap() 36: Caller: wlan_operate_init+0xc8/0x1d8 [mt_wifi]
+[   47.931207] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(G): mld_sta_idx=65535, wcid=1028, hw_sta=000000006efad35e
+[   47.931218] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(G): mld_sta_idx=65535, wcid=1029, hw_sta=00000000a796dcf8
+[   47.932324] WiFi@WARN.PROTO,dump_ht_cap() 36: Caller: dump_ht_cap+0x10/0x20 [mt_wifi]
+[   47.932354] mtk_ppe_dev_register_hook : ineterface apclix0 register (4)
+[   47.932514] br-lan: port 11(apclix0) entered blocking state
+[   47.932518] br-lan: port 11(apclix0) entered forwarding state
+[   47.932637] br-lan: port 11(apclix0) entered disabled state
+[   47.979396] 7990@NOTICE.INIT,apclix0,RTMP_COM_IoctlHandle() 1580:  -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_DOWN
+[   47.979547] WiFi@WARN.CLIENT,DoActionBeforeDownIntf() 923: caller:sta_inf_close+0x40/0x178 [mt_wifi], wdev(0)
+[   47.979562] 7990@NOTICE.MLME,apclix0,sta_auth_send_deauth_frame() 1066: DEAUTH - Send DE-AUTH request, reason=3
+[   47.979587] 7990@NOTICE.CFG,apclix0,sta_ifdown_fsm_reset() 740: sta idx [0].
+[   47.979877] WiFi@WARN.CFG,wifi_sys_close() 1065: wdev idx = 1
+[   47.980360] mt7990 0000:01:00.0: mtk_hwctrl_sta_free(G): mld_sta_idx=65535, wcid=1029, hw_sta=00000000a796dcf8
+[   47.980383] mt7990 0000:01:00.0: mtk_hwctrl_sta_free(G): mld_sta_idx=65535, wcid=1028, hw_sta=000000006efad35e
+[   48.022305] 7990@NOTICE.INIT,apclix0,RTMP_COM_IoctlHandle() 1603: -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_DEINIT
+[   48.022315] extif_put_dev(apclix0)
+[   48.022317] mtk_ppe_dev_unregister_hook : ineterface apclix0 set null (4)
+[   48.022682] br-lan: port 11(apclix0) entered disabled state
+[   48.036776] 7990@NOTICE.AP,rai0,UpdateBeaconHandler() 1677: BCN_UPDATE_ENABLE_TX, OmacIdx = 0 (rai0)
+[   48.036786] 7990@NOTICE.AP,rai0,UpdateBeaconHandler() 1682: 	Band1 BcnInitedRnd = 79
+[   48.049641] 7990@NOTICE.AP,rax0,UpdateBeaconHandler() 1677: BCN_UPDATE_ENABLE_TX, OmacIdx = 0 (rax0)
+[   48.049651] 7990@NOTICE.AP,rax0,UpdateBeaconHandler() 1682: 	Band2 BcnInitedRnd = 65
+[   48.078830] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+[   48.078945] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+[   48.079143] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+[   48.100609] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+[   48.100805] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+[   48.101048] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+[   48.120797] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+[   48.120999] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+[   48.121330] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+[   48.160572] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+[   48.160697] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+[   48.160924] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+[   48.177213] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+[   48.177330] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+[   48.177586] WiFi@WARN.FW,CFG80211_OpsAp_StaGet() 1461: cann't find sta idx(0) in sta table!
+[   48.986210] 7990@WARN.AP,rax0,BcnCheck() 4166: start after 4000 ms (rax0)
+[   49.092346] 7990@NOTICE.MLME,rai0,CFG80211_AuthHandle() 460: [cfg80211] received auth from ae:45:ef:e0:f7:98 (alg=3, seq=1, status=126)...
+[   49.092694] 7990@NOTICE.CFG,rai0,mtk_cfg80211_mlo_ie() 12819: ifname: rai0
+[   49.093516] 7990@NOTICE.MLME,rai0,CFG80211_AuthRespHandler() 220: [cfg80211] send auth resp to ae:45:ef:e0:f7:98 (alg=3, transaction=1, status=126)...
+[   49.093587] mt7990 0000:01:00.0: mtk_wsys_register_mld_sta_entry(): mld_sta_idx=0, band=1, cnt=1, wcid=4, hw_sta=000000000e1c70fb
+[   49.106291] WiFi@NOTICE.MLO,bss_mngr_event_add_sta() 363: pEntry(0000000096e354d7): wcid(4) mac=ae:45:ef:e0:f7:98, mld(sta_idx=0,addr=ac:45:ef:e0:f7:95) acquired!!
+[   49.106302] WiFi@NOTICE.MLO,bss_mngr_con_mld_conn_req() 4960: idx(0),mld(ac:45:ef:e0:f7:95),link(ae:45:ef:e0:f7:98)
+[   49.108204] 7990@NOTICE.MLME,rai0,CFG80211_AuthHandle() 460: [cfg80211] received auth from ae:45:ef:e0:f7:98 (alg=3, seq=2, status=0)...
+[   49.108365] 7990@NOTICE.SEC,rai0,mtk_cfg80211_set_pmkid() 3538: ifname: rai0
+[   49.108371] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2353: update sta pmkid in cache: 1 (1-add, 0-remove)
+[   49.108375] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2370: added PMKID in pEntryAddress: ac:45:ef:e0:f7:95
+[   49.108502] WiFi@NOTICE.SEC,RTMPSearchPMKIDCache() 1433: (caller:RTMPAddPMKIDCache+0x4c/0x278 [mt_wifi]) pmkid not found, peer_mac ac:45:ef:e0:f7:95 own_mac da:5e:3c:aa:ab:2c
+[   49.108584] 7990@NOTICE.SEC,rax0,mtk_cfg80211_set_pmkid() 3538: ifname: rax0
+[   49.108587] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2353: update sta pmkid in cache: 1 (1-add, 0-remove)
+[   49.108591] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2370: added PMKID in pEntryAddress: ac:45:ef:e0:f7:95
+[   49.108692] 7990@NOTICE.MLME,rai0,CFG80211_AuthRespHandler() 220: [cfg80211] send auth resp to ae:45:ef:e0:f7:98 (alg=3, transaction=2, status=0)...
+[   49.110239] 7990@ERROR.MLME,rai0,PeerAssocReqCmmSanity() 1146: DSCPPolicyEnable = 1
+[   49.110244] 7990@ERROR.MLME,rai0,PeerAssocReqCmmSanity() 1594: IE_WLAN_EXTENSION: no handler for extension_id:107
+[   49.110248] 7990@ERROR.MLME,rai0,PeerAssocReqCmmSanity() 1594: IE_WLAN_EXTENSION: no handler for extension_id:108
+[   49.110251] 7990@ERROR.MLME,rai0,PeerAssocReqCmmSanity() 1594: IE_WLAN_EXTENSION: no handler for extension_id:137
+[   49.110255] 7990@NOTICE.MLME,rai0,ap_cmm_peer_assoc_req_action() 1860: received assoc req from ae:45:ef:e0:f7:98  ...
+[   49.110257] [ap_cmm_peer_assoc_req_action - 1898] assoc case set to zero
+[   49.110273] WiFi@NOTICE.MLO,bss_mngr_event_add_sta() 398: pEntry(0000000096e354d7): wcid(4) mac=ae:45:ef:e0:f7:98, mld(sta_idx=0,addr=ac:45:ef:e0:f7:95) allocated!!
+[   49.110317] mt7990 0000:01:00.0: mtk_wsys_register_mld_sta_entry(): mld_sta_idx=0, band=2, cnt=2, wcid=5, hw_sta=000000007559d3aa
+[   49.130285] WiFi@NOTICE.MLO,bss_mngr_event_add_sta() 363: pEntry(00000000b259490b): wcid(5) mac=ae:45:ef:e0:f7:99, mld(sta_idx=0,addr=ac:45:ef:e0:f7:95) acquired!!
+[   49.130292] WiFi@NOTICE.MLO,bss_mngr_con_mld_conn_req() 4960: idx(0),mld(ac:45:ef:e0:f7:95),link(ae:45:ef:e0:f7:98)
+[   49.130596] 7990@ERROR.MLME,rax0,PeerAssocReqCmmSanity() 1146: DSCPPolicyEnable = 1
+[   49.130602] 7990@ERROR.MLME,rax0,PeerAssocReqCmmSanity() 1594: IE_WLAN_EXTENSION: no handler for extension_id:108
+[   49.130606] 7990@ERROR.MLME,rax0,PeerAssocReqCmmSanity() 1594: IE_WLAN_EXTENSION: no handler for extension_id:137
+[   49.130610] 7990@NOTICE.MLME,rax0,ap_cmm_peer_assoc_req_action() 1860: received assoc req from ae:45:ef:e0:f7:99 (NS) ...
+[   49.130612] [ap_cmm_peer_assoc_req_action - 1898] assoc case set to zero
+[   49.130728] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x4/0x0 (4/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   49.130732] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   49.130824] 7990@NOTICE.MLME,rai0,ap_cmm_peer_assoc_req_action() 3452: send assoc resp to ae:45:ef:e0:f7:98 (status=0)...
+[   49.130847] WiFi@NOTICE.MLO,bss_mngr_con_mld_conn_act() 5005: bmgr_sta[0] (ac:45:ef:e0:f7:95) setup bss(1=1)
+[   49.130851] WiFi@NOTICE.MLO,bss_mngr_event_conn_act() 463: update link1 (ae:45:ef:e0:f7:98) starec
+[   49.131372] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x5/0x0 (5/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   49.131376] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   49.131972] 7990@NOTICE.FW,rai0,UniCmdStaRecMldSetup() 4245: T=32,L=28,primary_mld_id=4,second_mld_id=5,
+[   49.131976] 7990@NOTICE.FW,rai0,UniCmdStaRecMldSetup() 4250: setup_link_wcid=4,link_num=2,peer_mld_addr=ac:45:ef:e0:f7:95
+[   49.133310] WiFi@NOTICE.FW,StaRecAutoRateParamSet() 514: wcid(4), PhyMode(177), RateMode(14), 256QAM(2), AmpduF(7), MaxPhyCfg: MODE(6) Flag(0) STBC(1) GI(1) BW(3) ldpc(1) MCS(13) Nss(2)
+[   49.133890] WiFi@NOTICE.MLO,bss_mngr_event_conn_act() 463: update link2 (ae:45:ef:e0:f7:99) starec
+[   49.134875] 7990@NOTICE.FW,rax0,UniCmdStaRecMldSetup() 4245: T=32,L=28,primary_mld_id=4,second_mld_id=5,
+[   49.134880] 7990@NOTICE.FW,rax0,UniCmdStaRecMldSetup() 4250: setup_link_wcid=4,link_num=2,peer_mld_addr=ac:45:ef:e0:f7:95
+[   49.137223] WiFi@NOTICE.FW,StaRecAutoRateParamSet() 514: wcid(5), PhyMode(176), RateMode(2), 256QAM(2), AmpduF(7), MaxPhyCfg: MODE(6) Flag(0) STBC(0) GI(0) BW(7) ldpc(1) MCS(13) Nss(2)
+[   49.138629] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x4/0x0 (4/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   49.138633] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   49.138796] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x4/0x0 (4/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   49.138800] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   49.213046] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(ae:45:ef:e0:f7:98) Wcid=0x4/0x0 (4/0), Cipher=0x20, BssIndex=0x0, Operation=0
+[   49.213050] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   49.218072] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 157: PeerAddr(ae:45:ef:e0:f7:99) Wcid=0x5/0x0 (5/0), Cipher=0x20, BssIndex=0x0, Operation=0
+[   49.218076] 7990@NOTICE.FW,rax0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   49.303416] WiFi@NOTICE.PROTO,check_mlo_ba_chip_boundary() 11033: total_phy_rate: 8646
+[   50.178248] 7990@WARN.AP,rai0,BcnCheck() 4166: start after 2900 ms (rai0)
+[   50.180988] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_static_info() 9662: ifname: apclix0, iftype: 2
+[   50.180998] 7990@ERROR.CFG,rax0,mtk_cfg80211_get_static_info() 9673: failed - [ERROR] Interface is down .
+[   50.181044] update_map_dev_info() invalid parameters, buf:0000000018339c7b, buflen:32, sizeof(*devinfo):31
+[   50.181081] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_static_info() 9662: ifname: rax0, iftype: 3
+[   50.181086] 7990@NOTICE.CFG,rax0,mtk_cfg80211_reply_wapp_support_ver() 8315: get MTK_NL80211_VENDOR_ATTR_GET_STATIC_INFO_WAPP_SUPPORT_VER
+[   50.181118] update_map_dev_info() invalid parameters, buf:0000000067933956, buflen:32, sizeof(*devinfo):31
+[   50.181152] 7990@ERROR.PROTO,rax0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: rax0 bandIdx = 2 ,DevOwnRole 0x0
+[   50.181197] 7990@ERROR.PROTO,rax0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: rax0 bandIdx = 2 ,DevOwnRole 0x20
+[   50.181226] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_cap() 12456: ifname: rax0
+[   50.181231] 7990@NOTICE.AP,rax0,mtk_cfg80211_reply_misc_cap() 8697: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MISC_CAP
+[   50.181282] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_cap() 12456: ifname: rax0
+[   50.181288] 7990@NOTICE.AP,rax0,mtk_cfg80211_reply_ht_cap() 8730: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_HT_CAP
+[   50.181327] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_cap() 12456: ifname: rax0
+[   50.181333] 7990@NOTICE.AP,rax0,mtk_cfg80211_reply_vht_cap() 8809: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_VHT_CAP
+[   50.181379] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_cap() 12456: ifname: rax0
+[   50.181386] 7990@NOTICE.AP,rax0,mtk_cfg80211_reply_eht_cap() 8914: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_EHT_CAP
+[   50.181427] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_cap() 12456: ifname: rax0
+[   50.181434] 7990@ERROR.AP,rax0,mtk_cfg80211_reply_mlo_cap() 9021: mld_type = 2 mld_grp 1
+[   50.181437] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 0 StatPunc Support 1, MloEnable 1
+[   50.181441] 7990@ERROR.AP,rax0,mtk_cfg80211_reply_mlo_cap() 9025: non-mld type mld_type = 2, mld_grp 1 or sta 1
+[   50.181444] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 1 StatPunc Support 1, MloEnable 0
+[   50.181447] 7990@NOTICE.AP,rax0,mtk_cfg80211_reply_mlo_cap() 9068: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MLO_CAP
+[   50.181544] 7990@NOTICE.CFG80211,rax0,mtk_cfg80211_reply_wapp_chan_list() 7653: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_CHAN_LIST
+[   50.181611] 7990@NOTICE.CFG80211,rax0,mtk_cfg80211_reply_wapp_nop_chan_list() 7710: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_NOP_CHANNEL_LIST
+[   50.181668] 7990@NOTICE.CFG,rax0,mtk_cfg80211_reply_wapp_op_class() 7744: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_OP_CLASS
+[   50.181849] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_statistic() 10285: ifname: rax0
+[   50.181853] 7990@NOTICE.CFG,rax0,mtk_cfg80211_reply_wapp_ap_metrics() 8273: get MTK_NL80211_VENDOR_ATTR_GET_AP_METRICS
+[   50.181908] 7990@NOTICE.CFG,rax0,mtk_cfg80211_reply_wapp_max_num_of_sta() 7627: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_MAX_NUM_OF_STA
+[   50.181947] 7990@NOTICE.CFG,rax0,mtk_cfg80211_get_statistic() 10285: ifname: rax0
+[   50.181951] 7990@NOTICE.CFG,rax0,mtk_cfg80211_reply_wapp_tx_pwr() 8177: get MTK_NL80211_VENDOR_ATTR_GET_TX_PWR
+[   50.182132] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_static_info() 9662: ifname: apclii0, iftype: 2
+[   50.182136] 7990@ERROR.CFG,rai0,mtk_cfg80211_get_static_info() 9673: failed - [ERROR] Interface is down .
+[   50.182158] update_map_dev_info() invalid parameters, buf:0000000018339c7b, buflen:32, sizeof(*devinfo):31
+[   50.182188] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_static_info() 9662: ifname: rai0, iftype: 3
+[   50.182192] 7990@NOTICE.CFG,rai0,mtk_cfg80211_reply_wapp_support_ver() 8315: get MTK_NL80211_VENDOR_ATTR_GET_STATIC_INFO_WAPP_SUPPORT_VER
+[   50.182314] update_map_dev_info() invalid parameters, buf:0000000067933956, buflen:32, sizeof(*devinfo):31
+[   50.182346] 7990@ERROR.PROTO,rai0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: rai0 bandIdx = 1 ,DevOwnRole 0x0
+[   50.182372] 7990@ERROR.PROTO,rai0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: rai0 bandIdx = 1 ,DevOwnRole 0x20
+[   50.182399] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_cap() 12456: ifname: rai0
+[   50.182403] 7990@NOTICE.AP,rai0,mtk_cfg80211_reply_misc_cap() 8697: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MISC_CAP
+[   50.182464] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_cap() 12456: ifname: rai0
+[   50.182471] 7990@NOTICE.AP,rai0,mtk_cfg80211_reply_eht_cap() 8914: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_EHT_CAP
+[   50.182513] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_cap() 12456: ifname: rai0
+[   50.182519] 7990@ERROR.AP,rai0,mtk_cfg80211_reply_mlo_cap() 9021: mld_type = 2 mld_grp 1
+[   50.182523] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 0 StatPunc Support 1, MloEnable 1
+[   50.182527] 7990@ERROR.AP,rai0,mtk_cfg80211_reply_mlo_cap() 9025: non-mld type mld_type = 2, mld_grp 1 or sta 1
+[   50.182529] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 1 StatPunc Support 1, MloEnable 0
+[   50.182532] 7990@NOTICE.AP,rai0,mtk_cfg80211_reply_mlo_cap() 9068: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MLO_CAP
+[   50.182621] 7990@NOTICE.CFG80211,rai0,mtk_cfg80211_reply_wapp_chan_list() 7653: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_CHAN_LIST
+[   50.182676] 7990@NOTICE.CFG80211,rai0,mtk_cfg80211_reply_wapp_nop_chan_list() 7710: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_NOP_CHANNEL_LIST
+[   50.182727] 7990@NOTICE.CFG,rai0,mtk_cfg80211_reply_wapp_op_class() 7744: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_OP_CLASS
+[   50.182854] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_statistic() 10285: ifname: rai0
+[   50.182857] 7990@NOTICE.CFG,rai0,mtk_cfg80211_reply_wapp_ap_metrics() 8273: get MTK_NL80211_VENDOR_ATTR_GET_AP_METRICS
+[   50.182896] 7990@NOTICE.CFG,rai0,mtk_cfg80211_reply_wapp_max_num_of_sta() 7627: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_MAX_NUM_OF_STA
+[   50.182933] 7990@NOTICE.CFG,rai0,mtk_cfg80211_get_statistic() 10285: ifname: rai0
+[   50.182937] 7990@NOTICE.CFG,rai0,mtk_cfg80211_reply_wapp_tx_pwr() 8177: get MTK_NL80211_VENDOR_ATTR_GET_TX_PWR
+[   50.183084] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_static_info() 9662: ifname: apcli0, iftype: 2
+[   50.183088] 7990@ERROR.CFG,ra0,mtk_cfg80211_get_static_info() 9673: failed - [ERROR] Interface is down .
+[   50.183105] update_map_dev_info() invalid parameters, buf:0000000018339c7b, buflen:32, sizeof(*devinfo):31
+[   50.183131] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_static_info() 9662: ifname: ra0, iftype: 3
+[   50.183135] 7990@NOTICE.CFG,ra0,mtk_cfg80211_reply_wapp_support_ver() 8315: get MTK_NL80211_VENDOR_ATTR_GET_STATIC_INFO_WAPP_SUPPORT_VER
+[   50.183158] update_map_dev_info() invalid parameters, buf:0000000067933956, buflen:32, sizeof(*devinfo):31
+[   50.183183] 7990@ERROR.PROTO,ra0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: ra0 bandIdx = 0 ,DevOwnRole 0x0
+[   50.183227] 7990@ERROR.PROTO,ra0,mtk_cfg80211_vndr_subcmd_easymesh() 6971: ra0 bandIdx = 0 ,DevOwnRole 0x20
+[   50.183255] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_cap() 12456: ifname: ra0
+[   50.183258] 7990@NOTICE.AP,ra0,mtk_cfg80211_reply_misc_cap() 8697: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MISC_CAP
+[   50.183302] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_cap() 12456: ifname: ra0
+[   50.183308] 7990@NOTICE.AP,ra0,mtk_cfg80211_reply_vht_cap() 8809: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_VHT_CAP
+[   50.183351] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_cap() 12456: ifname: ra0
+[   50.183356] 7990@NOTICE.AP,ra0,mtk_cfg80211_reply_eht_cap() 8914: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_EHT_CAP
+[   50.183395] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_cap() 12456: ifname: ra0
+[   50.183400] 7990@ERROR.AP,ra0,mtk_cfg80211_reply_mlo_cap() 9021: mld_type = 1 mld_grp 17
+[   50.183403] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 0 StatPunc Support 1, MloEnable 1
+[   50.183407] 7990@ERROR.AP,ra0,mtk_cfg80211_reply_mlo_cap() 9025: non-mld type mld_type = 1, mld_grp 17 or sta 1
+[   50.183409] WiFi@ERROR.MLO,mtk_cfg80211_reply_mlo_cap() 9032: MLO CAP :device role 1 StatPunc Support 1, MloEnable 0
+[   50.183412] 7990@NOTICE.AP,ra0,mtk_cfg80211_reply_mlo_cap() 9068: get MTK_NL80211_VENDOR_ATTR_GET_CAP_INFO_MLO_CAP
+[   50.183497] 7990@NOTICE.CFG80211,ra0,mtk_cfg80211_reply_wapp_chan_list() 7653: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_CHAN_LIST
+[   50.183546] 7990@NOTICE.CFG80211,ra0,mtk_cfg80211_reply_wapp_nop_chan_list() 7710: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_NOP_CHANNEL_LIST
+[   50.183594] 7990@NOTICE.CFG,ra0,mtk_cfg80211_reply_wapp_op_class() 7744: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_OP_CLASS
+[   50.183696] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_statistic() 10285: ifname: ra0
+[   50.183700] 7990@NOTICE.CFG,ra0,mtk_cfg80211_reply_wapp_ap_metrics() 8273: get MTK_NL80211_VENDOR_ATTR_GET_AP_METRICS
+[   50.183739] 7990@NOTICE.CFG,ra0,mtk_cfg80211_reply_wapp_max_num_of_sta() 7627: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_MAX_NUM_OF_STA
+[   50.183775] 7990@NOTICE.CFG,ra0,mtk_cfg80211_get_statistic() 10285: ifname: ra0
+[   50.183779] 7990@NOTICE.CFG,ra0,mtk_cfg80211_reply_wapp_tx_pwr() 8177: get MTK_NL80211_VENDOR_ATTR_GET_TX_PWR
+[   50.184192] 7990@ERROR.CFG,apclix0,mtk_cfg80211_get_runtime_info() 9544: failed - [ERROR] Interface is down .
+[   50.184224] 7990@WARN.MLO,rax0,mtk_cfg80211_reply_mlo_mld_info() 8084: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_OP_CLASS
+[   50.184269] 7990@ERROR.CFG,apclii0,mtk_cfg80211_get_runtime_info() 9544: failed - [ERROR] Interface is down .
+[   50.184296] 7990@WARN.MLO,rai0,mtk_cfg80211_reply_mlo_mld_info() 8084: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_OP_CLASS
+[   50.184335] 7990@ERROR.CFG,apcli0,mtk_cfg80211_get_runtime_info() 9544: failed - [ERROR] Interface is down .
+[   50.184362] 7990@WARN.MLO,ra0,mtk_cfg80211_reply_mlo_mld_info() 8084: get MTK_NL80211_VENDOR_ATTR_GET_RUNTIME_INFO_GET_OP_CLASS
+[   50.212850] 7990@ERROR.CFG,rax0,wapp_event_handle() 4124: [SUPPORT_MODE_QUERY_REQ] wapp req id=40
+[   50.212861] 7990@ERROR.CFG,rax0,wapp_handle_sr_support_mode_query_req() 3003: [wapp_handle_sr_support_mode_query_req] req ifindex = 16
+[   50.212888] 7990@ERROR.CFG,rax0,wapp_handle_sr_support_mode_query_req() 3007: [wapp_handle_sr_support_mode_query_req] status = 0
+[   50.212955] 7990@ERROR.CFG,rai0,wapp_event_handle() 4124: [SUPPORT_MODE_QUERY_REQ] wapp req id=40
+[   50.212959] 7990@ERROR.CFG,rai0,wapp_handle_sr_support_mode_query_req() 3003: [wapp_handle_sr_support_mode_query_req] req ifindex = 15
+[   50.212967] 7990@ERROR.CFG,rai0,wapp_handle_sr_support_mode_query_req() 3007: [wapp_handle_sr_support_mode_query_req] status = 0
+[   50.213003] 7990@ERROR.CFG,ra0,wapp_event_handle() 4124: [SUPPORT_MODE_QUERY_REQ] wapp req id=40
+[   50.213008] 7990@ERROR.CFG,ra0,wapp_handle_sr_support_mode_query_req() 3003: [wapp_handle_sr_support_mode_query_req] req ifindex = 14
+[   50.213016] 7990@ERROR.CFG,ra0,wapp_handle_sr_support_mode_query_req() 3007: [wapp_handle_sr_support_mode_query_req] status = 0
+[   51.590212] 7990@WARN.AP,rax0,BcnCheck() 4166: start after 1500 ms (rax0)
+[   52.782223] 7990@WARN.AP,apclii0,BcnCheck() 4166: start after 400 ms (rai0)
+[   64.886692] 7990@NOTICE.MLME,apclii0,CFG80211_AuthHandle() 460: [cfg80211] received auth from 0a:0e:78:fc:9b:12 (alg=3, seq=1, status=126)...
+[   64.887677] 7990@NOTICE.MLME,apclii0,CFG80211_AuthRespHandler() 220: [cfg80211] send auth resp to 0a:0e:78:fc:9b:12 (alg=3, transaction=1, status=126)...
+[   64.887728] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(N): mld_sta_idx=65535, wcid=6, hw_sta=0000000035a7cccd
+[   64.897131] 7990@NOTICE.MLME,rai0,CFG80211_AuthHandle() 460: [cfg80211] received auth from 0a:0e:78:fc:9b:12 (alg=3, seq=2, status=0)...
+[   64.897301] 7990@NOTICE.SEC,rai0,mtk_cfg80211_set_pmkid() 3538: ifname: rai0
+[   64.897307] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2353: update sta pmkid in cache: 1 (1-add, 0-remove)
+[   64.897310] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2370: added PMKID in pEntryAddress: 0a:0e:78:fc:9b:12
+[   64.897441] WiFi@NOTICE.SEC,RTMPSearchPMKIDCache() 1433: (caller:RTMPAddPMKIDCache+0x4c/0x278 [mt_wifi]) pmkid not found, peer_mac 0a:0e:78:fc:9b:12 own_mac f8:5e:3c:aa:ab:2c
+[   64.897496] 7990@NOTICE.SEC,rax0,mtk_cfg80211_set_pmkid() 3538: ifname: rax0
+[   64.897500] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2353: update sta pmkid in cache: 1 (1-add, 0-remove)
+[   64.897503] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2370: added PMKID in pEntryAddress: 0a:0e:78:fc:9b:12
+[   64.897602] 7990@NOTICE.MLME,rai0,CFG80211_AuthRespHandler() 220: [cfg80211] send auth resp to 0a:0e:78:fc:9b:12 (alg=3, transaction=2, status=0)...
+[   64.907545] 7990@NOTICE.MLME,rai0,ap_cmm_peer_assoc_req_action() 1860: received assoc req from 0a:0e:78:fc:9b:12  ...
+[   64.907548] [ap_cmm_peer_assoc_req_action - 1898] assoc case set to zero
+[   64.907766] 7990@NOTICE.MLME,rai0,ap_cmm_peer_assoc_req_action() 3452: send assoc resp to 0a:0e:78:fc:9b:12 (status=0)...
+[   64.907873] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x6/0x0 (6/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   64.907877] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   64.909085] WiFi@NOTICE.FW,StaRecAutoRateParamSet() 514: wcid(6), PhyMode(177), RateMode(14), 256QAM(2), AmpduF(7), MaxPhyCfg: MODE(5) Flag(0) STBC(1) GI(1) BW(2) ldpc(1) MCS(11) Nss(2)
+[   64.911340] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x6/0x0 (6/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   64.911345] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   64.911674] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x6/0x0 (6/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[   64.911678] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   65.029154] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(0a:0e:78:fc:9b:12) Wcid=0x6/0x0 (6/0), Cipher=0x20, BssIndex=0x0, Operation=0
+[   65.029161] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[   66.068257] 7990@ERROR.PROTO,rai0,Peer_Vendor_Spec_Action() 998: frame len check error
+[   97.814942] 7990@NOTICE.CFG80211,ra0,sta_num_over_thr_chk() 4320: Ignore ACS checking, more than 5 clients connected.
+[   97.814957] 7990@NOTICE.CFG80211,ra0,AutoChannelSelCheck() 4391: Under the threshold, ignore ACS scan.
+[  104.655039] 7990@NOTICE.CFG80211,rax0,sta_num_over_thr_chk() 4320: Ignore ACS checking, more than 5 clients connected.
+[  104.655054] 7990@NOTICE.CFG80211,rax0,AutoChannelSelCheck() 4391: Under the threshold, ignore ACS scan.
+[  154.722958] 7990@NOTICE.MLME,apclii0,CFG80211_AuthHandle() 460: [cfg80211] received auth from 50:98:39:56:0f:c4 (alg=3, seq=1, status=126)...
+[  154.723929] 7990@NOTICE.MLME,apclii0,CFG80211_AuthRespHandler() 220: [cfg80211] send auth resp to 50:98:39:56:0f:c4 (alg=3, transaction=1, status=126)...
+[  154.723978] mt7990 0000:01:00.0: mtk_hwctrl_sta_alloc(N): mld_sta_idx=65535, wcid=7, hw_sta=00000000b9172dcc
+[  154.731613] 7990@NOTICE.MLME,rai0,CFG80211_AuthHandle() 460: [cfg80211] received auth from 50:98:39:56:0f:c4 (alg=3, seq=2, status=0)...
+[  154.731768] 7990@NOTICE.SEC,rai0,mtk_cfg80211_set_pmkid() 3538: ifname: rai0
+[  154.731774] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2353: update sta pmkid in cache: 1 (1-add, 0-remove)
+[  154.731778] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2370: added PMKID in pEntryAddress: 50:98:39:56:0f:c4
+[  154.731906] WiFi@NOTICE.SEC,RTMPSearchPMKIDCache() 1433: (caller:RTMPAddPMKIDCache+0x4c/0x278 [mt_wifi]) pmkid not found, peer_mac 50:98:39:56:0f:c4 own_mac f8:5e:3c:aa:ab:2c
+[  154.731989] 7990@NOTICE.SEC,rax0,mtk_cfg80211_set_pmkid() 3538: ifname: rax0
+[  154.731993] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2353: update sta pmkid in cache: 1 (1-add, 0-remove)
+[  154.731996] WiFi@NOTICE.SEC,CFG80211_ApUpdateStaPmkid() 2370: added PMKID in pEntryAddress: 50:98:39:56:0f:c4
+[  154.732091] 7990@NOTICE.MLME,rai0,CFG80211_AuthRespHandler() 220: [cfg80211] send auth resp to 50:98:39:56:0f:c4 (alg=3, transaction=2, status=0)...
+[  154.738080] 7990@NOTICE.MLME,rai0,ap_cmm_peer_assoc_req_action() 1860: received assoc req from 50:98:39:56:0f:c4  ...
+[  154.738083] [ap_cmm_peer_assoc_req_action - 1898] assoc case set to zero
+[  154.738299] 7990@NOTICE.MLME,rai0,ap_cmm_peer_assoc_req_action() 3452: send assoc resp to 50:98:39:56:0f:c4 (status=0)...
+[  154.738431] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x7/0x0 (7/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[  154.738436] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[  154.739203] WiFi@NOTICE.FW,StaRecAutoRateParamSet() 514: wcid(7), PhyMode(177), RateMode(14), 256QAM(2), AmpduF(7), MaxPhyCfg: MODE(5) Flag(0) STBC(1) GI(1) BW(3) ldpc(1) MCS(11) Nss(2)
+[  154.740405] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x7/0x0 (7/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[  154.740410] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[  154.740597] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(00:00:00:00:00:00) Wcid=0x7/0x0 (7/0), Cipher=0x0, BssIndex=0x0, Operation=1
+[  154.740601] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[  154.782978] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 157: PeerAddr(50:98:39:56:0f:c4) Wcid=0x7/0x0 (7/0), Cipher=0x20, BssIndex=0x0, Operation=0
+[  154.782982] 7990@NOTICE.FW,rai0,UniCmdStaRecRsp() 162: KeyIdx=0x0, igtk_key_idx=0x0, bigtk_key_idx=0x0
+[  161.307788] 7990@NOTICE.CFG80211,ra0,sta_num_over_thr_chk() 4320: Ignore ACS checking, more than 5 clients connected.
+[  161.307795] 7990@NOTICE.CFG80211,ra0,AutoChannelSelCheck() 4391: Under the threshold, ignore ACS scan.
+[  168.151780] 7990@NOTICE.CFG80211,rax0,sta_num_over_thr_chk() 4320: Ignore ACS checking, more than 5 clients connected.
+[  168.151796] 7990@NOTICE.CFG80211,rax0,AutoChannelSelCheck() 4391: Under the threshold, ignore ACS scan.
+[  201.795859] mapfilter:drop IP addr timeout! stop dropping IP addr.
+[  224.788236] 7990@NOTICE.CFG80211,ra0,sta_num_over_thr_chk() 4320: Ignore ACS checking, more than 5 clients connected.
+[  224.788251] 7990@NOTICE.CFG80211,ra0,AutoChannelSelCheck() 4391: Under the threshold, ignore ACS scan.
+[  231.636272] 7990@NOTICE.CFG80211,rax0,sta_num_over_thr_chk() 4320: Ignore ACS checking, more than 5 clients connected.
+[  231.636287] 7990@NOTICE.CFG80211,rax0,AutoChannelSelCheck() 4391: Under the threshold, ignore ACS scan.
+[  288.268636] 7990@NOTICE.CFG80211,ra0,sta_num_over_thr_chk() 4320: Ignore ACS checking, more than 5 clients connected.
+[  288.268650] 7990@NOTICE.CFG80211,ra0,AutoChannelSelCheck() 4391: Under the threshold, ignore ACS scan.
