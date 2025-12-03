@@ -19,6 +19,14 @@ To fix package installation issues, modify the packages list to use `http` inste
 
 opkg install libustream-mbedtls ca-bundle ca-certificates
 
-text
-
 After installation, revert the package list back to `https`.
+
+10GB/s SFP+ working as expected:
+
+![10GB/s connected](https://github.com/user-attachments/assets/49e15b29-a444-427c-a3e4-8b551ece5f46)
+
+MLD 5+6GHZ working:
+
+![MLD 5+6GB WIFI 7](https://github.com/user-attachments/assets/276dead0-fbbe-4824-b00d-084c6a5882db)
+
+
