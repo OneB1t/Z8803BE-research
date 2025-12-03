@@ -38,4 +38,4 @@ PCB:
 
 CPU load:
 there is constant 2.00 kernel load (probably some kernel calls)
-![LOAD]([https://github.com/user-attachments/assets/8cba53e7-41d2-4045-a785-bf4a80374f89](https://github.com/user-attachments/assets/9783358a-e96e-491a-97ba-c6fee083b99d))
+![LOAD](https://github.com/user-attachments/assets/9783358a-e96e-491a-97ba-c6fee083b99d)
