@@ -39,3 +39,9 @@ PCB:
 CPU load:
 there is constant 2.00 kernel load (probably some kernel calls)
 ![LOAD](https://github.com/user-attachments/assets/9783358a-e96e-491a-97ba-c6fee083b99d)
+
+
+UPLOAD SPEED:
+# MT7990 mwctl interface — lower = more sensitive
+mwctl rax0 set EdThreshold=-72   # default is around -62 dBm
+mwctl rai0 set EdThreshold=-72
