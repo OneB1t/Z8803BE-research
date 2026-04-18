@@ -45,3 +45,9 @@ UPLOAD SPEED:
 # MT7990 mwctl interface — lower = more sensitive
 mwctl rax0 set EdThreshold=-72   # default is around -62 dBm
 mwctl rai0 set EdThreshold=-72
+
+
+EDIT: there is now new firmware
+<img width="1740" height="646" alt="image" src="https://github.com/user-attachments/assets/6108a03d-51c5-4545-8066-873c05707180" />
+
+
