@@ -50,4 +50,9 @@ mwctl rai0 set EdThreshold=-72
 EDIT: there is now new firmware
 <img width="1740" height="646" alt="image" src="https://github.com/user-attachments/assets/6108a03d-51c5-4545-8066-873c05707180" />
 
+EDIT2: there is now custom builded firmware for 25.12 it is hard to build and flash:
+
+<img width="1231" height="826" alt="image" src="https://github.com/user-attachments/assets/63463f68-6a30-4a4b-9dd0-560157f9cc57" />
+
+
 
