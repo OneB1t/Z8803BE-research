@@ -41,18 +41,21 @@ there is constant 2.00 kernel load (probably some kernel calls)
 ![LOAD](https://github.com/user-attachments/assets/9783358a-e96e-491a-97ba-c6fee083b99d)
 
 
-UPLOAD SPEED:
-# MT7990 mwctl interface — lower = more sensitive
-mwctl rax0 set EdThreshold=-72   # default is around -62 dBm
-mwctl rai0 set EdThreshold=-72
-
-
-EDIT: there is now new firmware
+EDIT: there is now new firmware from ZBT
 <img width="1740" height="646" alt="image" src="https://github.com/user-attachments/assets/6108a03d-51c5-4545-8066-873c05707180" />
 
-EDIT2: there is now custom builded firmware for 25.12 it is hard to build and flash:
 
+## CUSTOM BUILD:
+there is now custom builded firmware 	Zbtlink Z8803BE - OpenWrt 25.12-SNAPSHOT r32815-fce4731b5c / LuCI openwrt-25.12 branch 26.108.61903~4c5b5ef:
+https://github.com/pttuan/openwrt/commits/zbt8803_25.12/
 <img width="1231" height="826" alt="image" src="https://github.com/user-attachments/assets/63463f68-6a30-4a4b-9dd0-560157f9cc57" />
+
+320mhz working
+<img width="688" height="172" alt="image" src="https://github.com/user-attachments/assets/5199932b-5292-4b7a-92a3-0bed6fed15d3" />
+
+10GB SFP+ working
+<img width="652" height="344" alt="image" src="https://github.com/user-attachments/assets/a014b288-ecf1-4f13-9d4b-79a8aff8144f" />
+
 
 
 
