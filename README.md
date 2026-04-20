@@ -57,5 +57,61 @@ https://github.com/pttuan/openwrt/commits/zbt8803_25.12/
 <img width="652" height="344" alt="image" src="https://github.com/user-attachments/assets/a014b288-ecf1-4f13-9d4b-79a8aff8144f" />
 
 
+MLO config example /etc/config/wireless
+```
+config wifi-device 'radio0'
+  option type 'mac80211'
+  option path 'soc/11300000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0'
+  option radio '0'
+  option band '2g'
+  option channel 'auto'
+  option htmode 'EHT40'
+  option cell_density '0'
+  option country 'CZ'
+
+config wifi-iface 'default_radio0'
+  option device 'radio0'
+  option network 'lan'
+  option mode 'ap'
+  option ssid 'OpenWrt'
+  option encryption 'sae-mixed'
+  option key '12345678'
+  option ocv '0'
+
+config wifi-device 'radio1'
+  option type 'mac80211'
+  option path 'soc/11300000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0'
+  option radio '1'
+  option band '5g'
+  option channel 'auto'
+  option htmode 'EHT160'
+  option country 'CZ'
+  option cell_density '0'
+  option rnr '1'
+  option txpower '20'
+
+config wifi-device 'radio2'
+  option type 'mac80211'
+  option path 'soc/11300000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0'
+  option radio '2'
+  option band '6g'
+  option channel 'auto'
+  option htmode 'EHT320'
+  option country 'CZ'
+  option cell_density '0'
+    option txpower '20'
+  option rnr '1'
+
+config wifi-iface 'mlo_ap'
+  option device 'radio1 radio2'
+  option network 'lan'
+  option mode 'ap'
+  option ssid 'MLO WIFI'
+  option encryption 'sae-mixed'
+  option key '12345678'
+  option ocv '0'
+  option ieee80211w '2'
+  option mlo '1'
+```
 
 
