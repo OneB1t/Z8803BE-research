@@ -4,7 +4,7 @@ Z8803BE Chinese router 10GB/s SFP+ + WIFI 7 19000Mbps
 
 ## New automatic build for this router by 0xFar5eer: 
 https://github.com/0xFar5eer/openwrt25.12_ZBT_Z8803BE/releases
-![Builds]([https://github.com/user-attachments/assets/1c4311ae-ff8d-4e39-8707-dfa0f73372eb](https://github.com/0xFar5eer/openwrt25.12_ZBT_Z8803BE/releases))
+!([https://github.com/user-attachments/assets/1c4311ae-ff8d-4e39-8707-dfa0f73372eb](https://github.com/0xFar5eer/openwrt25.12_ZBT_Z8803BE/releases)
 ## Fan Control
 Script location:
 /usr/sbin/fan_ctl.sh
