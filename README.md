@@ -1,5 +1,12 @@
 # Z8803BE-research
 
+## Newer field report
+
+See [ZBT Z8803BE field notes (2026-09)](field-notes/2026-09-z8803be-openwrt-ap-investigation.md)
+for observations from a separate, newer OpenWrt Wi-Fi 7 access-point setup.
+Those results use a different firmware build from the older version described
+below.
+
 Z8803BE Chinese router 10GB/s SFP+ + WIFI 7 19000Mbps
 
 ## New automatic build for this router by 0xFar5eer: 
