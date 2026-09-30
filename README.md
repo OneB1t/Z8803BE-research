@@ -1,5 +1,10 @@
 # Z8803BE-research
 
+## Newer firmware findings
+
+See [Z8803BE firmware issues and workarounds](field-notes/2026-09-z8803be-openwrt-ap-investigation.md)
+for concise results from a newer OpenWrt snapshot.
+
 Z8803BE Chinese router 10GB/s SFP+ + WIFI 7 19000Mbps
 
 ## New automatic build for this router by 0xFar5eer: 
