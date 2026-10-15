@@ -1,5 +1,5 @@
 # Z8803BE-research
-
+NOW THERE IS SUPPORT AND SNAPSHOT BUILD FROM OPENWRT:  https://forum.openwrt.org/t/support-for-asus-zenwifi-bt8-tri-band-wifi7-mediatek-mt7988/
 Z8803BE Chinese router 10GB/s SFP+ + WIFI 7 19000Mbps
 
 ## New automatic build for this router by 0xFar5eer: 
